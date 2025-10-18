@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disniz</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Bienvenue sur Disniz !</h1>
-    <h2> Les meilleurs films Disney !</h2>
-    <h2>test</h2>
+    <nav>
+        <!-- Le logo à mettre -->
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+    </nav>
+
+    <h1>Disnyz</h1>
+
+
+
+    <h2>Frise</h2>
+    <div id="pieds" class="pieds"></div>
+    <svg class="frise" id="frise" width="500px" height="300px" viewBox="0 0 400 300">
+        <path id="pathFrise" d="M100 100 C 200 0, 300 200, 400 100" fill="none" stroke="black"/>
+    </svg>
+
+    <!-- J'ai trouvé le lien pour se connecter à la biblilothèque GSAP ici : https://www.blacksmith.studio/blog/GSAP-animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <!-- Je récupère les plugin GSAP dont j'en ai besoin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathHelper.min.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
