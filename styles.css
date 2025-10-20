@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+<<<<<<< Updated upstream
 /* * {
     font-family:
         -apple-system,
@@ -21,6 +22,10 @@
 #container {
     /* height: 600px → fixe une hauteur de 600 pixels à la zone où Highcharts va dessiner le graphique */
     height: 600px;
+=======
+body{
+  background-color: #D7CFF3;
+>>>>>>> Stashed changes
 }
 
 .highcharts-figure,
@@ -95,7 +100,7 @@
 
 
 .pieds{
-    width: 30px;
-    height: 20px;
-    background-color: rgb(196, 186, 79);
+  width: 30px;
+  height: 20px;
+  background-color: rgb(196, 186, 79);
 }

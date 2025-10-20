@@ -156,5 +156,5 @@ gsap.to("#pieds", {
     //Animation plus douce
     ease: "power1.inOut",
 });
-//J'affiche le tracé de la courbe pour modifier et lui donner la forme que je veux
+// //J'affiche le tracé de la courbe pour modifier et lui donner la forme que je veux
 // MotionPathHelper.create("#pieds");
