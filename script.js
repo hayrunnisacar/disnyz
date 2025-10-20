@@ -1,6 +1,4 @@
 //Mettez vos codes ici, comme ca on garde l'ordre
-
-
 // GRAPHIQUE 1 - MICKEY
 
 
