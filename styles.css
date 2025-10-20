@@ -6,7 +6,39 @@
 
 body{
     background-color: #D7CFF3;
+    background: url('image/fond-compteur.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
 }
+
+
+.intro-animation {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: opacity 1s ease;
+}
+
+
+#castle {
+  width: 700px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 8s ease;
+}
+
+
+#main {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
 
 .pieds{
     width: 30px;
