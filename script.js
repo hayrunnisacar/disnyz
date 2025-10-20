@@ -172,7 +172,7 @@ gsap.to("#pieds", {
         alignOrigin: [0.5, 0.5],
     },
     //L'animation dure 5secondes
-    duration: 5,
+    duration: 20,
     //Animation plus douce
     ease: "power1.inOut",
 });
