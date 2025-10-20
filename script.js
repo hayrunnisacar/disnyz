@@ -3,7 +3,7 @@
 //Je récupère tous mes éléments du HTML pour les manipuler
 const castle = document.getElementById('castle');
 const intro = document.getElementById('intro-animation');
-const main = document.getElementById('main');
+const main = document.querySelector('main');
 
 //je lance mon délai, comme dans mon css, mon chateau a une opacité de 0, pour le faire apparaître progressivement je mets ici l'opacité à 1. 
 setTimeout(() => {
