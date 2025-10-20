@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-* {
+/* * {
     font-family:
         -apple-system,
         BlinkMacSystemFont,
@@ -16,7 +16,7 @@
         "Segoe UI Emoji",
         "Segoe UI Symbol",
         sans-serif;
-}
+} */
 
 body {
     background: url('image/fond-compteur.png');
