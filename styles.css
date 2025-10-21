@@ -19,11 +19,33 @@
 } */
 
 body {
-    background: url('image/fond-compteur.jpg');
+    background-image: url('image/fond-compteur.jpg');
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
+    background-color: #CFC5EF;
   }
+
+/* Gradient CSS */
+/*code curseur gradient => https://codepen.io/Iseyaaaaa/pen/qBMNEGN*/
+.blob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 650px;
+    border-radius: 100%;
+    background-image: linear-gradient(#1100ff 10%, #ff00f2);
+    filter: blur(250px);
+    transition: all 450ms ease-out;
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    transform: translate(calc(-50% + 15px), -50%);
+    z-index: 0;
+}
 
 /* J'ai utilisé cette vidéo pour réaliser les étoiles filantes sur l'animation du début : https://youtu.be/xDTiPkQeR2M?si=ixnbnNJLmo8rF4F8 */
 
@@ -189,6 +211,7 @@ main {
     opacity: 0;
     transition: opacity 1s ease;
   }
+
 
 #container {
     /* height: 600px → fixe une hauteur de 600 pixels à la zone où Highcharts va dessiner le graphique */

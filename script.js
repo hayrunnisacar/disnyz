@@ -14,10 +14,25 @@ castle.style.transform = 'translateY(0)';
 //une fois l'animation terminée, je cache l'animation avec mon chateau pour faire apparaître le contenu de ma page. 
 setTimeout(() => {
 intro.style.display = 'none';
-document.body.style.background = 'none';
+document.body.style.backgroundImage = 'none';
 main.style.opacity = '1';
 }, 8500);
 
+//code curseur gradient => https://codepen.io/Iseyaaaaa/pen/qBMNEGN
+//Je récupère .blob, le gradient. 
+var cursor = document.querySelector('.blob');
+
+//J'ajoute un écouteru d'évènements pour suivre les mouvements de la souris, le paramètre e dans la fonction suit tous les mouvements de la souris. 
+document.addEventListener('mousemove', function(e){
+  var x = e.clientX;
+  var y = e.clientY;
+  cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`
+  //je modifie en javascript la propriété transform du CSS. Je vais pouvoir la modifier du coup. 
+  //le translate3D permet de modifier l'élement dans les 3 dimensions, X(horizontal), Y(vertival) et Z(profondeur).
+  //calc(${e.clientX}px - 50%) => permet de placer le gradient au centre de la souris, calc(${e.clientY}px - 50%) pareil mais verticalement. 
+
+
+});
 
 // GRAPHIQUE 1 - MICKEY
 
