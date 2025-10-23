@@ -8,20 +8,22 @@
     <link rel="stylesheet" href="https://use.typekit.net/idc4rfu.css">
 </head>
 <body>
-    <!--Gradient-->
+
+<!-- Gradient -->
 <div class="blob"></div>
 
-<!--Random CSS for Demo : Ajout d'un gradient qui suit le curseur à l'aide de https://codepen.io/Iseyaaaaa/pen/qBMNEGN-->
-    <div class="container">
-        <div class="content-parent">
-            </div>
-        </div>
+<!-- Random CSS for Demo : Ajout d'un gradient qui suit le curseur à l'aide de https://codepen.io/Iseyaaaaa/pen/qBMNEGN -->
+<div class="container">
+    <div class="content-parent">
     </div>
- <!-- Contenu de l'animation-->
- <div class="intro-animation" id="intro-animation">
- <img src="image/chateau.svg" alt="Château Disney" id="castle">
-  <!--Modification de l'ordre des balises-->
- <section id="etoiles-filantes">
+</div>
+
+<!-- Intro plein écran et château -->
+<section id="intro">
+    <img src="image/fond-compteur.jpg" alt="Fond Disney" class="fond">
+
+<!-- Étoiles filantes -->
+<section id="etoiles-filantes">
     <span></span>
     <span></span>
     <span></span>
@@ -33,72 +35,67 @@
     <span></span>
     <span></span>
 </section>
- </div>
+
+    <img src="image/chateau.svg" alt="Château Disney" class="chateau">
+</section>
 
 
-
- <nav>
+<nav>
     <!-- Le logo à mettre -->
     <a href=""></a>
     <a href=""></a>
     <a href=""></a>
     <a href=""></a>
     <a href=""></a>
-</nav> 
+</nav>
 
- <main>
-<h1>Disnyz</h1>
- <p> Bonjour </p>
+<main>
+    <h1>Disnyz</h1>
+    <p>Bonjour</p>
+
     <!-- GRAPHIQUE 1 - MICKEY -->
-
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/highcharts-more.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/modules/export-data.js"></script>
-<script src="https://code.highcharts.com/modules/accessibility.js"></script>
-<script src="https://code.highcharts.com/themes/adaptive.js"></script>
-
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="https://code.highcharts.com/themes/adaptive.js"></script>
+    
 <!-- Flag sprites service provided by Martijn Lafeber,
     https://github.com/lafeber/world-flags-sprite/blob/master/LICENSE -->
 <!-- Le lien charge une feuille CSS externe contenant une image-sprite de drapeaux (16 px chacun) -->
-<link rel="stylesheet" href="https://github.com/downloads/lafeber/world-flags-sprite/flags16.css">
+    <link rel="stylesheet" href="https://github.com/downloads/lafeber/world-flags-sprite/flags16.css">
 
-<figure class="highcharts-figure">
-    <div id="container"></div>
-    <p class="highcharts-description">
-        A polar bar chart is similar to a bar chart, but the y-axis is circular.
-        In this demo we see the total Winter Olympics medals earned for the top 5
-        countries.
-    </p>
-</figure>
+    <figure class="highcharts-figure">
+        <div id="container"></div>
+        <p class="highcharts-description">
+            A polar bar chart is similar to a bar chart, but the y-axis is circular.
+            In this demo we see the total Winter Olympics medals earned for the top 5
+            countries.
+        </p>
+    </figure>
 
-<!-- Bien mettre le fichier script à la fin et non avec les autre scripts car sinon <div id="container"> n'est pas encore créé dans le DOM, donc Highcharts ne trouvera pas où afficher le graphique -->
+    <!-- Bien mettre le fichier script à la fin et non avec les autre scripts car sinon <div id="container"> n'est pas encore créé dans le DOM, donc Highcharts ne trouvera pas où afficher le graphique -->
 
 
-
-    <!-- GRAPHIQUE 2 - FRISE -->
-    <h2>Frise</h2>
-    <div id="pieds" class="pieds"></div>
-    <!-- Je vais supprimer cette frise -->
-    <!-- <svg class="frise" id="frise" width="500px" height="300px" viewBox="0 0 400 300">
-        <path id="pathFrise" d="M100 100 C 200 0, 300 200, 400 100" fill="none" stroke="black"/>
-    </svg> -->
+      <!-- GRAPHIQUE 2 - FRISE -->
+      <h2>Frise</h2>
+      <div id="pieds" class="pieds"></div>
+      <!-- Je vais supprimer cette frise -->
+      <!-- <svg class="frise" id="frise" width="500px" height="300px" viewBox="0 0 400 300">
+          <path id="pathFrise" d="M100 100 C 200 0, 300 200, 400 100" fill="none" stroke="black"/>
+      </svg> -->
 
     <svg class="frise" id="frise" width="456" height="4376" viewBox="0 0 456 4376" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path id="pathFrise" d="M351.606 2.42578C296.773 16.0924 184.806 43.6258 175.606 44.4258C164.106 45.4258 -239.394 128.426 229.106 228.926C697.606 329.426 290.606 409.426 229.106 422.426C167.606 435.426 -244.894 515.926 229.106 619.426C703.106 722.926 275.106 804.926 229.106 814.926C183.106 824.926 -254.894 909.426 229.106 1011.43C713.106 1113.43 259.106 1201.43 229.106 1205.43C199.106 1209.43 -264.894 1299.43 229.106 1400.43C723.106 1501.43 244.606 1594.43 229.106 1595.93C213.607 1597.43 -270.894 1688.93 229.106 1793.93C729.107 1898.93 229.106 1986.43 229.106 1987.93C229.106 1989.43 -277.894 2075.93 229.106 2183.43C634.707 2269.43 398.106 2349.26 229.106 2378.43C58.606 2409.09 -180.094 2491.83 229.106 2577.43C397.273 2606.09 632.706 2685.43 229.106 2773.43C58.4394 2802.43 -180.494 2881.73 229.106 2966.93C396.439 2998.59 630.706 3082.13 229.106 3162.93C58.106 3193.93 -181.294 3276.53 229.106 3358.93C395.773 3389.09 629.106 3470.63 229.106 3555.43C58.4394 3585.76 -180.494 3667.23 229.106 3750.43C396.773 3782.09 631.506 3865.83 229.106 3947.43C-273.894 4049.43 219.106 4141.43 229.106 4142.43C239.106 4143.43 722.106 4232.43 229.106 4339.93C194.606 4346.93 121.406 4363.43 104.606 4373.43" stroke="black" stroke-width="3"/>
+        <path id="pathFrise" d="M351.606 2.42578C296.773 16.0924 184.806 43.6258 175.606 44.4258C164.106 45.4258 -239.394 128.426 229.106 228.926C697.606 329.426 290.606 409.426 229.106 422.426C167.606 435.426 -244.894 515.926 229.106 619.426C703.106 722.926 275.106 804.926 229.106 814.926C183.106 824.926 -254.894 909.426 229.106 1011.43C713.106 1113.43 259.106 1201.43 229.106 1205.43C199.106 1209.43 -264.894 1299.43 229.106 1400.43C723.106 1501.43 244.606 1594.43 229.106 1595.93C213.607 1597.43 -270.894 1688.93 229.106 1793.93C729.107 1898.93 229.106 1986.43 229.106 1987.93C229.106 1989.43 -277.894 2075.93 229.106 2183.43C634.707 2269.43 398.106 2349.26 229.106 2378.43C58.606 2409.09 -180.094 2491.83 229.106 2577.43C397.273 2606.09 632.706 2685.43 229.106 2773.43C58.4394 2802.43 -180.494 2881.73 229.106 2966.93C396.439 2998.59 630.706 3082.13 229.106 3162.93C58.106 3193.93 -181.294 3276.53 229.106 3358.93C395.773 3389.09 629.106 3470.63 229.106 3555.43C58.4394 3585.76 -180.494 3667.23 229.106 3750.43C396.773 3782.09 631.506 3865.83 229.106 3947.43C-273.894 4049.43 219.106 4141.43 229.106 4142.43C239.106 4143.43 722.106 4232.43 229.106 4339.93C194.606 4346.93 121.406 4363.43 104.606 4373.43" stroke="black" stroke-width="3"/>
     </svg>
 
-    <!-- J'ai trouvé le lien pour se connecter à la biblilothèque GSAP ici : https://www.blacksmith.studio/blog/GSAP-animations -->
+    <!-- GSAP Plugins -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-    <!-- Je récupère les plugin GSAP dont j'en ai besoin -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathHelper.min.js"></script>
+</main>
 
-
-
- </main>
-    
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

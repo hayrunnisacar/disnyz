@@ -1,42 +1,41 @@
-//Mettez vos codes ici, comme ca on garde l'ordre
-//Animation page d'accueil 
-//Je récupère tous mes éléments du HTML pour les manipuler
-const castle = document.getElementById('castle');
-const intro = document.getElementById('intro-animation');
-const main = document.querySelector('main');
+// Animation page d'accueil 
+//Je sélectionnne ici les élements de mon HTML afin de les manipuler en javascript pour l'animation
+const chateau = document.querySelector(".chateau");
+const intro = document.getElementById("intro");
+const main = document.querySelector("main");
 
-//je lance mon délai, comme dans mon css, mon chateau a une opacité de 0, pour le faire apparaître progressivement je mets ici l'opacité à 1. 
+
+// Je lui donne la class "apparaît" et ça lance l’animation du château au chargement de la page en le faisant apparaître et descendre doucement à sa position. 
+chateau.classList.add("apparait");
+
+//Après 5 secondes, l'intro est cachée et laisse le reste du contenu de la page apparaître. (si on scroll pas)
 setTimeout(() => {
-castle.style.opacity = '1';
-castle.style.transform = 'translateY(0)';
-}, 500);
+    intro.style.opacity = 0;
+    //intro.style.pointerEvents = "none"; nous permet de scroller,il permet d'arrier au contenu derrière l'intro donc le main. 
+    intro.style.pointerEvents = "none";
+    main.style.opacity = 1;
+}, 5000); 
 
-//une fois l'animation terminée, je cache l'animation avec mon chateau pour faire apparaître le contenu de ma page. 
-setTimeout(() => {
-intro.style.display = 'none';
-document.body.style.backgroundImage = 'none';
-main.style.opacity = '1';
-}, 8500);
+// Du coup ici je crée une fonction qui s’exécute à chaque fois que l’utilisateur scroll pour cacher l’intro avec opacity = 0 et pointer-events = none et afficher le contenu principal avec main.style.opacity = 1.
+window.addEventListener("scroll", () => {
+    intro.style.opacity = 0;
+    intro.style.pointerEvents = "none";
+    main.style.opacity = 1;
+});
 
-//code curseur gradient => https://codepen.io/Iseyaaaaa/pen/qBMNEGN
-//Je récupère .blob, le gradient. 
+
+// Curseur Gradient
+// code curseur gradient => https://codepen.io/Iseyaaaaa/pen/qBMNEGN
+// Je récupère .blob, le gradient. 
 var cursor = document.querySelector('.blob');
 
-//J'ajoute un écouteru d'évènements pour suivre les mouvements de la souris, le paramètre e dans la fonction suit tous les mouvements de la souris. 
+// J'ajoute un écouteur d'évènements pour suivre les mouvements de la souris
 document.addEventListener('mousemove', function(e){
-  var x = e.clientX;
-  var y = e.clientY;
-  cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`
-  //je modifie en javascript la propriété transform du CSS. Je vais pouvoir la modifier du coup. 
-  //le translate3D permet de modifier l'élement dans les 3 dimensions, X(horizontal), Y(vertival) et Z(profondeur).
-  //calc(${e.clientX}px - 50%) => permet de placer le gradient au centre de la souris, calc(${e.clientY}px - 50%) pareil mais verticalement. 
-
-
+    cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
+    // le translate3D permet de modifier l'élément dans les 3 dimensions, X(horizontal), Y(vertical) et Z(profondeur)
 });
 
 // GRAPHIQUE 1 - MICKEY
-
-
 // Highcharts.chart('container', { >>> crée un graphique dans l’élément HTML ayant l’ID container.Tout ce qui est entre les { } représente la configuration du graphique
 Highcharts.chart('container', {
     colors: ['#4c00ffff', '#c300ffff', '#e972f9ff'],
