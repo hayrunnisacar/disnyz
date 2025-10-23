@@ -78,6 +78,116 @@
     <!-- Bien mettre le fichier script à la fin et non avec les autre scripts car sinon <div id="container"> n'est pas encore créé dans le DOM, donc Highcharts ne trouvera pas où afficher le graphique -->
 
 
+
+
+<!-- Test 3  -->
+
+<svg width="400" height="400" viewBox="0 0 400 400" style="border: red solid">
+
+  <!-- Cercle 1 -->
+  <path
+    d="M 300 200
+       A 100 100 0 0 0 200 100"
+    fill="none"
+    stroke="rgb(76, 0, 255)"
+    stroke-width="13"
+  />
+
+ <!-- Centre -->
+  <circle cx="200" cy="200" r="3" fill="green" />
+
+
+    <!--Cercle 2 Violet--> 
+<path
+    d="M 199 120
+       A 80 80 0 1 0 200 120"
+    fill="none"
+    stroke="rgb(76, 0, 255)"
+    stroke-width="13"
+  />
+  <circle cx="199" cy="120" r="3" fill="pink" />
+
+  <!-- Je constat donc qu'il faut changer M cx pour l'adaptation à la valeur et M cy pour coller sur le cercle... -->
+  
+
+<!--Cercle 2 Orange --> 
+  <path
+    d="M 170 125.5556
+       A 80 80 0 1 0 200 120"
+    fill="none"
+    stroke="orange"
+    stroke-width="13"
+  />
+  <circle cx="170" cy="125.5556" r="3" fill="black" />   
+
+
+  
+  <!-- Cercle 2 gris -->
+<path
+    d="M 120 199
+       A 80 80 0 1 0 200 120"
+    fill="none"
+    stroke="gray"
+    stroke-width="13"
+  />
+  <circle cx="170" cy="125.5556" r="3" fill="black" />
+
+
+
+  <!-- Cercle 3 -->
+  <path
+    d="M 260 200
+       A 60 60 0 0 0 200 140"
+    fill="none"
+    stroke="black"
+    stroke-width="13"
+  />
+<!-- Pour faire l'arc inférieur : on modifie M cx > A0 0 > et y : 
+ - M cx - 20 >> 
+ - A0 0 - 20 >> 
+ - y + 20 -->
+
+
+
+<!-- Point de départ M en rose. C'est le point M qui se déplace pour adapter la longueur de la courbe à la valeur des données. C'est le point cx qui change et qui est identique au cx de M cx cy -->
+
+  <!-- Cercle 4 -->
+ <path
+    d="M 240 200
+       A 40 40 0 0 0 200 160"
+    fill="none"
+    stroke="lightblue"
+    stroke-width="13"
+  />
+  <circle cx="300" cy="200" r="3" fill="pink" />
+
+
+  <circle cx="300" cy="200" r="3" fill="pink" />
+  <circle cx="200" cy="100" r="3" fill="red" />
+  <circle cx="200" cy="120" r="3" fill="blue" />
+  <circle cx="280" cy="200" r="3" fill="green" />
+  <circle cx="480'" cy="200" r="3" fill="black" />
+  <circle cx="200" cy="140" r="3" fill="orange" />
+  <circle cx="200" cy="339,699" r="3" fill="orange" /> 
+</svg>
+
+
+<!-- Fin test 3 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <!-- GRAPHIQUE 2 - FRISE -->
       <h2>Frise</h2>
       <div id="pieds" class="pieds"></div>
