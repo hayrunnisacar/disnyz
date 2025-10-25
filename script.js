@@ -1,9 +1,8 @@
-// Animation page d'accueil 
+// --------Animation page d'accueil--------
 //Je sélectionnne ici les élements de mon HTML afin de les manipuler en javascript pour l'animation
 const chateau = document.querySelector(".chateau");
 const intro = document.getElementById("intro");
 const main = document.querySelector("main");
-
 
 // Je lui donne la class "apparaît" et ça lance l’animation du château au chargement de la page en le faisant apparaître et descendre doucement à sa position. 
 chateau.classList.add("apparait");
@@ -24,7 +23,7 @@ window.addEventListener("scroll", () => {
 });
 
 
-// Curseur Gradient
+// --------Curseur Gradient--------
 // code curseur gradient => https://codepen.io/Iseyaaaaa/pen/qBMNEGN
 // Je récupère .blob, le gradient. 
 var cursor = document.querySelector('.blob');
@@ -35,7 +34,8 @@ document.addEventListener('mousemove', function(e){
     // le translate3D permet de modifier l'élément dans les 3 dimensions, X(horizontal), Y(vertical) et Z(profondeur)
 });
 
-// GRAPHIQUE 1 - MICKEY
+
+// --------GRAPHIQUE 1 - MICKEY--------
 // Highcharts.chart('container', { >>> crée un graphique dans l’élément HTML ayant l’ID container.Tout ce qui est entre les { } représente la configuration du graphique
 Highcharts.chart('container', {
     colors: ['#4c00ffff', '#c300ffff', '#e972f9ff'],
@@ -155,7 +155,7 @@ Highcharts.chart('container', {
 });
 
 
-// GRAPHIQUE 2 - FRISE CHRONOLOGIQUE
+// --------GRAPHIQUE 2 - FRISE CHRONOLOGIQUE--------
 //Je me suis aidé du site officiel de gsap pour tous les plugins utilisés
 //J'enregistre le plugin MotionPathPlugin
 gsap.registerPlugin(MotionPathPlugin);
