@@ -44,7 +44,7 @@ body {
     left: 0;
     top: 0;
     transform: translate(calc(-50% + 15px), -50%);
-    z-index: 0;
+    z-index: -1;
 }
 
 /*  Étoiles filantes  */
