@@ -475,19 +475,50 @@ main {
 }
 
 
-/* GRAPHIQUE 2 - FRISE */
-
-
-
-
-.frise{
-    display: block;
-    margin: 0 auto;
+/* GRAPHIQUE 2 - FRISE CHRONOLOGIQUE*/
+.frise-chrono{
+    /* Je le met en relative pour placer correctement le popup qui est en absolute */
+    position: relative;
+    /* Je donne la même largeur à la section que le svg pour centrer */
+    width: 456px;
+    margin: auto;
 }
 
+.pieds {
+    width: 30px;
+    height: 20px;
+    background-color: rgb(196, 186, 79);
+}
 
-.pieds{
-  width: 30px;
-  height: 20px;
-  background-color: rgb(196, 186, 79);
+.bouton-frise {
+    width: 25px;
+    height: 25px;
+    background-color: #2F2F5B;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.popup-fc {
+    position: absolute;
+    background-color: rgba(241, 236, 236);
+    padding: 15px;
+    border-radius: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bouton-gauche .popup-fc{
+    right: 30px;
+}
+
+.bouton-droite .popup-fc{
+    left: 30px;
+}
+
+.popup-visible {
+    display: block;
+}
+
+.popup-invisible {
+    display: none;
 }

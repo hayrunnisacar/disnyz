@@ -155,40 +155,76 @@ Highcharts.chart('container', {
 });
 
 
-// GRAPHIQUE 2 - FRISE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// GRAPHIQUE 2 - FRISE CHRONOLOGIQUE
+//Je me suis aidé du site officiel de gsap pour tous les plugins utilisés
 //J'enregistre le plugin MotionPathPlugin
 gsap.registerPlugin(MotionPathPlugin);
+
+// Je place un par un tout les boutons popup
+// gsap.set("#fcBtn1", { 
+//     motionPath: {
+//         path: "#pathFrise",
+//         align: "#pathFrise",
+//         alignOrigin: [0.5, 0.5],
+//         end: 0.048
+//     }
+// });
+
+//J'insère les postions des boutons popup pour optimiser mon code dans un tableau
+const positionBouton = [
+    0.048, 0.112, 0.176, 0.240, 0.303, 0.367, 0.431, 0.496,
+    0.560, 0.624, 0.688, 0.751, 0.816, 0.880, 0.945
+]
+
+//J'insère également tous les boutons dans une variable boutons
+const boutons = document.querySelectorAll(".bouton-frise");
+
+//Je place tous les boutons en fonction de leur position end grâce au gsap.set qui les place instantanément. Je fais ceci dans une fonction pour ne pas à avoir répété 15 fois le même code
+boutons.forEach(function(bouton, nombre){
+    gsap.set(bouton, {
+        motionPath: {
+            path : "#pathFrise",
+            align: "#pathFrise",
+            alignOrigin: [0.5, 0.5],
+            end: positionBouton[nombre]
+        }
+    });
+});
+
 //Sur l'élément ayant l'id "pied", je fais une animation
 gsap.to("#pieds", {
-    //#pieds va suivre pathFrise et va s'incliner en focntion de la courbe
-    motionPath: {
-        path: "#pathFrise",
-        autoRotate: true,
-        //J'aligne #pieds sur le path
-        align: "#pathFrise",
-        alignOrigin: [0.5, 0.5],
-    },
-    //L'animation dure 5secondes
-    duration: 20,
-    //Animation plus douce
-    ease: "power1.inOut",
+   //#pieds va suivre pathFrise et va s'incliner en focntion de la courbe
+   motionPath: {
+       path: "#pathFrise",
+       autoRotate: true,
+       //J'aligne #pieds sur le path
+       align: "#pathFrise",
+       alignOrigin: [0.5, 0.5],
+   },
+   //L'animation dure 5secondes
+   duration: 20,
+   //Animation plus douce
+   ease: "power1.inOut",
 });
-// //J'affiche le tracé de la courbe pour modifier et lui donner la forme que je veux
-// MotionPathHelper.create("#pieds");
+
+//Je fais les popup pour chaque bouton
+//J'insère le popup dans la variable popupFc
+const popupFc = document.querySelector(".popup-fc");
+
+//Je fais le popup pour chaque bouton
+boutons.forEach(function(bouton){
+    bouton.addEventListener("mouseenter", function(){
+        //Quand on survole le bouton, le popup devient son enfant, ainsi on peut gérer sa position pour l'afficher à côté du bouton concerné
+        bouton.appendChild(popupFc);
+        //J'affiche le popup au survol en montrant le popup-visible
+        popupFc.classList.add("popup-visible");
+        //Je retire le popup-invisible au survol
+        popupFc.classList.remove("popup-invisible");
+    });
+    //Je cache le popup quand mon curseur sort de la div popup
+    bouton.addEventListener("mouseleave", function(){
+        //Je cache en faisant l'inverse du code précédent
+        popupFc.classList.add("popup-invisible");
+        popupFc.classList.remove("popup-visible");
+    });
+});
