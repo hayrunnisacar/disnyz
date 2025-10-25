@@ -243,7 +243,129 @@ main {
     min-height: 200vh;
     opacity: 0;
     transition: opacity 1s ease;
+    z-index: 0;
 }
+
+.navigation{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+  }
+
+.navigation ul{
+    list-style: none;
+    background-color: #D7CFF3;
+    padding: 0px;
+    margin: 0px;
+    /* overflow: hidden; */
+    border-radius:26px;
+    width:904px;
+    height: 60px;
+    box-shadow: 0px 14px 15px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.1em;
+}
+
+.navigation a {
+    color: #702A84;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+
+/*Animation au hover faite en CSS à partir du tuto "4. Text underline" : https://prismic.io/blog/css-hover-effects */
+    
+  }.hover-underline::after,
+  .hover-underline::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #702A84, #917ebd);
+    left: 0; 
+    transform: scaleX(0);
+    transition: transform 0.4s ease-out;
+  }
+  
+  .hover-underline::after {
+    bottom: 5px;
+    transform-origin: right;
+  }
+  
+  .hover-underline::before {
+    top: 5px;
+    transform-origin: left;
+  }
+  
+  .hover-underline:hover::after,
+  .hover-underline:hover::before {
+    transform: scaleX(1);
+  }
+
+.navigation li{
+    float: left;
+}
+
+.Accueil-container{
+    background: linear-gradient(180deg, #541067 0%, #BC98C6 100%);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; 
+    border-radius: 42px;
+    width: 1079px;
+    height: 624px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #bb92c7 5px;
+    box-shadow: 0px 25px 20px rgba(0, 0, 0, 0.25);
+}
+
+.chateau-lanterne{
+    width: 480.20px;
+    height: 710.57px;
+    transform: translateX(10px); 
+}
+
+.txt{
+    margin-left: 40px;
+    margin-right: 45px;
+    font-size: 1em;
+}
+
+.title-accueil{
+    font-family: "cofo-raffine", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #251155;
+    font-size: 3.2em;
+    margin: 0;
+}
+
+.presentation{
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.1em;
+    color: #251155;
+    margin: 0;
+}
+
+
+.peter-pan {
+    position: absolute;
+    bottom: 170px; 
+    left: 575px; 
+    width: 280px;
+    z-index: 2; 
+  }
 
 
 /* CSS Images Roi Lion */
