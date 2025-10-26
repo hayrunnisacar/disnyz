@@ -222,24 +222,50 @@ gsap.to("#carrosse", {
     ease: "none",
 });
 
-//Je fais les popup pour chaque bouton
+//Je fais les popup pour chaque bouton---
 //J'insère le popup dans la variable popupFc
 const popupFc = document.querySelector(".popup-fc");
 
-//Je fais le popup pour chaque bouton
-boutons.forEach(function(bouton){
-    bouton.addEventListener("mouseenter", function(){
-        //Quand on survole le bouton, le popup devient son enfant, ainsi on peut gérer sa position pour l'afficher à côté du bouton concerné
-        bouton.appendChild(popupFc);
-        //J'affiche le popup au survol en montrant le popup-visible
-        popupFc.classList.add("popup-visible");
-        //Je retire le popup-invisible au survol
-        popupFc.classList.remove("popup-invisible");
+
+//Je récupère les données du fichier json
+fetch('data.json').then(function(response) {
+    response.json().then(function(data){
+    // console.log(data);
+
+    //Je construis mon popup
+    let templatePopup =
+            "<p>{{film}}</p>" +
+            "<p>Année : {{publication}}</p>" +
+            "<p>Lien AlloCiné: {{idAlloCine}}</p>";
+    
+    //Je fais le popup pour chaque bouton
+    boutons.forEach(function(bouton, nombre){
+        //Quand ma souris entre le bouton, alors
+        bouton.addEventListener("mouseenter", function(){
+            //Je récupère les données dans une varibale filmData
+            const filmData = data[nombre];
+            //Je remplis templatePopup
+            var contenuRempli = templatePopup
+                .replace("{{film}}", filmData.film)
+                .replace("{{publication}}", filmData.publication)
+                .replace("{{idAlloCine}}", filmData.idAlloCine);
+            //Je l'affiche en html
+            popupFc.innerHTML = contenuRempli;
+
+            //Le popup devient l'enfant du bouton au survol pour styliser facilement en css
+            bouton.appendChild(popupFc);
+            //J'affiche le popup au survol
+            popupFc.classList.add("popup-visible");
+            //Je retire le popup-invisible au survol
+            popupFc.classList.remove("popup-invisible");
+        });
+        //Je cache le popup quand mon curseur sort de la div popup
+        bouton.addEventListener("mouseleave", function(){
+            //Je cache en faisant l'inverse du code précédent
+            popupFc.classList.add("popup-invisible");
+            popupFc.classList.remove("popup-visible");
+        });
     });
-    //Je cache le popup quand mon curseur sort de la div popup
-    bouton.addEventListener("mouseleave", function(){
-        //Je cache en faisant l'inverse du code précédent
-        popupFc.classList.add("popup-invisible");
-        popupFc.classList.remove("popup-visible");
-    });
+
+    }); 
 });

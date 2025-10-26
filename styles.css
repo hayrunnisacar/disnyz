@@ -267,8 +267,12 @@ main {
 .navigation ul{
     list-style: none;
     background-color: #D7CFF3;
-    padding: 0px;
-    margin: 0px;
+    /* H: je préfère sans mais on peut remettre */
+    /* padding: 0px;
+    margin: 0px; */
+    margin-top: 12px;
+    margin-bottom: 0;
+
     /* overflow: hidden; */
     border-radius:26px;
     width:904px;
@@ -501,7 +505,7 @@ h2{
 .bouton-frise {
     width: 25px;
     height: 25px;
-    background-color: #2F2F5B;
+    background: linear-gradient(#FF8800, #FFE400);
     border-radius: 50%;
     cursor: pointer;
 }
