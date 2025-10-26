@@ -517,6 +517,8 @@ h2{
     border-radius: 15px;
     top: 50%;
     transform: translateY(-50%);
+    width: 280px;
+    height: 150px;
 }
 
 .bouton-gauche .popup-fc{

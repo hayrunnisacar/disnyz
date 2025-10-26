@@ -234,7 +234,7 @@ fetch('data.json').then(function(response) {
 
     //Je met dans un tableau les films qui m'intéressent
     const filmsFrise = [
-        162, 649,255,1,2,3,4,5,6,7,8,9,10,11,12,13
+        162, 255, 257, 65, 224, 543, 201, 141, 81, 71, 30, 114, 59, 12, 50
     ];
 
     //Je construis mon popup
@@ -247,8 +247,15 @@ fetch('data.json').then(function(response) {
     boutons.forEach(function(bouton, nombre){
         //Quand ma souris entre le bouton, alors
         bouton.addEventListener("mouseenter", function(){
-            //Je récupère les données dans une varibale filmData
-            const filmData = data[nombre];
+            //Je crée une variable filmData pour stocker les films que je souhaitent dedans
+            let filmData;
+            //Pour chaque film de data, je vérifié si l'id correspond bien au film
+            data.forEach(function(film){
+                if (film.id == filmsFrise[nombre]){
+                    //L'id correspond, alors on met dans filmData
+                    filmData = film;
+                }
+            })
             //Je remplis templatePopup
             var contenuRempli = templatePopup
                 .replace("{{film}}", filmData.film)
