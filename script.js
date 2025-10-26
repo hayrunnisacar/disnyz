@@ -232,6 +232,11 @@ fetch('data.json').then(function(response) {
     response.json().then(function(data){
     // console.log(data);
 
+    //Je met dans un tableau les films qui m'intéressent
+    const filmsFrise = [
+        162, 649,255,1,2,3,4,5,6,7,8,9,10,11,12,13
+    ];
+
     //Je construis mon popup
     let templatePopup =
             "<p>{{film}}</p>" +
