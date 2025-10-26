@@ -651,8 +651,7 @@
     "recette": 542351353,
     "genre": 0,
     "titre": "Cinderella",
-    "idAlloCine": "",
-    "image" : "image/film65.webp"
+    "idAlloCine": ""
   },
   {
     "id": 66,
@@ -813,7 +812,7 @@
     "recette": 438656843,
     "genre": 0,
     "titre": "Beauty and the Beast",
-    "idAlloCine": "",
+    "idAlloCine": "7229",
     "image" : "image/film81.webp"
   },
   {
@@ -1225,7 +1224,8 @@
     "recette": 263591415,
     "genre": 0,
     "titre": "Cinderella",
-    "idAlloCine": ""
+    "idAlloCine": "38826",
+    "image" : "image/film122.webp"
   },
   {
     "id": 123,
@@ -1415,7 +1415,7 @@
     "recette": 222267613,
     "genre": 0,
     "titre": "The Little Mermaid",
-    "idAlloCine": "",
+    "idAlloCine": "18115",
     "image" : "image/film141.webp"
   },
   {
@@ -2017,7 +2017,7 @@
     "recette": 141843000,
     "genre": 0,
     "titre": "The Jungle Book",
-    "idAlloCine": "",
+    "idAlloCine": "3373",
     "image" : "image/film201.webp"
   },
   {
@@ -2248,7 +2248,7 @@
     "recette": 109862682,
     "genre": 0,
     "titre": "Peter Pan: Return to Neverland",
-    "idAlloCine": "",
+    "idAlloCine": "41413",
     "image" : "image/film224.webp"
   },
   {
@@ -2559,7 +2559,7 @@
     "recette": 84300000,
     "genre": 0,
     "titre": "Pinocchio",
-    "idAlloCine": "",
+    "idAlloCine": "26626",
     "image" : "image/film255.webp"
   },
   {
@@ -2580,7 +2580,7 @@
     "recette": 83320832,
     "genre": 0,
     "titre": "Fantasia",
-    "idAlloCine": "",
+    "idAlloCine": "2154",
     "image" : "image/film257.webp"
   },
   {

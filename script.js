@@ -234,7 +234,7 @@ fetch('data.json').then(function(response) {
 
     //Je met dans un tableau les films qui m'intéressent
     const filmsFrise = [
-        162, 255, 257, 65, 224, 543, 201, 141, 81, 71, 30, 114, 59, 12, 50
+        162, 255, 257, 122, 224, 543, 201, 141, 81, 71, 30, 114, 59, 12, 50
     ];
 
     //Je construis mon popup
