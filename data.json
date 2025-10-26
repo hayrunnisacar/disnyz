@@ -1,0 +1,6502 @@
+[
+  {
+    "id": 1,
+    "publication": 2019,
+    "film": "Avengers: Endgame",
+    "recettes": "$2,717,503,922",
+    "recette": 2717503922,
+    "genre": 0,
+    "titre": "Avengers: Endgame",
+    "idAlloCine": 232669
+  },
+  {
+    "id": 2,
+    "publication": 2015,
+    "film": "Star Wars Ep. VII: The Force Awakens",
+    "recettes": "$2,056,046,835",
+    "recette": 2056046835,
+    "genre": 0,
+    "titre": "Star Wars Ep. VII: The Force Awakens",
+    "idAlloCine": ""
+  },
+  {
+    "id": 3,
+    "publication": 2018,
+    "film": "Avengers: Infinity War",
+    "recettes": "$2,048,158,241",
+    "recette": 2048158241,
+    "genre": 0,
+    "titre": "Avengers: Infinity War",
+    "idAlloCine": 218265
+  },
+  {
+    "id": 4,
+    "publication": 2024,
+    "film": "Inside Out 2",
+    "recettes": "$1,698,831,782",
+    "recette": 1698831782,
+    "genre": 0,
+    "titre": "Inside Out 2",
+    "idAlloCine": 307991
+  },
+  {
+    "id": 5,
+    "publication": 2019,
+    "film": "The Lion King",
+    "recettes": "$1,661,454,403",
+    "recette": 1661454403,
+    "genre": 0,
+    "titre": "The Lion King",
+    "idAlloCine": 10862
+  },
+  {
+    "id": 6,
+    "publication": 2012,
+    "film": "The Avengers",
+    "recettes": "$1,515,100,211",
+    "recette": 1515100211,
+    "genre": 0,
+    "titre": "The Avengers",
+    "idAlloCine": 130440
+  },
+  {
+    "id": 7,
+    "publication": 2019,
+    "film": "Frozen II",
+    "recettes": "$1,451,653,316",
+    "recette": 1451653316,
+    "genre": 0,
+    "titre": "Frozen II",
+    "idAlloCine": 233713
+  },
+  {
+    "id": 8,
+    "publication": 2015,
+    "film": "Avengers: Age of Ultron",
+    "recettes": "$1,395,316,979",
+    "recette": 1395316979,
+    "genre": 0,
+    "titre": "Avengers: Age of Ultron",
+    "idAlloCine": 198488
+  },
+  {
+    "id": 9,
+    "publication": 2024,
+    "film": "Deadpool & Wolverine",
+    "recettes": "$1,338,071,348",
+    "recette": 1338071348,
+    "genre": 0,
+    "titre": "Deadpool &amp; Wolverine",
+    "idAlloCine": 251633
+  },
+  {
+    "id": 10,
+    "publication": 2018,
+    "film": "Black Panther",
+    "recettes": "$1,334,157,082",
+    "recette": 1334157082,
+    "genre": 0,
+    "titre": "Black Panther",
+    "idAlloCine": ""
+  },
+  {
+    "id": 11,
+    "publication": 2017,
+    "film": "Star Wars Ep. VIII: The Last Jedi",
+    "recettes": "$1,322,581,071",
+    "recette": 1322581071,
+    "genre": 0,
+    "titre": "Star Wars Ep. VIII: The Last Jedi",
+    "idAlloCine": ""
+  },
+  {
+    "id": 12,
+    "publication": 2013,
+    "film": "Frozen",
+    "recettes": "$1,269,758,653",
+    "recette": 1269758653,
+    "genre": 0,
+    "titre": "Frozen",
+    "idAlloCine": 203691
+  },
+  {
+    "id": 13,
+    "publication": 2017,
+    "film": "Beauty and the Beast",
+    "recettes": "$1,259,761,686",
+    "recette": 1259761686,
+    "genre": 0,
+    "titre": "Beauty and the Beast",
+    "idAlloCine": ""
+  },
+  {
+    "id": 14,
+    "publication": 2018,
+    "film": "Incredibles 2",
+    "recettes": "$1,242,805,359",
+    "recette": 1242805359,
+    "genre": 0,
+    "titre": "Incredibles 2",
+    "idAlloCine": 198937
+  },
+  {
+    "id": 15,
+    "publication": 2013,
+    "film": "Iron Man 3",
+    "recettes": "$1,214,630,956",
+    "recette": 1214630956,
+    "genre": 0,
+    "titre": "Iron Man 3",
+    "idAlloCine": 139589
+  },
+  {
+    "id": 16,
+    "publication": 2016,
+    "film": "Captain America: Civil War",
+    "recettes": "$1,151,899,586",
+    "recette": 1151899586,
+    "genre": 0,
+    "titre": "Captain America: Civil War",
+    "idAlloCine": 215143
+  },
+  {
+    "id": 17,
+    "publication": 2019,
+    "film": "Captain Marvel",
+    "recettes": "$1,129,576,094",
+    "recette": 1129576094,
+    "genre": 0,
+    "titre": "Captain Marvel",
+    "idAlloCine": 141110
+  },
+  {
+    "id": 18,
+    "publication": 2019,
+    "film": "Toy Story 4",
+    "recettes": "$1,071,177,215",
+    "recette": 1071177215,
+    "genre": 0,
+    "titre": "Toy Story 4",
+    "idAlloCine": 218956
+  },
+  {
+    "id": 19,
+    "publication": 2019,
+    "film": "Star Wars: The Rise of Skywalker",
+    "recettes": "$1,069,951,814",
+    "recette": 1069951814,
+    "genre": 0,
+    "titre": "Star Wars: The Rise of Skywalker",
+    "idAlloCine": 215094
+  },
+  {
+    "id": 20,
+    "publication": 2010,
+    "film": "Toy Story 3",
+    "recettes": "$1,068,879,522",
+    "recette": 1068879522,
+    "genre": 0,
+    "titre": "Toy Story 3",
+    "idAlloCine": 126123
+  },
+  {
+    "id": 21,
+    "publication": 2006,
+    "film": "Pirates of the Caribbean: Dead Man’s Chest",
+    "recettes": "$1,066,179,725",
+    "recette": 1066179725,
+    "genre": 0,
+    "titre": "Pirates of the Caribbean: Dead Man’s Chest",
+    "idAlloCine": ""
+  },
+  {
+    "id": 22,
+    "publication": 2024,
+    "film": "Moana 2",
+    "recettes": "$1,059,135,998",
+    "recette": 1059135998,
+    "genre": 0,
+    "titre": "Moana 2",
+    "idAlloCine": 312511
+  },
+  {
+    "id": 23,
+    "publication": 2016,
+    "film": "Rogue One: A Star Wars Story",
+    "recettes": "$1,055,083,596",
+    "recette": 1055083596,
+    "genre": 0,
+    "titre": "Rogue One: A Star Wars Story",
+    "idAlloCine": 218395
+  },
+  {
+    "id": 24,
+    "publication": 2011,
+    "film": "Pirates of the Caribbean: On Stranger Tides",
+    "recettes": "$1,045,713,802",
+    "recette": 1045713802,
+    "genre": 0,
+    "titre": "Pirates of the Caribbean: On Stranger Tides",
+    "idAlloCine": 139812
+  },
+  {
+    "id": 25,
+    "publication": 2019,
+    "film": "Aladdin",
+    "recettes": "$1,042,126,107",
+    "recette": 1042126107,
+    "genre": 0,
+    "titre": "Aladdin",
+    "idAlloCine": 8640
+  },
+  {
+    "id": 26,
+    "publication": 2025,
+    "film": "Lilo & Stitch",
+    "recettes": "$1,037,247,842",
+    "recette": 1037247842,
+    "genre": 0,
+    "titre": "Lilo &amp; Stitch",
+    "idAlloCine": 35143
+  },
+  {
+    "id": 27,
+    "publication": 2010,
+    "film": "Alice in Wonderland",
+    "recettes": "$1,025,491,110",
+    "recette": 1025491110,
+    "genre": 0,
+    "titre": "Alice in Wonderland",
+    "idAlloCine": 132663
+  },
+  {
+    "id": 28,
+    "publication": 2016,
+    "film": "Finding Dory",
+    "recettes": "$1,025,006,125",
+    "recette": 1025006125,
+    "genre": 0,
+    "titre": "Finding Dory",
+    "idAlloCine": 210222
+  },
+  {
+    "id": 29,
+    "publication": 2016,
+    "film": "Zootopia",
+    "recettes": "$1,018,518,000",
+    "recette": 1018518000,
+    "genre": 0,
+    "titre": "Zootopia",
+    "idAlloCine": 223207
+  },
+  {
+    "id": 30,
+    "publication": 1994,
+    "film": "The Lion King",
+    "recettes": "$988,389,726",
+    "recette": 988389726,
+    "genre": 0,
+    "titre": "The Lion King",
+    "idAlloCine": 10862
+  },
+  {
+    "id": 31,
+    "publication": 2007,
+    "film": "Pirates of the Caribbean: At World’s End",
+    "recettes": "$960,996,492",
+    "recette": 960996492,
+    "genre": 0,
+    "titre": "Pirates of the Caribbean: At World’s End",
+    "idAlloCine": ""
+  },
+  {
+    "id": 32,
+    "publication": 2022,
+    "film": "Doctor Strange in the Multiverse of Madness",
+    "recettes": "$952,224,986",
+    "recette": 952224986,
+    "genre": 0,
+    "titre": "Doctor Strange in the Multiverse of Madness",
+    "idAlloCine": 251390
+  },
+  {
+    "id": 33,
+    "publication": 2016,
+    "film": "The Jungle Book",
+    "recettes": "$950,697,998",
+    "recette": 950697998,
+    "genre": 0,
+    "titre": "The Jungle Book",
+    "idAlloCine": ""
+  },
+  {
+    "id": 34,
+    "publication": 2003,
+    "film": "Finding Nemo",
+    "recettes": "$936,094,852",
+    "recette": 936094852,
+    "genre": 0,
+    "titre": "Finding Nemo",
+    "idAlloCine": 29057
+  },
+  {
+    "id": 35,
+    "publication": 2017,
+    "film": "Guardians of the Galaxy Vol 2",
+    "recettes": "$869,087,963",
+    "recette": 869087963,
+    "genre": 0,
+    "titre": "Guardians of the Galaxy Vol 2",
+    "idAlloCine": ""
+  },
+  {
+    "id": 36,
+    "publication": 2022,
+    "film": "Black Panther: Wakanda Forever",
+    "recettes": "$859,208,836",
+    "recette": 859208836,
+    "genre": 0,
+    "titre": "Black Panther: Wakanda Forever",
+    "idAlloCine": 263242
+  },
+  {
+    "id": 37,
+    "publication": 2017,
+    "film": "Thor: Ragnarok",
+    "recettes": "$850,482,778",
+    "recette": 850482778,
+    "genre": 0,
+    "titre": "Thor: Ragnarok",
+    "idAlloCine": 223252
+  },
+  {
+    "id": 38,
+    "publication": 2015,
+    "film": "Inside Out",
+    "recettes": "$848,469,454",
+    "recette": 848469454,
+    "genre": 0,
+    "titre": "Inside Out",
+    "idAlloCine": 196960
+  },
+  {
+    "id": 39,
+    "publication": 2023,
+    "film": "Guardians of the Galaxy Vol 3",
+    "recettes": "$845,555,777",
+    "recette": 845555777,
+    "genre": 0,
+    "titre": "Guardians of the Galaxy Vol 3",
+    "idAlloCine": ""
+  },
+  {
+    "id": 40,
+    "publication": 2017,
+    "film": "Coco",
+    "recettes": "$796,397,165",
+    "recette": 796397165,
+    "genre": 0,
+    "titre": "Coco",
+    "idAlloCine": ""
+  },
+  {
+    "id": 41,
+    "publication": 2017,
+    "film": "Pirates of the Caribbean: Dead Men Tell No Tales",
+    "recettes": "$794,861,794",
+    "recette": 794861794,
+    "genre": 0,
+    "titre": "Pirates of the Caribbean: Dead Men Tell No Tales",
+    "idAlloCine": ""
+  },
+  {
+    "id": 42,
+    "publication": 2014,
+    "film": "Guardians of the Galaxy",
+    "recettes": "$770,882,395",
+    "recette": 770882395,
+    "genre": 0,
+    "titre": "Guardians of the Galaxy",
+    "idAlloCine": 196604
+  },
+  {
+    "id": 43,
+    "publication": 2022,
+    "film": "Thor: Love and Thunder",
+    "recettes": "$760,928,081",
+    "recette": 760928081,
+    "genre": 0,
+    "titre": "Thor: Love and Thunder",
+    "idAlloCine": 275207
+  },
+  {
+    "id": 44,
+    "publication": 2014,
+    "film": "Maleficent",
+    "recettes": "$758,536,735",
+    "recette": 758536735,
+    "genre": 0,
+    "titre": "Maleficent",
+    "idAlloCine": 201429
+  },
+  {
+    "id": 45,
+    "publication": 2013,
+    "film": "Monsters University",
+    "recettes": "$743,455,810",
+    "recette": 743455810,
+    "genre": 0,
+    "titre": "Monsters University",
+    "idAlloCine": 109572
+  },
+  {
+    "id": 46,
+    "publication": 2009,
+    "film": "Up",
+    "recettes": "$731,463,377",
+    "recette": 731463377,
+    "genre": 0,
+    "titre": "Up",
+    "idAlloCine": 130368
+  },
+  {
+    "id": 47,
+    "publication": 2024,
+    "film": "Mufasa: The Lion King",
+    "recettes": "$722,618,595",
+    "recette": 722618595,
+    "genre": 0,
+    "titre": "Mufasa: The Lion King",
+    "idAlloCine": 286777
+  },
+  {
+    "id": 48,
+    "publication": 2005,
+    "film": "The Chronicles of Narnia: The Lion, the Witch a…",
+    "recettes": "$720,539,572",
+    "recette": 720539572,
+    "genre": 0,
+    "titre": "The Chronicles of Narnia: The Lion, the Witch a…",
+    "idAlloCine": ""
+  },
+  {
+    "id": 49,
+    "publication": 2014,
+    "film": "Captain America: The Winter Soldier",
+    "recettes": "$714,401,889",
+    "recette": 714401889,
+    "genre": 0,
+    "titre": "Captain America: The Winter Soldier",
+    "idAlloCine": 193113
+  },
+  {
+    "id": 50,
+    "publication": 2016,
+    "film": "Moana",
+    "recettes": "$684,654,985",
+    "recette": 684654985,
+    "genre": 0,
+    "titre": "Moana",
+    "idAlloCine": 225958
+  },
+  {
+    "id": 51,
+    "publication": 2016,
+    "film": "Doctor Strange",
+    "recettes": "$676,343,174",
+    "recette": 676343174,
+    "genre": 0,
+    "titre": "Doctor Strange",
+    "idAlloCine": 130533
+  },
+  {
+    "id": 52,
+    "publication": 1999,
+    "film": "The Sixth Sense",
+    "recettes": "$672,806,292",
+    "recette": 672806292,
+    "genre": 0,
+    "titre": "The Sixth Sense",
+    "idAlloCine": 22092
+  },
+  {
+    "id": 53,
+    "publication": 2003,
+    "film": "Pirates of the Caribbean: The Curse of the Blac…",
+    "recettes": "$654,310,819",
+    "recette": 654310819,
+    "genre": 0,
+    "titre": "Pirates of the Caribbean: The Curse of the Blac…",
+    "idAlloCine": ""
+  },
+  {
+    "id": 54,
+    "publication": 2014,
+    "film": "Big Hero 6",
+    "recettes": "$646,584,368",
+    "recette": 646584368,
+    "genre": 0,
+    "titre": "Big Hero 6",
+    "idAlloCine": 221738
+  },
+  {
+    "id": 55,
+    "publication": 2013,
+    "film": "Thor: The Dark World",
+    "recettes": "$644,602,516",
+    "recette": 644602516,
+    "genre": 0,
+    "titre": "Thor: The Dark World",
+    "idAlloCine": 193108
+  },
+  {
+    "id": 56,
+    "publication": 2004,
+    "film": "The Incredibles",
+    "recettes": "$631,441,092",
+    "recette": 631441092,
+    "genre": 0,
+    "titre": "The Incredibles",
+    "idAlloCine": 53096
+  },
+  {
+    "id": 57,
+    "publication": 2007,
+    "film": "Ratatouille",
+    "recettes": "$626,549,695",
+    "recette": 626549695,
+    "genre": 0,
+    "titre": "Ratatouille",
+    "idAlloCine": ""
+  },
+  {
+    "id": 58,
+    "publication": 2018,
+    "film": "Ant-Man and the Wasp",
+    "recettes": "$623,144,660",
+    "recette": 623144660,
+    "genre": 0,
+    "titre": "Ant-Man and the Wasp",
+    "idAlloCine": 226391
+  },
+  {
+    "id": 59,
+    "publication": 2010,
+    "film": "Tangled",
+    "recettes": "$582,440,151",
+    "recette": 582440151,
+    "genre": 0,
+    "titre": "Tangled",
+    "idAlloCine": 135523
+  },
+  {
+    "id": 60,
+    "publication": 2023,
+    "film": "The Little Mermaid",
+    "recettes": "$569,626,289",
+    "recette": 569626289,
+    "genre": 0,
+    "titre": "The Little Mermaid",
+    "idAlloCine": ""
+  },
+  {
+    "id": 61,
+    "publication": 2001,
+    "film": "Monsters, Inc.",
+    "recettes": "$560,483,536",
+    "recette": 560483536,
+    "genre": 0,
+    "titre": "Monsters, Inc.",
+    "idAlloCine": 26862
+  },
+  {
+    "id": 62,
+    "publication": 2011,
+    "film": "Cars 2",
+    "recettes": "$560,155,383",
+    "recette": 560155383,
+    "genre": 0,
+    "titre": "Cars 2",
+    "idAlloCine": ""
+  },
+  {
+    "id": 63,
+    "publication": 2012,
+    "film": "Brave",
+    "recettes": "$554,606,532",
+    "recette": 554606532,
+    "genre": 0,
+    "titre": "Brave",
+    "idAlloCine": ""
+  },
+  {
+    "id": 64,
+    "publication": 1998,
+    "film": "Armageddon",
+    "recettes": "$554,600,000",
+    "recette": 554600000,
+    "genre": 0,
+    "titre": "Armageddon",
+    "idAlloCine": ""
+  },
+  {
+    "id": 65,
+    "publication": 2015,
+    "film": "Cinderella",
+    "recettes": "$542,351,353",
+    "recette": 542351353,
+    "genre": 0,
+    "titre": "Cinderella",
+    "idAlloCine": ""
+  },
+  {
+    "id": 66,
+    "publication": 2008,
+    "film": "WALL-E",
+    "recettes": "$532,508,025",
+    "recette": 532508025,
+    "genre": 0,
+    "titre": "WALL-E",
+    "idAlloCine": 123734
+  },
+  {
+    "id": 67,
+    "publication": 2018,
+    "film": "Ralph Breaks The Internet",
+    "recettes": "$529,290,830",
+    "recette": 529290830,
+    "genre": 0,
+    "titre": "Ralph Breaks The Internet",
+    "idAlloCine": ""
+  },
+  {
+    "id": 68,
+    "publication": 2025,
+    "film": "The Fantastic Four: First Steps",
+    "recettes": "$521,270,127",
+    "recette": 521270127,
+    "genre": 0,
+    "titre": "The Fantastic Four: First Steps",
+    "idAlloCine": 226116
+  },
+  {
+    "id": 69,
+    "publication": 2015,
+    "film": "Ant-Man",
+    "recettes": "$518,858,449",
+    "recette": 518858449,
+    "genre": 0,
+    "titre": "Ant-Man",
+    "idAlloCine": 130438
+  },
+  {
+    "id": 70,
+    "publication": 1999,
+    "film": "Toy Story 2",
+    "recettes": "$511,358,276",
+    "recette": 511358276,
+    "genre": 0,
+    "titre": "Toy Story 2",
+    "idAlloCine": 22323
+  },
+  {
+    "id": 71,
+    "publication": 1992,
+    "film": "Aladdin",
+    "recettes": "$504,050,219",
+    "recette": 504050219,
+    "genre": 0,
+    "titre": "Aladdin",
+    "idAlloCine": 8640
+  },
+  {
+    "id": 72,
+    "publication": 2012,
+    "film": "Wreck-It Ralph",
+    "recettes": "$496,511,521",
+    "recette": 496511521,
+    "genre": 0,
+    "titre": "Wreck-It Ralph",
+    "idAlloCine": 190157
+  },
+  {
+    "id": 73,
+    "publication": 2013,
+    "film": "Oz the Great and Powerful",
+    "recettes": "$490,359,051",
+    "recette": 490359051,
+    "genre": 0,
+    "titre": "Oz the Great and Powerful",
+    "idAlloCine": 180655
+  },
+  {
+    "id": 74,
+    "publication": 2019,
+    "film": "Maleficent: Mistress of Evil",
+    "recettes": "$489,181,357",
+    "recette": 489181357,
+    "genre": 0,
+    "titre": "Maleficent: Mistress of Evil",
+    "idAlloCine": 238623
+  },
+  {
+    "id": 75,
+    "publication": 2023,
+    "film": "Elemental",
+    "recettes": "$484,829,737",
+    "recette": 484829737,
+    "genre": 0,
+    "titre": "Elemental",
+    "idAlloCine": ""
+  },
+  {
+    "id": 76,
+    "publication": 2023,
+    "film": "Ant-Man and the Wasp: Quantumania",
+    "recettes": "$476,073,180",
+    "recette": 476073180,
+    "genre": 0,
+    "titre": "Ant-Man and the Wasp: Quantumania",
+    "idAlloCine": 261724
+  },
+  {
+    "id": 77,
+    "publication": 2006,
+    "film": "Cars",
+    "recettes": "$461,630,558",
+    "recette": 461630558,
+    "genre": 0,
+    "titre": "Cars",
+    "idAlloCine": ""
+  },
+  {
+    "id": 78,
+    "publication": 2007,
+    "film": "National Treasure: Book of Secrets",
+    "recettes": "$457,325,804",
+    "recette": 457325804,
+    "genre": 0,
+    "titre": "National Treasure: Book of Secrets",
+    "idAlloCine": 115682
+  },
+  {
+    "id": 79,
+    "publication": 2001,
+    "film": "Pearl Harbor",
+    "recettes": "$449,239,853",
+    "recette": 449239853,
+    "genre": 0,
+    "titre": "Pearl Harbor",
+    "idAlloCine": ""
+  },
+  {
+    "id": 80,
+    "publication": 1999,
+    "film": "Tarzan",
+    "recettes": "$448,191,819",
+    "recette": 448191819,
+    "genre": 0,
+    "titre": "Tarzan",
+    "idAlloCine": 20645
+  },
+  {
+    "id": 81,
+    "publication": 1991,
+    "film": "Beauty and the Beast",
+    "recettes": "$438,656,843",
+    "recette": 438656843,
+    "genre": 0,
+    "titre": "Beauty and the Beast",
+    "idAlloCine": ""
+  },
+  {
+    "id": 82,
+    "publication": 1990,
+    "film": "Pretty Woman",
+    "recettes": "$432,566,361",
+    "recette": 432566361,
+    "genre": 0,
+    "titre": "Pretty Woman",
+    "idAlloCine": 6200
+  },
+  {
+    "id": 83,
+    "publication": 2021,
+    "film": "Shang-Chi and the Legend of the Ten Rings",
+    "recettes": "$432,224,634",
+    "recette": 432224634,
+    "genre": 0,
+    "titre": "Shang-Chi and the Legend of the Ten Rings",
+    "idAlloCine": 270144
+  },
+  {
+    "id": 84,
+    "publication": 2008,
+    "film": "The Chronicles of Narnia: Prince Caspian",
+    "recettes": "$417,341,288",
+    "recette": 417341288,
+    "genre": 0,
+    "titre": "The Chronicles of Narnia: Prince Caspian",
+    "idAlloCine": 109679
+  },
+  {
+    "id": 85,
+    "publication": 2025,
+    "film": "Captain America: Brave New World",
+    "recettes": "$413,640,021",
+    "recette": 413640021,
+    "genre": 0,
+    "titre": "Captain America: Brave New World",
+    "idAlloCine": 275210
+  },
+  {
+    "id": 86,
+    "publication": 2002,
+    "film": "Signs",
+    "recettes": "$408,250,578",
+    "recette": 408250578,
+    "genre": 0,
+    "titre": "Signs",
+    "idAlloCine": 41010
+  },
+  {
+    "id": 87,
+    "publication": 2021,
+    "film": "Eternals",
+    "recettes": "$401,731,759",
+    "recette": 401731759,
+    "genre": 0,
+    "titre": "Eternals",
+    "idAlloCine": 136316
+  },
+  {
+    "id": 88,
+    "publication": 2010,
+    "film": "Tron: Legacy",
+    "recettes": "$399,866,199",
+    "recette": 399866199,
+    "genre": 0,
+    "titre": "Tron: Legacy",
+    "idAlloCine": 29233
+  },
+  {
+    "id": 89,
+    "publication": 2001,
+    "film": "Spirited Away (千と千尋の神隠し)",
+    "recettes": "$395,802,070",
+    "recette": 395802070,
+    "genre": 0,
+    "titre": "Spirited Away (千と千尋の神隠し)",
+    "idAlloCine": ""
+  },
+  {
+    "id": 90,
+    "publication": 2018,
+    "film": "Solo: A Star Wars Story",
+    "recettes": "$393,151,347",
+    "recette": 393151347,
+    "genre": 0,
+    "titre": "Solo: A Star Wars Story",
+    "idAlloCine": ""
+  },
+  {
+    "id": 91,
+    "publication": 2023,
+    "film": "Indiana Jones and the Dial of Destiny",
+    "recettes": "$383,963,057",
+    "recette": 383963057,
+    "genre": 0,
+    "titre": "Indiana Jones and the Dial of Destiny",
+    "idAlloCine": 180899
+  },
+  {
+    "id": 92,
+    "publication": 2017,
+    "film": "Cars 3",
+    "recettes": "$383,541,369",
+    "recette": 383541369,
+    "genre": 0,
+    "titre": "Cars 3",
+    "idAlloCine": 224799
+  },
+  {
+    "id": 93,
+    "publication": 2025,
+    "film": "Thunderbolts*",
+    "recettes": "$382,436,365",
+    "recette": 382436365,
+    "genre": 0,
+    "titre": "Thunderbolts*",
+    "idAlloCine": 297835
+  },
+  {
+    "id": 94,
+    "publication": 2021,
+    "film": "Black Widow",
+    "recettes": "$379,751,131",
+    "recette": 379751131,
+    "genre": 0,
+    "titre": "Black Widow",
+    "idAlloCine": ""
+  },
+  {
+    "id": 95,
+    "publication": 1995,
+    "film": "Toy Story",
+    "recettes": "$375,370,222",
+    "recette": 375370222,
+    "genre": 0,
+    "titre": "Toy Story",
+    "idAlloCine": 14264
+  },
+  {
+    "id": 96,
+    "publication": 1998,
+    "film": "A Bug’s Life",
+    "recettes": "$363,095,319",
+    "recette": 363095319,
+    "genre": 0,
+    "titre": "A Bug’s Life",
+    "idAlloCine": ""
+  },
+  {
+    "id": 97,
+    "publication": 2000,
+    "film": "Dinosaur",
+    "recettes": "$356,148,063",
+    "recette": 356148063,
+    "genre": 0,
+    "titre": "Dinosaur",
+    "idAlloCine": 27022
+  },
+  {
+    "id": 98,
+    "publication": 2019,
+    "film": "Dumbo",
+    "recettes": "$353,166,307",
+    "recette": 353166307,
+    "genre": 0,
+    "titre": "Dumbo",
+    "idAlloCine": 22037
+  },
+  {
+    "id": 99,
+    "publication": 1988,
+    "film": "Who Framed Roger Rabbit?",
+    "recettes": "$351,500,000",
+    "recette": 351500000,
+    "genre": 0,
+    "titre": "Who Framed Roger Rabbit?",
+    "idAlloCine": ""
+  },
+  {
+    "id": 100,
+    "publication": 1995,
+    "film": "Pocahontas",
+    "recettes": "$347,100,000",
+    "recette": 347100000,
+    "genre": 0,
+    "titre": "Pocahontas",
+    "idAlloCine": 13342
+  },
+  {
+    "id": 101,
+    "publication": 2018,
+    "film": "Mary Poppins Returns",
+    "recettes": "$345,606,500",
+    "recette": 345606500,
+    "genre": 0,
+    "titre": "Mary Poppins Returns",
+    "idAlloCine": 240987
+  },
+  {
+    "id": 102,
+    "publication": 2007,
+    "film": "Enchanted",
+    "recettes": "$340,384,141",
+    "recette": 340384141,
+    "genre": 0,
+    "titre": "Enchanted",
+    "idAlloCine": ""
+  },
+  {
+    "id": 103,
+    "publication": 2010,
+    "film": "Prince of Persia: Sands of Time",
+    "recettes": "$336,359,676",
+    "recette": 336359676,
+    "genre": 0,
+    "titre": "Prince of Persia: Sands of Time",
+    "idAlloCine": ""
+  },
+  {
+    "id": 104,
+    "publication": 1996,
+    "film": "The Rock",
+    "recettes": "$336,069,511",
+    "recette": 336069511,
+    "genre": 0,
+    "titre": "The Rock",
+    "idAlloCine": 31426
+  },
+  {
+    "id": 105,
+    "publication": 2015,
+    "film": "The Good Dinosaur",
+    "recettes": "$333,771,037",
+    "recette": 333771037,
+    "genre": 0,
+    "titre": "The Good Dinosaur",
+    "idAlloCine": 195350
+  },
+  {
+    "id": 106,
+    "publication": 2004,
+    "film": "National Treasure",
+    "recettes": "$331,323,410",
+    "recette": 331323410,
+    "genre": 0,
+    "titre": "National Treasure",
+    "idAlloCine": 53023
+  },
+  {
+    "id": 107,
+    "publication": 2008,
+    "film": "Bolt",
+    "recettes": "$328,015,029",
+    "recette": 328015029,
+    "genre": 0,
+    "titre": "Bolt",
+    "idAlloCine": 132846
+  },
+  {
+    "id": 108,
+    "publication": 1996,
+    "film": "The Hunchback of Notre Dame",
+    "recettes": "$325,500,000",
+    "recette": 325500000,
+    "genre": 0,
+    "titre": "The Hunchback of Notre Dame",
+    "idAlloCine": ""
+  },
+  {
+    "id": 109,
+    "publication": 2009,
+    "film": "Disney’s A Christmas Carol",
+    "recettes": "$315,709,697",
+    "recette": 315709697,
+    "genre": 0,
+    "titre": "Disney’s A Christmas Carol",
+    "idAlloCine": ""
+  },
+  {
+    "id": 110,
+    "publication": 2009,
+    "film": "The Proposal",
+    "recettes": "$314,709,717",
+    "recette": 314709717,
+    "genre": 0,
+    "titre": "The Proposal",
+    "idAlloCine": ""
+  },
+  {
+    "id": 111,
+    "publication": 2005,
+    "film": "Chicken Little",
+    "recettes": "$310,043,823",
+    "recette": 310043823,
+    "genre": 0,
+    "titre": "Chicken Little",
+    "idAlloCine": ""
+  },
+  {
+    "id": 112,
+    "publication": 1996,
+    "film": "Ransom",
+    "recettes": "$308,700,000",
+    "recette": 308700000,
+    "genre": 0,
+    "titre": "Ransom",
+    "idAlloCine": ""
+  },
+  {
+    "id": 113,
+    "publication": 1996,
+    "film": "101 Dalmatians",
+    "recettes": "$304,200,000",
+    "recette": 304200000,
+    "genre": 0,
+    "titre": "101 Dalmatians",
+    "idAlloCine": 13534
+  },
+  {
+    "id": 114,
+    "publication": 1998,
+    "film": "Mulan",
+    "recettes": "$303,500,000",
+    "recette": 303500000,
+    "genre": 0,
+    "titre": "Mulan",
+    "idAlloCine": 18793
+  },
+  {
+    "id": 115,
+    "publication": 2009,
+    "film": "G-Force",
+    "recettes": "$292,817,841",
+    "recette": 292817841,
+    "genre": 0,
+    "titre": "G-Force",
+    "idAlloCine": 131016
+  },
+  {
+    "id": 116,
+    "publication": 2012,
+    "film": "John Carter",
+    "recettes": "$282,778,100",
+    "recette": 282778100,
+    "genre": 0,
+    "titre": "John Carter",
+    "idAlloCine": 137263
+  },
+  {
+    "id": 117,
+    "publication": 2016,
+    "film": "Alice Through the Looking Glass",
+    "recettes": "$276,928,112",
+    "recette": 276928112,
+    "genre": 0,
+    "titre": "Alice Through the Looking Glass",
+    "idAlloCine": 221904
+  },
+  {
+    "id": 118,
+    "publication": 2008,
+    "film": "High School Musical 3: Senior Year",
+    "recettes": "$274,392,880",
+    "recette": 274392880,
+    "genre": 0,
+    "titre": "High School Musical 3: Senior Year",
+    "idAlloCine": 132786
+  },
+  {
+    "id": 119,
+    "publication": 2012,
+    "film": "Lincoln",
+    "recettes": "$273,346,281",
+    "recette": 273346281,
+    "genre": 0,
+    "titre": "Lincoln",
+    "idAlloCine": ""
+  },
+  {
+    "id": 120,
+    "publication": 2009,
+    "film": "The Princess and the Frog",
+    "recettes": "$270,997,378",
+    "recette": 270997378,
+    "genre": 0,
+    "titre": "The Princess and the Frog",
+    "idAlloCine": 129003
+  },
+  {
+    "id": 121,
+    "publication": 2011,
+    "film": "Real Steel",
+    "recettes": "$263,880,341",
+    "recette": 263880341,
+    "genre": 0,
+    "titre": "Real Steel",
+    "idAlloCine": 172808
+  },
+  {
+    "id": 122,
+    "publication": 1950,
+    "film": "Cinderella",
+    "recettes": "$263,591,415",
+    "recette": 263591415,
+    "genre": 0,
+    "titre": "Cinderella",
+    "idAlloCine": ""
+  },
+  {
+    "id": 123,
+    "publication": 2013,
+    "film": "The Lone Ranger",
+    "recettes": "$260,002,115",
+    "recette": 260002115,
+    "genre": 0,
+    "titre": "The Lone Ranger",
+    "idAlloCine": 135256
+  },
+  {
+    "id": 124,
+    "publication": 2004,
+    "film": "The Village",
+    "recettes": "$257,641,634",
+    "recette": 257641634,
+    "genre": 0,
+    "titre": "The Village",
+    "idAlloCine": ""
+  },
+  {
+    "id": 125,
+    "publication": 2007,
+    "film": "Wild Hogs",
+    "recettes": "$253,555,383",
+    "recette": 253555383,
+    "genre": 0,
+    "titre": "Wild Hogs",
+    "idAlloCine": 110242
+  },
+  {
+    "id": 126,
+    "publication": 1997,
+    "film": "Hercules",
+    "recettes": "$250,700,000",
+    "recette": 250700000,
+    "genre": 0,
+    "titre": "Hercules",
+    "idAlloCine": ""
+  },
+  {
+    "id": 127,
+    "publication": 1998,
+    "film": "Enemy of the State",
+    "recettes": "$250,649,836",
+    "recette": 250649836,
+    "genre": 0,
+    "titre": "Enemy of the State",
+    "idAlloCine": ""
+  },
+  {
+    "id": 128,
+    "publication": 2003,
+    "film": "Brother Bear",
+    "recettes": "$250,397,798",
+    "recette": 250397798,
+    "genre": 0,
+    "titre": "Brother Bear",
+    "idAlloCine": 51506
+  },
+  {
+    "id": 129,
+    "publication": 2000,
+    "film": "Unbreakable",
+    "recettes": "$248,099,143",
+    "recette": 248099143,
+    "genre": 0,
+    "titre": "Unbreakable",
+    "idAlloCine": 27792
+  },
+  {
+    "id": 130,
+    "publication": 2002,
+    "film": "Lilo & Stitch",
+    "recettes": "$245,799,997",
+    "recette": 245799997,
+    "genre": 0,
+    "titre": "Lilo &amp; Stitch",
+    "idAlloCine": 35143
+  },
+  {
+    "id": 131,
+    "publication": 2004,
+    "film": "Howl’s Moving Castle (ハウルの動く城)",
+    "recettes": "$239,589,856",
+    "recette": 239589856,
+    "genre": 0,
+    "titre": "Howl’s Moving Castle (ハウルの動く城)",
+    "idAlloCine": ""
+  },
+  {
+    "id": 132,
+    "publication": 1989,
+    "film": "Dead Poets Society",
+    "recettes": "$239,500,000",
+    "recette": 239500000,
+    "genre": 0,
+    "titre": "Dead Poets Society",
+    "idAlloCine": 5280
+  },
+  {
+    "id": 133,
+    "publication": 2013,
+    "film": "Disney Planes",
+    "recettes": "$238,059,569",
+    "recette": 238059569,
+    "genre": 0,
+    "titre": "Disney Planes",
+    "idAlloCine": ""
+  },
+  {
+    "id": 134,
+    "publication": 2023,
+    "film": "Wish",
+    "recettes": "$237,954,897",
+    "recette": 237954897,
+    "genre": 0,
+    "titre": "Wish",
+    "idAlloCine": ""
+  },
+  {
+    "id": 135,
+    "publication": 2000,
+    "film": "Gone in 60 Seconds",
+    "recettes": "$232,643,008",
+    "recette": 232643008,
+    "genre": 0,
+    "titre": "Gone in 60 Seconds",
+    "idAlloCine": 25532
+  },
+  {
+    "id": 136,
+    "publication": 1992,
+    "film": "Sister Act",
+    "recettes": "$231,600,000",
+    "recette": 231600000,
+    "genre": 0,
+    "titre": "Sister Act",
+    "idAlloCine": 28351
+  },
+  {
+    "id": 137,
+    "publication": 2021,
+    "film": "Encanto",
+    "recettes": "$230,815,162",
+    "recette": 230815162,
+    "genre": 0,
+    "titre": "Encanto",
+    "idAlloCine": ""
+  },
+  {
+    "id": 138,
+    "publication": 2021,
+    "film": "Cruella",
+    "recettes": "$225,810,063",
+    "recette": 225810063,
+    "genre": 0,
+    "titre": "Cruella",
+    "idAlloCine": 224395
+  },
+  {
+    "id": 139,
+    "publication": 1997,
+    "film": "Con Air",
+    "recettes": "$224,117,573",
+    "recette": 224117573,
+    "genre": 0,
+    "titre": "Con Air",
+    "idAlloCine": 10555
+  },
+  {
+    "id": 140,
+    "publication": 1989,
+    "film": "Honey, I Shrunk the Kids",
+    "recettes": "$222,700,000",
+    "recette": 222700000,
+    "genre": 0,
+    "titre": "Honey, I Shrunk the Kids",
+    "idAlloCine": 5408
+  },
+  {
+    "id": 141,
+    "publication": 1989,
+    "film": "The Little Mermaid",
+    "recettes": "$222,267,613",
+    "recette": 222267613,
+    "genre": 0,
+    "titre": "The Little Mermaid",
+    "idAlloCine": ""
+  },
+  {
+    "id": 142,
+    "publication": 2008,
+    "film": "Bedtime Stories",
+    "recettes": "$221,468,935",
+    "recette": 221468935,
+    "genre": 0,
+    "titre": "Bedtime Stories",
+    "idAlloCine": 126259
+  },
+  {
+    "id": 143,
+    "publication": 2022,
+    "film": "Lightyear",
+    "recettes": "$218,878,024",
+    "recette": 218878024,
+    "genre": 0,
+    "titre": "Lightyear",
+    "idAlloCine": 288842
+  },
+  {
+    "id": 144,
+    "publication": 2010,
+    "film": "The Sorcerer’s Apprentice",
+    "recettes": "$217,986,320",
+    "recette": 217986320,
+    "genre": 0,
+    "titre": "The Sorcerer’s Apprentice",
+    "idAlloCine": ""
+  },
+  {
+    "id": 145,
+    "publication": 2005,
+    "film": "Flightplan",
+    "recettes": "$214,392,904",
+    "recette": 214392904,
+    "genre": 0,
+    "titre": "Flightplan",
+    "idAlloCine": 56996
+  },
+  {
+    "id": 146,
+    "publication": 2011,
+    "film": "The Help",
+    "recettes": "$213,120,004",
+    "recette": 213120004,
+    "genre": 0,
+    "titre": "The Help",
+    "idAlloCine": ""
+  },
+  {
+    "id": 147,
+    "publication": 2014,
+    "film": "Into the Woods",
+    "recettes": "$212,416,317",
+    "recette": 212416317,
+    "genre": 0,
+    "titre": "Into the Woods",
+    "idAlloCine": ""
+  },
+  {
+    "id": 148,
+    "publication": 2021,
+    "film": "Jungle Cruise",
+    "recettes": "$210,469,803",
+    "recette": 210469803,
+    "genre": 0,
+    "titre": "Jungle Cruise",
+    "idAlloCine": 57197
+  },
+  {
+    "id": 149,
+    "publication": 2015,
+    "film": "Tomorrowland",
+    "recettes": "$206,627,518",
+    "recette": 206627518,
+    "genre": 0,
+    "titre": "Tomorrowland",
+    "idAlloCine": ""
+  },
+  {
+    "id": 150,
+    "publication": 2025,
+    "film": "Disney’s Snow White",
+    "recettes": "$205,679,463",
+    "recette": 205679463,
+    "genre": 0,
+    "titre": "Disney’s Snow White",
+    "idAlloCine": ""
+  },
+  {
+    "id": 151,
+    "publication": 2008,
+    "film": "Ponyo (崖の上のポニョ)",
+    "recettes": "$205,162,666",
+    "recette": 205162666,
+    "genre": 0,
+    "titre": "Ponyo (崖の上のポニョ)",
+    "idAlloCine": ""
+  },
+  {
+    "id": 152,
+    "publication": 2004,
+    "film": "King Arthur",
+    "recettes": "$203,653,524",
+    "recette": 203653524,
+    "genre": 0,
+    "titre": "King Arthur",
+    "idAlloCine": ""
+  },
+  {
+    "id": 153,
+    "publication": 2023,
+    "film": "The Marvels",
+    "recettes": "$199,706,250",
+    "recette": 199706250,
+    "genre": 0,
+    "titre": "The Marvels",
+    "idAlloCine": 272433
+  },
+  {
+    "id": 154,
+    "publication": 2016,
+    "film": "The BFG",
+    "recettes": "$199,646,680",
+    "recette": 199646680,
+    "genre": 0,
+    "titre": "The BFG",
+    "idAlloCine": ""
+  },
+  {
+    "id": 155,
+    "publication": 2005,
+    "film": "The Pacifier",
+    "recettes": "$198,006,880",
+    "recette": 198006880,
+    "genre": 0,
+    "titre": "The Pacifier",
+    "idAlloCine": 55106
+  },
+  {
+    "id": 156,
+    "publication": 2018,
+    "film": "Christopher Robin",
+    "recettes": "$197,744,377",
+    "recette": 197744377,
+    "genre": 0,
+    "titre": "Christopher Robin",
+    "idAlloCine": 251837
+  },
+  {
+    "id": 157,
+    "publication": 2014,
+    "film": "Need for Speed",
+    "recettes": "$194,169,619",
+    "recette": 194169619,
+    "genre": 0,
+    "titre": "Need for Speed",
+    "idAlloCine": ""
+  },
+  {
+    "id": 158,
+    "publication": 2011,
+    "film": "Gnomeo and Juliet",
+    "recettes": "$193,737,977",
+    "recette": 193737977,
+    "genre": 0,
+    "titre": "Gnomeo and Juliet",
+    "idAlloCine": 204576
+  },
+  {
+    "id": 159,
+    "publication": 1970,
+    "film": "The Aristocats",
+    "recettes": "$191,000,000",
+    "recette": 191000000,
+    "genre": 0,
+    "titre": "The Aristocats",
+    "idAlloCine": 96
+  },
+  {
+    "id": 160,
+    "publication": 1994,
+    "film": "The Santa Clause",
+    "recettes": "$190,506,000",
+    "recette": 190506000,
+    "genre": 0,
+    "titre": "The Santa Clause",
+    "idAlloCine": 13564
+  },
+  {
+    "id": 161,
+    "publication": 1998,
+    "film": "The Waterboy",
+    "recettes": "$190,191,646",
+    "recette": 190191646,
+    "genre": 0,
+    "titre": "The Waterboy",
+    "idAlloCine": 9239
+  },
+  {
+    "id": 162,
+    "publication": 1937,
+    "film": "Snow White and the Seven Dwarfs",
+    "recettes": "$187,171,725",
+    "recette": 187171725,
+    "genre": 0,
+    "titre": "Snow White and the Seven Dwarfs",
+    "idAlloCine": 27524
+  },
+  {
+    "id": 163,
+    "publication": 1998,
+    "film": "The Horse Whisperer",
+    "recettes": "$186,883,563",
+    "recette": 186883563,
+    "genre": 0,
+    "titre": "The Horse Whisperer",
+    "idAlloCine": ""
+  },
+  {
+    "id": 164,
+    "publication": 2001,
+    "film": "Atlantis: The Lost Empire",
+    "recettes": "$186,049,020",
+    "recette": 186049020,
+    "genre": 0,
+    "titre": "Atlantis: The Lost Empire",
+    "idAlloCine": 25756
+  },
+  {
+    "id": 165,
+    "publication": 2002,
+    "film": "Sweet Home Alabama",
+    "recettes": "$182,365,114",
+    "recette": 182365114,
+    "genre": 0,
+    "titre": "Sweet Home Alabama",
+    "idAlloCine": 29063
+  },
+  {
+    "id": 166,
+    "publication": 1995,
+    "film": "While You Were Sleeping",
+    "recettes": "$182,057,016",
+    "recette": 182057016,
+    "genre": 0,
+    "titre": "While You Were Sleeping",
+    "idAlloCine": 32608
+  },
+  {
+    "id": 167,
+    "publication": 2006,
+    "film": "Déjà Vu",
+    "recettes": "$181,038,616",
+    "recette": 181038616,
+    "genre": 0,
+    "titre": "Déjà Vu",
+    "idAlloCine": ""
+  },
+  {
+    "id": 168,
+    "publication": 1995,
+    "film": "Dangerous Minds",
+    "recettes": "$178,919,401",
+    "recette": 178919401,
+    "genre": 0,
+    "titre": "Dangerous Minds",
+    "idAlloCine": 44902
+  },
+  {
+    "id": 169,
+    "publication": 1997,
+    "film": "Flubber",
+    "recettes": "$177,993,801",
+    "recette": 177993801,
+    "genre": 0,
+    "titre": "Flubber",
+    "idAlloCine": 16875
+  },
+  {
+    "id": 170,
+    "publication": 1997,
+    "film": "George Of The Jungle",
+    "recettes": "$174,463,257",
+    "recette": 174463257,
+    "genre": 0,
+    "titre": "George Of The Jungle",
+    "idAlloCine": ""
+  },
+  {
+    "id": 171,
+    "publication": 2002,
+    "film": "The Santa Clause 2",
+    "recettes": "$172,844,592",
+    "recette": 172844592,
+    "genre": 0,
+    "titre": "The Santa Clause 2",
+    "idAlloCine": 41515
+  },
+  {
+    "id": 172,
+    "publication": 2007,
+    "film": "Meet the Robinsons",
+    "recettes": "$170,552,719",
+    "recette": 170552719,
+    "genre": 0,
+    "titre": "Meet the Robinsons",
+    "idAlloCine": 60249
+  },
+  {
+    "id": 173,
+    "publication": 2018,
+    "film": "The Nutcracker and the Four Realms",
+    "recettes": "$170,024,300",
+    "recette": 170024300,
+    "genre": 0,
+    "titre": "The Nutcracker and the Four Realms",
+    "idAlloCine": 245656
+  },
+  {
+    "id": 174,
+    "publication": 2000,
+    "film": "The Emperor’s New Groove",
+    "recettes": "$169,630,573",
+    "recette": 169630573,
+    "genre": 0,
+    "titre": "The Emperor’s New Groove",
+    "idAlloCine": ""
+  },
+  {
+    "id": 175,
+    "publication": 2009,
+    "film": "Hannah Montana: The Movie",
+    "recettes": "$169,173,206",
+    "recette": 169173206,
+    "genre": 0,
+    "titre": "Hannah Montana: The Movie",
+    "idAlloCine": 136571
+  },
+  {
+    "id": 176,
+    "publication": 1987,
+    "film": "3 Men and a Baby",
+    "recettes": "$167,780,960",
+    "recette": 167780960,
+    "genre": 0,
+    "titre": "3 Men and a Baby",
+    "idAlloCine": ""
+  },
+  {
+    "id": 177,
+    "publication": 2010,
+    "film": "Step Up 3D",
+    "recettes": "$165,889,117",
+    "recette": 165889117,
+    "genre": 0,
+    "titre": "Step Up 3D",
+    "idAlloCine": 134514
+  },
+  {
+    "id": 178,
+    "publication": 2001,
+    "film": "The Princess Diaries",
+    "recettes": "$165,334,774",
+    "recette": 165334774,
+    "genre": 0,
+    "titre": "The Princess Diaries",
+    "idAlloCine": ""
+  },
+  {
+    "id": 179,
+    "publication": 1998,
+    "film": "Six Days, Seven Nights",
+    "recettes": "$164,800,000",
+    "recette": 164800000,
+    "genre": 0,
+    "titre": "Six Days, Seven Nights",
+    "idAlloCine": 31996
+  },
+  {
+    "id": 180,
+    "publication": 2003,
+    "film": "Bringing Down the House",
+    "recettes": "$164,675,402",
+    "recette": 164675402,
+    "genre": 0,
+    "titre": "Bringing Down the House",
+    "idAlloCine": ""
+  },
+  {
+    "id": 181,
+    "publication": 1990,
+    "film": "Dick Tracy",
+    "recettes": "$162,738,726",
+    "recette": 162738726,
+    "genre": 0,
+    "titre": "Dick Tracy",
+    "idAlloCine": 6002
+  },
+  {
+    "id": 182,
+    "publication": 2015,
+    "film": "Bridge of Spies",
+    "recettes": "$162,498,338",
+    "recette": 162498338,
+    "genre": 0,
+    "titre": "Bridge of Spies",
+    "idAlloCine": ""
+  },
+  {
+    "id": 183,
+    "publication": 2003,
+    "film": "Freaky Friday",
+    "recettes": "$160,822,438",
+    "recette": 160822438,
+    "genre": 0,
+    "titre": "Freaky Friday",
+    "idAlloCine": 54683
+  },
+  {
+    "id": 184,
+    "publication": 2011,
+    "film": "The Muppets",
+    "recettes": "$160,461,952",
+    "recette": 160461952,
+    "genre": 0,
+    "titre": "The Muppets",
+    "idAlloCine": 134931
+  },
+  {
+    "id": 185,
+    "publication": 1995,
+    "film": "Crimson Tide",
+    "recettes": "$159,387,195",
+    "recette": 159387195,
+    "genre": 0,
+    "titre": "Crimson Tide",
+    "idAlloCine": 13015
+  },
+  {
+    "id": 186,
+    "publication": 2011,
+    "film": "War Horse",
+    "recettes": "$156,815,529",
+    "recette": 156815529,
+    "genre": 0,
+    "titre": "War Horse",
+    "idAlloCine": ""
+  },
+  {
+    "id": 187,
+    "publication": 2014,
+    "film": "Planes: Fire and Rescue",
+    "recettes": "$156,399,644",
+    "recette": 156399644,
+    "genre": 0,
+    "titre": "Planes: Fire and Rescue",
+    "idAlloCine": ""
+  },
+  {
+    "id": 188,
+    "publication": 2003,
+    "film": "The Haunted Mansion",
+    "recettes": "$155,750,628",
+    "recette": 155750628,
+    "genre": 0,
+    "titre": "The Haunted Mansion",
+    "idAlloCine": 44237
+  },
+  {
+    "id": 189,
+    "publication": 1993,
+    "film": "Cool Runnings",
+    "recettes": "$155,008,909",
+    "recette": 155008909,
+    "genre": 0,
+    "titre": "Cool Runnings",
+    "idAlloCine": 9895
+  },
+  {
+    "id": 190,
+    "publication": 2025,
+    "film": "Elio",
+    "recettes": "$154,287,611",
+    "recette": 154287611,
+    "genre": 0,
+    "titre": "Elio",
+    "idAlloCine": 289168
+  },
+  {
+    "id": 191,
+    "publication": 2008,
+    "film": "Beverly Hills Chihuahua",
+    "recettes": "$154,218,168",
+    "recette": 154218168,
+    "genre": 0,
+    "titre": "Beverly Hills Chihuahua",
+    "idAlloCine": 127951
+  },
+  {
+    "id": 192,
+    "publication": 1961,
+    "film": "101 Dalmatians",
+    "recettes": "$153,302,565",
+    "recette": 153302565,
+    "genre": 0,
+    "titre": "101 Dalmatians",
+    "idAlloCine": 13534
+  },
+  {
+    "id": 193,
+    "publication": 2025,
+    "film": "Freakier Friday",
+    "recettes": "$152,253,725",
+    "recette": 152253725,
+    "genre": 0,
+    "titre": "Freakier Friday",
+    "idAlloCine": 316125
+  },
+  {
+    "id": 194,
+    "publication": 1996,
+    "film": "Phenomenon",
+    "recettes": "$152,036,382",
+    "recette": 152036382,
+    "genre": 0,
+    "titre": "Phenomenon",
+    "idAlloCine": 15285
+  },
+  {
+    "id": 195,
+    "publication": 1996,
+    "film": "Evita",
+    "recettes": "$151,947,179",
+    "recette": 151947179,
+    "genre": 0,
+    "titre": "Evita",
+    "idAlloCine": 25861
+  },
+  {
+    "id": 196,
+    "publication": 2012,
+    "film": "Arrietty (借りぐらしのアリエッティ)",
+    "recettes": "$151,496,097",
+    "recette": 151496097,
+    "genre": 0,
+    "titre": "Arrietty (借りぐらしのアリエッティ)",
+    "idAlloCine": ""
+  },
+  {
+    "id": 197,
+    "publication": 2008,
+    "film": "Step Up 2 the Streets",
+    "recettes": "$148,586,910",
+    "recette": 148586910,
+    "genre": 0,
+    "titre": "Step Up 2 the Streets",
+    "idAlloCine": ""
+  },
+  {
+    "id": 198,
+    "publication": 2007,
+    "film": "The Game Plan",
+    "recettes": "$146,590,987",
+    "recette": 146590987,
+    "genre": 0,
+    "titre": "The Game Plan",
+    "idAlloCine": 119357
+  },
+  {
+    "id": 199,
+    "publication": 2011,
+    "film": "I am Number Four",
+    "recettes": "$146,195,159",
+    "recette": 146195159,
+    "genre": 0,
+    "titre": "I am Number Four",
+    "idAlloCine": ""
+  },
+  {
+    "id": 200,
+    "publication": 2005,
+    "film": "Herbie: Fully Loaded",
+    "recettes": "$144,110,682",
+    "recette": 144110682,
+    "genre": 0,
+    "titre": "Herbie: Fully Loaded",
+    "idAlloCine": 57736
+  },
+  {
+    "id": 201,
+    "publication": 1967,
+    "film": "The Jungle Book",
+    "recettes": "$141,843,000",
+    "recette": 141843000,
+    "genre": 0,
+    "titre": "The Jungle Book",
+    "idAlloCine": ""
+  },
+  {
+    "id": 202,
+    "publication": 2003,
+    "film": "The Jungle Book 2",
+    "recettes": "$139,924,202",
+    "recette": 139924202,
+    "genre": 0,
+    "titre": "The Jungle Book 2",
+    "idAlloCine": 48100
+  },
+  {
+    "id": 203,
+    "publication": 2007,
+    "film": "Bridge to Terabithia",
+    "recettes": "$137,984,788",
+    "recette": 137984788,
+    "genre": 0,
+    "titre": "Bridge to Terabithia",
+    "idAlloCine": ""
+  },
+  {
+    "id": 204,
+    "publication": 2016,
+    "film": "Pete’s Dragon",
+    "recettes": "$137,768,975",
+    "recette": 137768975,
+    "genre": 0,
+    "titre": "Pete’s Dragon",
+    "idAlloCine": ""
+  },
+  {
+    "id": 205,
+    "publication": 2000,
+    "film": "Remember the Titans",
+    "recettes": "$136,771,683",
+    "recette": 136771683,
+    "genre": 0,
+    "titre": "Remember the Titans",
+    "idAlloCine": 27445
+  },
+  {
+    "id": 206,
+    "publication": 2004,
+    "film": "The Princess Diaries 2: Royal Engagement",
+    "recettes": "$134,713,435",
+    "recette": 134713435,
+    "genre": 0,
+    "titre": "The Princess Diaries 2: Royal Engagement",
+    "idAlloCine": 50883
+  },
+  {
+    "id": 207,
+    "publication": 2020,
+    "film": "Onward",
+    "recettes": "$133,357,601",
+    "recette": 133357601,
+    "genre": 0,
+    "titre": "Onward",
+    "idAlloCine": 251353
+  },
+  {
+    "id": 208,
+    "publication": 2018,
+    "film": "A Wrinkle in Time",
+    "recettes": "$133,214,549",
+    "recette": 133214549,
+    "genre": 0,
+    "titre": "A Wrinkle in Time",
+    "idAlloCine": ""
+  },
+  {
+    "id": 209,
+    "publication": 1987,
+    "film": "Good Morning Vietnam",
+    "recettes": "$123,922,582",
+    "recette": 123922582,
+    "genre": 0,
+    "titre": "Good Morning Vietnam",
+    "idAlloCine": ""
+  },
+  {
+    "id": 210,
+    "publication": 2006,
+    "film": "Apocalypto",
+    "recettes": "$121,032,272",
+    "recette": 121032272,
+    "genre": 0,
+    "titre": "Apocalypto",
+    "idAlloCine": 61676
+  },
+  {
+    "id": 211,
+    "publication": 2006,
+    "film": "Eight Below",
+    "recettes": "$120,455,994",
+    "recette": 120455994,
+    "genre": 0,
+    "titre": "Eight Below",
+    "idAlloCine": 59351
+  },
+  {
+    "id": 212,
+    "publication": 2013,
+    "film": "The Wind Rises (風立ちぬ)",
+    "recettes": "$120,155,441",
+    "recette": 120155441,
+    "genre": 0,
+    "titre": "The Wind Rises (風立ちぬ)",
+    "idAlloCine": ""
+  },
+  {
+    "id": 213,
+    "publication": 2020,
+    "film": "Soul",
+    "recettes": "$120,068,830",
+    "recette": 120068830,
+    "genre": 0,
+    "titre": "Soul",
+    "idAlloCine": 251354
+  },
+  {
+    "id": 214,
+    "publication": 2009,
+    "film": "Surrogates",
+    "recettes": "$119,668,350",
+    "recette": 119668350,
+    "genre": 0,
+    "titre": "Surrogates",
+    "idAlloCine": 127136
+  },
+  {
+    "id": 215,
+    "publication": 2023,
+    "film": "Haunted Mansion",
+    "recettes": "$117,449,790",
+    "recette": 117449790,
+    "genre": 0,
+    "titre": "Haunted Mansion",
+    "idAlloCine": ""
+  },
+  {
+    "id": 216,
+    "publication": 2002,
+    "film": "Snow Dogs",
+    "recettes": "$116,898,028",
+    "recette": 116898028,
+    "genre": 0,
+    "titre": "Snow Dogs",
+    "idAlloCine": 35788
+  },
+  {
+    "id": 217,
+    "publication": 2009,
+    "film": "Earth",
+    "recettes": "$116,773,317",
+    "recette": 116773317,
+    "genre": 0,
+    "titre": "Earth",
+    "idAlloCine": ""
+  },
+  {
+    "id": 218,
+    "publication": 2021,
+    "film": "Raya and the Last Dragon",
+    "recettes": "$116,203,928",
+    "recette": 116203928,
+    "genre": 0,
+    "titre": "Raya and the Last Dragon",
+    "idAlloCine": 265028
+  },
+  {
+    "id": 219,
+    "publication": 2013,
+    "film": "Saving Mr. Banks",
+    "recettes": "$114,962,525",
+    "recette": 114962525,
+    "genre": 0,
+    "titre": "Saving Mr. Banks",
+    "idAlloCine": 204100
+  },
+  {
+    "id": 220,
+    "publication": 2000,
+    "film": "Coyote Ugly",
+    "recettes": "$113,916,474",
+    "recette": 113916474,
+    "genre": 0,
+    "titre": "Coyote Ugly",
+    "idAlloCine": 26353
+  },
+  {
+    "id": 221,
+    "publication": 1995,
+    "film": "Judge Dredd",
+    "recettes": "$113,487,912",
+    "recette": 113487912,
+    "genre": 0,
+    "titre": "Judge Dredd",
+    "idAlloCine": 13005
+  },
+  {
+    "id": 222,
+    "publication": 2006,
+    "film": "Step Up",
+    "recettes": "$110,989,157",
+    "recette": 110989157,
+    "genre": 0,
+    "titre": "Step Up",
+    "idAlloCine": 111632
+  },
+  {
+    "id": 223,
+    "publication": 2000,
+    "film": "Mission to Mars",
+    "recettes": "$110,974,615",
+    "recette": 110974615,
+    "genre": 0,
+    "titre": "Mission to Mars",
+    "idAlloCine": 24365
+  },
+  {
+    "id": 224,
+    "publication": 2002,
+    "film": "Peter Pan: Return to Neverland",
+    "recettes": "$109,862,682",
+    "recette": 109862682,
+    "genre": 0,
+    "titre": "Peter Pan: Return to Neverland",
+    "idAlloCine": ""
+  },
+  {
+    "id": 225,
+    "publication": 2004,
+    "film": "Hidalgo",
+    "recettes": "$108,086,731",
+    "recette": 108086731,
+    "genre": 0,
+    "titre": "Hidalgo",
+    "idAlloCine": 42152
+  },
+  {
+    "id": 226,
+    "publication": 2009,
+    "film": "Confessions of a Shopaholic",
+    "recettes": "$108,027,701",
+    "recette": 108027701,
+    "genre": 0,
+    "titre": "Confessions of a Shopaholic",
+    "idAlloCine": 130604
+  },
+  {
+    "id": 227,
+    "publication": 2006,
+    "film": "The Santa Clause 3: The Escape Clause",
+    "recettes": "$107,500,122",
+    "recette": 107500122,
+    "genre": 0,
+    "titre": "The Santa Clause 3: The Escape Clause",
+    "idAlloCine": 75996
+  },
+  {
+    "id": 228,
+    "publication": 1995,
+    "film": "Mr. Holland’s Opus",
+    "recettes": "$106,282,604",
+    "recette": 106282604,
+    "genre": 0,
+    "titre": "Mr. Holland’s Opus",
+    "idAlloCine": ""
+  },
+  {
+    "id": 229,
+    "publication": 2009,
+    "film": "Race to Witch Mountain",
+    "recettes": "$105,103,784",
+    "recette": 105103784,
+    "genre": 0,
+    "titre": "Race to Witch Mountain",
+    "idAlloCine": 130201
+  },
+  {
+    "id": 230,
+    "publication": 2006,
+    "film": "The Prestige",
+    "recettes": "$104,407,366",
+    "recette": 104407366,
+    "genre": 0,
+    "titre": "The Prestige",
+    "idAlloCine": ""
+  },
+  {
+    "id": 231,
+    "publication": 2005,
+    "film": "The Hitchhiker’s Guide to the Galaxy",
+    "recettes": "$102,746,214",
+    "recette": 102746214,
+    "genre": 0,
+    "titre": "The Hitchhiker’s Guide to the Galaxy",
+    "idAlloCine": ""
+  },
+  {
+    "id": 232,
+    "publication": 2004,
+    "film": "Ladder 49",
+    "recettes": "$102,332,848",
+    "recette": 102332848,
+    "genre": 0,
+    "titre": "Ladder 49",
+    "idAlloCine": 48875
+  },
+  {
+    "id": 233,
+    "publication": 1964,
+    "film": "Mary Poppins",
+    "recettes": "$102,299,101",
+    "recette": 102299101,
+    "genre": 0,
+    "titre": "Mary Poppins",
+    "idAlloCine": 426
+  },
+  {
+    "id": 234,
+    "publication": 2014,
+    "film": "Alexander and the Terrible, Horrible, No Good, …",
+    "recettes": "$101,379,287",
+    "recette": 101379287,
+    "genre": 0,
+    "titre": "Alexander and the Terrible, Horrible, No Good, …",
+    "idAlloCine": ""
+  },
+  {
+    "id": 235,
+    "publication": 2003,
+    "film": "The Recruit",
+    "recettes": "$101,174,440",
+    "recette": 101174440,
+    "genre": 0,
+    "titre": "The Recruit",
+    "idAlloCine": ""
+  },
+  {
+    "id": 236,
+    "publication": 1996,
+    "film": "Up Close & Personal",
+    "recettes": "$100,645,801",
+    "recette": 100645801,
+    "genre": 0,
+    "titre": "Up Close &amp; Personal",
+    "idAlloCine": 14871
+  },
+  {
+    "id": 237,
+    "publication": 2006,
+    "film": "The Wild",
+    "recettes": "$99,010,667",
+    "recette": 99010667,
+    "genre": 0,
+    "titre": "The Wild",
+    "idAlloCine": ""
+  },
+  {
+    "id": 238,
+    "publication": 1999,
+    "film": "Inspector Gadget",
+    "recettes": "$97,387,965",
+    "recette": 97387965,
+    "genre": 0,
+    "titre": "Inspector Gadget",
+    "idAlloCine": 20847
+  },
+  {
+    "id": 239,
+    "publication": 2000,
+    "film": "The Tigger Movie",
+    "recettes": "$96,147,688",
+    "recette": 96147688,
+    "genre": 0,
+    "titre": "The Tigger Movie",
+    "idAlloCine": 29788
+  },
+  {
+    "id": 240,
+    "publication": 2009,
+    "film": "Old Dogs",
+    "recettes": "$95,104,304",
+    "recette": 95104304,
+    "genre": 0,
+    "titre": "Old Dogs",
+    "idAlloCine": 126677
+  },
+  {
+    "id": 241,
+    "publication": 2006,
+    "film": "The Guardian",
+    "recettes": "$94,973,540",
+    "recette": 94973540,
+    "genre": 0,
+    "titre": "The Guardian",
+    "idAlloCine": ""
+  },
+  {
+    "id": 242,
+    "publication": 1993,
+    "film": "The Nightmare Before Christmas",
+    "recettes": "$94,564,434",
+    "recette": 94564434,
+    "genre": 0,
+    "titre": "The Nightmare Before Christmas",
+    "idAlloCine": 27633
+  },
+  {
+    "id": 243,
+    "publication": 2014,
+    "film": "The Hundred-Foot Journey",
+    "recettes": "$94,270,488",
+    "recette": 94270488,
+    "genre": 0,
+    "titre": "The Hundred-Foot Journey",
+    "idAlloCine": 221960
+  },
+  {
+    "id": 244,
+    "publication": 1955,
+    "film": "Lady and the Tramp",
+    "recettes": "$93,638,305",
+    "recette": 93638305,
+    "genre": 0,
+    "titre": "Lady and the Tramp",
+    "idAlloCine": 139
+  },
+  {
+    "id": 245,
+    "publication": 2003,
+    "film": "Calendar Girls",
+    "recettes": "$93,074,616",
+    "recette": 93074616,
+    "genre": 0,
+    "titre": "Calendar Girls",
+    "idAlloCine": 33926
+  },
+  {
+    "id": 246,
+    "publication": 1999,
+    "film": "Deuce Bigalow: Male Gigolo",
+    "recettes": "$92,935,067",
+    "recette": 92935067,
+    "genre": 0,
+    "titre": "Deuce Bigalow: Male Gigolo",
+    "idAlloCine": 33004
+  },
+  {
+    "id": 247,
+    "publication": 2010,
+    "film": "The Last Song",
+    "recettes": "$92,678,948",
+    "recette": 92678948,
+    "genre": 0,
+    "titre": "The Last Song",
+    "idAlloCine": ""
+  },
+  {
+    "id": 248,
+    "publication": 2002,
+    "film": "Treasure Planet",
+    "recettes": "$91,800,000",
+    "recette": 91800000,
+    "genre": 0,
+    "titre": "Treasure Planet",
+    "idAlloCine": 35142
+  },
+  {
+    "id": 249,
+    "publication": 1991,
+    "film": "Father of the Bride",
+    "recettes": "$89,325,780",
+    "recette": 89325780,
+    "genre": 0,
+    "titre": "Father of the Bride",
+    "idAlloCine": 30448
+  },
+  {
+    "id": 250,
+    "publication": 2003,
+    "film": "Shanghai Knights",
+    "recettes": "$88,316,835",
+    "recette": 88316835,
+    "genre": 0,
+    "titre": "Shanghai Knights",
+    "idAlloCine": 28963
+  },
+  {
+    "id": 251,
+    "publication": 1992,
+    "film": "The Hand That Rocks the Cradle",
+    "recettes": "$88,036,724",
+    "recette": 88036724,
+    "genre": 0,
+    "titre": "The Hand That Rocks the Cradle",
+    "idAlloCine": 7665
+  },
+  {
+    "id": 252,
+    "publication": 1999,
+    "film": "Bicentennial Man",
+    "recettes": "$87,420,776",
+    "recette": 87420776,
+    "genre": 0,
+    "titre": "Bicentennial Man",
+    "idAlloCine": 27651
+  },
+  {
+    "id": 253,
+    "publication": 2006,
+    "film": "The Shaggy Dog",
+    "recettes": "$87,123,569",
+    "recette": 87123569,
+    "genre": 0,
+    "titre": "The Shaggy Dog",
+    "idAlloCine": 111554
+  },
+  {
+    "id": 254,
+    "publication": 2010,
+    "film": "Oceans",
+    "recettes": "$86,787,530",
+    "recette": 86787530,
+    "genre": 0,
+    "titre": "Oceans",
+    "idAlloCine": ""
+  },
+  {
+    "id": 255,
+    "publication": 1940,
+    "film": "Pinocchio",
+    "recettes": "$84,300,000",
+    "recette": 84300000,
+    "genre": 0,
+    "titre": "Pinocchio",
+    "idAlloCine": ""
+  },
+  {
+    "id": 256,
+    "publication": 1998,
+    "film": "The Parent Trap",
+    "recettes": "$83,977,418",
+    "recette": 83977418,
+    "genre": 0,
+    "titre": "The Parent Trap",
+    "idAlloCine": 10294
+  },
+  {
+    "id": 257,
+    "publication": 1940,
+    "film": "Fantasia",
+    "recettes": "$83,320,832",
+    "recette": 83320832,
+    "genre": 0,
+    "titre": "Fantasia",
+    "idAlloCine": ""
+  },
+  {
+    "id": 258,
+    "publication": 2005,
+    "film": "Sky High",
+    "recettes": "$83,109,359",
+    "recette": 83109359,
+    "genre": 0,
+    "titre": "Sky High",
+    "idAlloCine": ""
+  },
+  {
+    "id": 259,
+    "publication": 2002,
+    "film": "Reign of Fire",
+    "recettes": "$82,150,183",
+    "recette": 82150183,
+    "genre": 0,
+    "titre": "Reign of Fire",
+    "idAlloCine": 28829
+  },
+  {
+    "id": 260,
+    "publication": 2012,
+    "film": "Frankenweenie",
+    "recettes": "$81,150,788",
+    "recette": 81150788,
+    "genre": 0,
+    "titre": "Frankenweenie",
+    "idAlloCine": 132661
+  },
+  {
+    "id": 261,
+    "publication": 2002,
+    "film": "The Rookie",
+    "recettes": "$80,491,516",
+    "recette": 80491516,
+    "genre": 0,
+    "titre": "The Rookie",
+    "idAlloCine": 29119
+  },
+  {
+    "id": 262,
+    "publication": 2014,
+    "film": "Muppets Most Wanted",
+    "recettes": "$79,312,301",
+    "recette": 79312301,
+    "genre": 0,
+    "titre": "Muppets Most Wanted",
+    "idAlloCine": 204232
+  },
+  {
+    "id": 263,
+    "publication": 1988,
+    "film": "Cocktail",
+    "recettes": "$78,222,753",
+    "recette": 78222753,
+    "genre": 0,
+    "titre": "Cocktail",
+    "idAlloCine": 47504
+  },
+  {
+    "id": 264,
+    "publication": 2004,
+    "film": "The Ladykillers",
+    "recettes": "$77,392,139",
+    "recette": 77392139,
+    "genre": 0,
+    "titre": "The Ladykillers",
+    "idAlloCine": 48085
+  },
+  {
+    "id": 265,
+    "publication": 1995,
+    "film": "Father of the Bride Part II",
+    "recettes": "$76,578,911",
+    "recette": 76578911,
+    "genre": 0,
+    "titre": "Father of the Bride Part II",
+    "idAlloCine": 30451
+  },
+  {
+    "id": 266,
+    "publication": 2004,
+    "film": "Home on the Range",
+    "recettes": "$76,482,461",
+    "recette": 76482461,
+    "genre": 0,
+    "titre": "Home on the Range",
+    "idAlloCine": 54566
+  },
+  {
+    "id": 267,
+    "publication": 2000,
+    "film": "O Brother, Where Art Thou?",
+    "recettes": "$75,763,814",
+    "recette": 75763814,
+    "genre": 0,
+    "titre": "O Brother, Where Art Thou?",
+    "idAlloCine": 29785
+  },
+  {
+    "id": 268,
+    "publication": 2002,
+    "film": "The Count of Monte Cristo",
+    "recettes": "$75,389,090",
+    "recette": 75389090,
+    "genre": 0,
+    "titre": "The Count of Monte Cristo",
+    "idAlloCine": ""
+  },
+  {
+    "id": 269,
+    "publication": 2022,
+    "film": "Strange World",
+    "recettes": "$74,741,679",
+    "recette": 74741679,
+    "genre": 0,
+    "titre": "Strange World",
+    "idAlloCine": 263066
+  },
+  {
+    "id": 270,
+    "publication": 1988,
+    "film": "Oliver & Company",
+    "recettes": "$74,151,346",
+    "recette": 74151346,
+    "genre": 0,
+    "titre": "Oliver &amp; Company",
+    "idAlloCine": 5178
+  },
+  {
+    "id": 271,
+    "publication": 2004,
+    "film": "Around the World in 80 Days",
+    "recettes": "$72,004,159",
+    "recette": 72004159,
+    "genre": 0,
+    "titre": "Around the World in 80 Days",
+    "idAlloCine": 46542
+  },
+  {
+    "id": 272,
+    "publication": 1986,
+    "film": "Ruthless People",
+    "recettes": "$71,624,879",
+    "recette": 71624879,
+    "genre": 0,
+    "titre": "Ruthless People",
+    "idAlloCine": 46739
+  },
+  {
+    "id": 273,
+    "publication": 1990,
+    "film": "3 Men and a Little Lady",
+    "recettes": "$71,609,321",
+    "recette": 71609321,
+    "genre": 0,
+    "titre": "3 Men and a Little Lady",
+    "idAlloCine": ""
+  },
+  {
+    "id": 274,
+    "publication": 2001,
+    "film": "The Royal Tenenbaums",
+    "recettes": "$71,430,876",
+    "recette": 71430876,
+    "genre": 0,
+    "titre": "The Royal Tenenbaums",
+    "idAlloCine": 29188
+  },
+  {
+    "id": 275,
+    "publication": 2003,
+    "film": "Holes",
+    "recettes": "$71,232,214",
+    "recette": 71232214,
+    "genre": 0,
+    "titre": "Holes",
+    "idAlloCine": ""
+  },
+  {
+    "id": 276,
+    "publication": 2000,
+    "film": "Shanghai Noon",
+    "recettes": "$71,189,835",
+    "recette": 71189835,
+    "genre": 0,
+    "titre": "Shanghai Noon",
+    "idAlloCine": 25468
+  },
+  {
+    "id": 277,
+    "publication": 1989,
+    "film": "Turner & Hooch",
+    "recettes": "$71,079,915",
+    "recette": 71079915,
+    "genre": 0,
+    "titre": "Turner &amp; Hooch",
+    "idAlloCine": 31186
+  },
+  {
+    "id": 278,
+    "publication": 2008,
+    "film": "Hannah Montana and Miley Cyrus: Best of Both Wo…",
+    "recettes": "$70,712,099",
+    "recette": 70712099,
+    "genre": 0,
+    "titre": "Hannah Montana and Miley Cyrus: Best of Both Wo…",
+    "idAlloCine": ""
+  },
+  {
+    "id": 279,
+    "publication": 2020,
+    "film": "Mulan",
+    "recettes": "$69,973,540",
+    "recette": 69973540,
+    "genre": 0,
+    "titre": "Mulan",
+    "idAlloCine": 18793
+  },
+  {
+    "id": 280,
+    "publication": 2000,
+    "film": "The Kid",
+    "recettes": "$69,688,384",
+    "recette": 69688384,
+    "genre": 0,
+    "titre": "The Kid",
+    "idAlloCine": 2255
+  },
+  {
+    "id": 281,
+    "publication": 2002,
+    "film": "Bad Company",
+    "recettes": "$69,157,016",
+    "recette": 69157016,
+    "genre": 0,
+    "titre": "Bad Company",
+    "idAlloCine": ""
+  },
+  {
+    "id": 282,
+    "publication": 2003,
+    "film": "Open Range",
+    "recettes": "$68,613,992",
+    "recette": 68613992,
+    "genre": 0,
+    "titre": "Open Range",
+    "idAlloCine": 44957
+  },
+  {
+    "id": 283,
+    "publication": 2006,
+    "film": "Gedo Senki (Tales from Earthsea)",
+    "recettes": "$68,048,658",
+    "recette": 68048658,
+    "genre": 0,
+    "titre": "Gedo Senki (Tales from Earthsea)",
+    "idAlloCine": ""
+  },
+  {
+    "id": 284,
+    "publication": 2000,
+    "film": "102 Dalmatians",
+    "recettes": "$66,941,559",
+    "recette": 66941559,
+    "genre": 0,
+    "titre": "102 Dalmatians",
+    "idAlloCine": 27763
+  },
+  {
+    "id": 285,
+    "publication": 1987,
+    "film": "Stakeout",
+    "recettes": "$65,673,233",
+    "recette": 65673233,
+    "genre": 0,
+    "titre": "Stakeout",
+    "idAlloCine": 43655
+  },
+  {
+    "id": 286,
+    "publication": 2007,
+    "film": "Dan in Real Life",
+    "recettes": "$65,669,001",
+    "recette": 65669001,
+    "genre": 0,
+    "titre": "Dan in Real Life",
+    "idAlloCine": 110719
+  },
+  {
+    "id": 287,
+    "publication": 2007,
+    "film": "Underdog",
+    "recettes": "$65,033,328",
+    "recette": 65033328,
+    "genre": 0,
+    "titre": "Underdog",
+    "idAlloCine": 111444
+  },
+  {
+    "id": 288,
+    "publication": 1946,
+    "film": "Song of the South",
+    "recettes": "$65,000,000",
+    "recette": 65000000,
+    "genre": 0,
+    "titre": "Song of the South",
+    "idAlloCine": 148125
+  },
+  {
+    "id": 289,
+    "publication": 1997,
+    "film": "Nothing To Lose",
+    "recettes": "$64,594,061",
+    "recette": 64594061,
+    "genre": 0,
+    "titre": "Nothing To Lose",
+    "idAlloCine": ""
+  },
+  {
+    "id": 290,
+    "publication": 2004,
+    "film": "Miracle",
+    "recettes": "$64,474,705",
+    "recette": 64474705,
+    "genre": 0,
+    "titre": "Miracle",
+    "idAlloCine": ""
+  },
+  {
+    "id": 291,
+    "publication": 2005,
+    "film": "Valiant",
+    "recettes": "$64,188,387",
+    "recette": 64188387,
+    "genre": 0,
+    "titre": "Valiant",
+    "idAlloCine": 47911
+  },
+  {
+    "id": 292,
+    "publication": 1991,
+    "film": "What About Bob?",
+    "recettes": "$63,710,000",
+    "recette": 63710000,
+    "genre": 0,
+    "titre": "What About Bob?",
+    "idAlloCine": 108544
+  },
+  {
+    "id": 293,
+    "publication": 2003,
+    "film": "Piglet's Big Movie",
+    "recettes": "$62,870,546",
+    "recette": 62870546,
+    "genre": 0,
+    "titre": "Piglet's Big Movie",
+    "idAlloCine": 48104
+  },
+  {
+    "id": 294,
+    "publication": 1984,
+    "film": "Splash",
+    "recettes": "$62,599,495",
+    "recette": 62599495,
+    "genre": 0,
+    "titre": "Splash",
+    "idAlloCine": ""
+  },
+  {
+    "id": 295,
+    "publication": 1986,
+    "film": "Down and Out in Beverly Hills",
+    "recettes": "$62,134,225",
+    "recette": 62134225,
+    "genre": 0,
+    "titre": "Down and Out in Beverly Hills",
+    "idAlloCine": 55340
+  },
+  {
+    "id": 296,
+    "publication": 1994,
+    "film": "I Love Trouble",
+    "recettes": "$61,947,267",
+    "recette": 61947267,
+    "genre": 0,
+    "titre": "I Love Trouble",
+    "idAlloCine": 30449
+  },
+  {
+    "id": 297,
+    "publication": 1999,
+    "film": "The 13th Warrior",
+    "recettes": "$61,698,899",
+    "recette": 61698899,
+    "genre": 0,
+    "titre": "The 13th Warrior",
+    "idAlloCine": 20357
+  },
+  {
+    "id": 298,
+    "publication": 1999,
+    "film": "Fantasia 2000",
+    "recettes": "$60,518,248",
+    "recette": 60518248,
+    "genre": 0,
+    "titre": "Fantasia 2000",
+    "idAlloCine": 22126
+  },
+  {
+    "id": 299,
+    "publication": 1999,
+    "film": "10 Things I Hate About You",
+    "recettes": "$60,413,950",
+    "recette": 60413950,
+    "genre": 0,
+    "titre": "10 Things I Hate About You",
+    "idAlloCine": 25449
+  },
+  {
+    "id": 300,
+    "publication": 2010,
+    "film": "Secretariat",
+    "recettes": "$60,376,247",
+    "recette": 60376247,
+    "genre": 0,
+    "titre": "Secretariat",
+    "idAlloCine": 138660
+  },
+  {
+    "id": 301,
+    "publication": 1999,
+    "film": "The Insider",
+    "recettes": "$60,265,197",
+    "recette": 60265197,
+    "genre": 0,
+    "titre": "The Insider",
+    "idAlloCine": 22767
+  },
+  {
+    "id": 302,
+    "publication": 1997,
+    "film": "Jungle 2 Jungle",
+    "recettes": "$59,925,026",
+    "recette": 59925026,
+    "genre": 0,
+    "titre": "Jungle 2 Jungle",
+    "idAlloCine": 18430
+  },
+  {
+    "id": 303,
+    "publication": 1992,
+    "film": "Honey I Blew Up the Kid",
+    "recettes": "$58,662,452",
+    "recette": 58662452,
+    "genre": 0,
+    "titre": "Honey I Blew Up the Kid",
+    "idAlloCine": ""
+  },
+  {
+    "id": 304,
+    "publication": 1996,
+    "film": "Jack",
+    "recettes": "$58,617,334",
+    "recette": 58617334,
+    "genre": 0,
+    "titre": "Jack",
+    "idAlloCine": ""
+  },
+  {
+    "id": 305,
+    "publication": 2006,
+    "film": "Invincible",
+    "recettes": "$58,501,127",
+    "recette": 58501127,
+    "genre": 0,
+    "titre": "Invincible",
+    "idAlloCine": ""
+  },
+  {
+    "id": 306,
+    "publication": 2003,
+    "film": "Under the Tuscan Sun",
+    "recettes": "$57,490,024",
+    "recette": 57490024,
+    "genre": 0,
+    "titre": "Under the Tuscan Sun",
+    "idAlloCine": 42102
+  },
+  {
+    "id": 307,
+    "publication": 1993,
+    "film": "Sister Act 2 Back in the Habit",
+    "recettes": "$57,319,029",
+    "recette": 57319029,
+    "genre": 0,
+    "titre": "Sister Act 2 Back in the Habit",
+    "idAlloCine": ""
+  },
+  {
+    "id": 308,
+    "publication": 1988,
+    "film": "Beaches",
+    "recettes": "$57,041,866",
+    "recette": 57041866,
+    "genre": 0,
+    "titre": "Beaches",
+    "idAlloCine": 46723
+  },
+  {
+    "id": 309,
+    "publication": 1998,
+    "film": "A Civil Action",
+    "recettes": "$56,709,981",
+    "recette": 56709981,
+    "genre": 0,
+    "titre": "A Civil Action",
+    "idAlloCine": ""
+  },
+  {
+    "id": 310,
+    "publication": 1993,
+    "film": "Tombstone",
+    "recettes": "$56,505,065",
+    "recette": 56505065,
+    "genre": 0,
+    "titre": "Tombstone",
+    "idAlloCine": 9352
+  },
+  {
+    "id": 311,
+    "publication": 1996,
+    "film": "The Preacher’s Wife",
+    "recettes": "$56,432,646",
+    "recette": 56432646,
+    "genre": 0,
+    "titre": "The Preacher’s Wife",
+    "idAlloCine": ""
+  },
+  {
+    "id": 312,
+    "publication": 2005,
+    "film": "Pooh's Heffalump Movie",
+    "recettes": "$55,686,944",
+    "recette": 55686944,
+    "genre": 0,
+    "titre": "Pooh's Heffalump Movie",
+    "idAlloCine": 57609
+  },
+  {
+    "id": 313,
+    "publication": 2013,
+    "film": "Delivery Man",
+    "recettes": "$55,616,322",
+    "recette": 55616322,
+    "genre": 0,
+    "titre": "Delivery Man",
+    "idAlloCine": 210939
+  },
+  {
+    "id": 314,
+    "publication": 2003,
+    "film": "The Lizzie McGuire Movie",
+    "recettes": "$55,534,455",
+    "recette": 55534455,
+    "genre": 0,
+    "titre": "The Lizzie McGuire Movie",
+    "idAlloCine": 52672
+  },
+  {
+    "id": 315,
+    "publication": 2012,
+    "film": "The Odd Life of Timothy Green",
+    "recettes": "$55,249,159",
+    "recette": 55249159,
+    "genre": 0,
+    "titre": "The Odd Life of Timothy Green",
+    "idAlloCine": 147452
+  },
+  {
+    "id": 316,
+    "publication": 2002,
+    "film": "The Hot Chick",
+    "recettes": "$54,639,509",
+    "recette": 54639509,
+    "genre": 0,
+    "titre": "The Hot Chick",
+    "idAlloCine": 45180
+  },
+  {
+    "id": 317,
+    "publication": 1993,
+    "film": "The Three Musketeers",
+    "recettes": "$53,661,805",
+    "recette": 53661805,
+    "genre": 0,
+    "titre": "The Three Musketeers",
+    "idAlloCine": ""
+  },
+  {
+    "id": 318,
+    "publication": 1994,
+    "film": "The Jungle Book",
+    "recettes": "$53,508,356",
+    "recette": 53508356,
+    "genre": 0,
+    "titre": "The Jungle Book",
+    "idAlloCine": ""
+  },
+  {
+    "id": 319,
+    "publication": 1990,
+    "film": "Arachnophobia",
+    "recettes": "$53,208,180",
+    "recette": 53208180,
+    "genre": 0,
+    "titre": "Arachnophobia",
+    "idAlloCine": 31791
+  },
+  {
+    "id": 320,
+    "publication": 1987,
+    "film": "Outrageous Fortune",
+    "recettes": "$52,864,741",
+    "recette": 52864741,
+    "genre": 0,
+    "titre": "Outrageous Fortune",
+    "idAlloCine": 126249
+  },
+  {
+    "id": 321,
+    "publication": 1986,
+    "film": "The Color of Money",
+    "recettes": "$52,293,000",
+    "recette": 52293000,
+    "genre": 0,
+    "titre": "The Color of Money",
+    "idAlloCine": 34014
+  },
+  {
+    "id": 322,
+    "publication": 1993,
+    "film": "Hocus Pocus",
+    "recettes": "$51,742,971",
+    "recette": 51742971,
+    "genre": 0,
+    "titre": "Hocus Pocus",
+    "idAlloCine": ""
+  },
+  {
+    "id": 323,
+    "publication": 2021,
+    "film": "Luca",
+    "recettes": "$51,111,836",
+    "recette": 51111836,
+    "genre": 0,
+    "titre": "Luca",
+    "idAlloCine": ""
+  },
+  {
+    "id": 324,
+    "publication": 2008,
+    "film": "College Road Trip",
+    "recettes": "$50,873,923",
+    "recette": 50873923,
+    "genre": 0,
+    "titre": "College Road Trip",
+    "idAlloCine": 127172
+  },
+  {
+    "id": 325,
+    "publication": 1992,
+    "film": "The Mighty Ducks",
+    "recettes": "$50,752,337",
+    "recette": 50752337,
+    "genre": 0,
+    "titre": "The Mighty Ducks",
+    "idAlloCine": 3565
+  },
+  {
+    "id": 326,
+    "publication": 1998,
+    "film": "Mighty Joe Young",
+    "recettes": "$50,632,037",
+    "recette": 50632037,
+    "genre": 0,
+    "titre": "Mighty Joe Young",
+    "idAlloCine": 9251
+  },
+  {
+    "id": 327,
+    "publication": 1994,
+    "film": "Angels in the Outfield",
+    "recettes": "$50,236,831",
+    "recette": 50236831,
+    "genre": 0,
+    "titre": "Angels in the Outfield",
+    "idAlloCine": 32621
+  },
+  {
+    "id": 328,
+    "publication": 2011,
+    "film": "Winnie the Pooh",
+    "recettes": "$50,145,607",
+    "recette": 50145607,
+    "genre": 0,
+    "titre": "Winnie the Pooh",
+    "idAlloCine": 182255
+  },
+  {
+    "id": 329,
+    "publication": 1994,
+    "film": "When a Man Loves a Woman",
+    "recettes": "$50,021,959",
+    "recette": 50021959,
+    "genre": 0,
+    "titre": "When a Man Loves a Woman",
+    "idAlloCine": 10828
+  },
+  {
+    "id": 330,
+    "publication": 2004,
+    "film": "Raising Helen",
+    "recettes": "$49,842,431",
+    "recette": 49842431,
+    "genre": 0,
+    "titre": "Raising Helen",
+    "idAlloCine": 47210
+  },
+  {
+    "id": 331,
+    "publication": 2005,
+    "film": "Dark Water",
+    "recettes": "$49,473,093",
+    "recette": 49473093,
+    "genre": 0,
+    "titre": "Dark Water",
+    "idAlloCine": 54204
+  },
+  {
+    "id": 332,
+    "publication": 2016,
+    "film": "The Finest Hours",
+    "recettes": "$49,252,761",
+    "recette": 49252761,
+    "genre": 0,
+    "titre": "The Finest Hours",
+    "idAlloCine": 221875
+  },
+  {
+    "id": 333,
+    "publication": 1977,
+    "film": "The Rescuers",
+    "recettes": "$48,775,599",
+    "recette": 48775599,
+    "genre": 0,
+    "titre": "The Rescuers",
+    "idAlloCine": ""
+  },
+  {
+    "id": 334,
+    "publication": 1997,
+    "film": "G.I. Jane",
+    "recettes": "$48,169,156",
+    "recette": 48169156,
+    "genre": 0,
+    "titre": "G.I. Jane",
+    "idAlloCine": 16220
+  },
+  {
+    "id": 335,
+    "publication": 2000,
+    "film": "High Fidelity",
+    "recettes": "$47,881,663",
+    "recette": 47881663,
+    "genre": 0,
+    "titre": "High Fidelity",
+    "idAlloCine": ""
+  },
+  {
+    "id": 336,
+    "publication": 1990,
+    "film": "The Rescuers Down Under",
+    "recettes": "$47,431,461",
+    "recette": 47431461,
+    "genre": 0,
+    "titre": "The Rescuers Down Under",
+    "idAlloCine": 32049
+  },
+  {
+    "id": 337,
+    "publication": 1991,
+    "film": "The Rocketeer",
+    "recettes": "$46,573,027",
+    "recette": 46573027,
+    "genre": 0,
+    "titre": "The Rocketeer",
+    "idAlloCine": 32021
+  },
+  {
+    "id": 338,
+    "publication": 1992,
+    "film": "The Distinguished Gentleman",
+    "recettes": "$46,434,570",
+    "recette": 46434570,
+    "genre": 0,
+    "titre": "The Distinguished Gentleman",
+    "idAlloCine": 55773
+  },
+  {
+    "id": 339,
+    "publication": 2015,
+    "film": "McFarland, USA",
+    "recettes": "$45,707,924",
+    "recette": 45707924,
+    "genre": 0,
+    "titre": "McFarland, USA",
+    "idAlloCine": 210438
+  },
+  {
+    "id": 340,
+    "publication": 1994,
+    "film": "D2: The Mighty Ducks",
+    "recettes": "$45,604,206",
+    "recette": 45604206,
+    "genre": 0,
+    "titre": "D2: The Mighty Ducks",
+    "idAlloCine": 50283
+  },
+  {
+    "id": 341,
+    "publication": 2000,
+    "film": "Keeping the Faith",
+    "recettes": "$45,336,404",
+    "recette": 45336404,
+    "genre": 0,
+    "titre": "Keeping the Faith",
+    "idAlloCine": 29786
+  },
+  {
+    "id": 342,
+    "publication": 1992,
+    "film": "Medicine Man",
+    "recettes": "$44,948,240",
+    "recette": 44948240,
+    "genre": 0,
+    "titre": "Medicine Man",
+    "idAlloCine": 43227
+  },
+  {
+    "id": 343,
+    "publication": 2001,
+    "film": "Recess: School's Out",
+    "recettes": "$44,451,470",
+    "recette": 44451470,
+    "genre": 0,
+    "titre": "Recess: School's Out",
+    "idAlloCine": 29295
+  },
+  {
+    "id": 344,
+    "publication": 1981,
+    "film": "The Fox and the Hound",
+    "recettes": "$43,899,231",
+    "recette": 43899231,
+    "genre": 0,
+    "titre": "The Fox and the Hound",
+    "idAlloCine": 31995
+  },
+  {
+    "id": 345,
+    "publication": 2010,
+    "film": "When in Rome",
+    "recettes": "$43,796,937",
+    "recette": 43796937,
+    "genre": 0,
+    "titre": "When in Rome",
+    "idAlloCine": ""
+  },
+  {
+    "id": 346,
+    "publication": 2006,
+    "film": "Glory Road",
+    "recettes": "$42,799,060",
+    "recette": 42799060,
+    "genre": 0,
+    "titre": "Glory Road",
+    "idAlloCine": ""
+  },
+  {
+    "id": 347,
+    "publication": 2005,
+    "film": "A Lot Like Love",
+    "recettes": "$41,921,590",
+    "recette": 41921590,
+    "genre": 0,
+    "titre": "A Lot Like Love",
+    "idAlloCine": 51230
+  },
+  {
+    "id": 348,
+    "publication": 1993,
+    "film": "Homeward Bound: The Incredible Journey",
+    "recettes": "$41,833,324",
+    "recette": 41833324,
+    "genre": 0,
+    "titre": "Homeward Bound: The Incredible Journey",
+    "idAlloCine": 29748
+  },
+  {
+    "id": 349,
+    "publication": 1989,
+    "film": "Three Fugitives",
+    "recettes": "$40,590,000",
+    "recette": 40590000,
+    "genre": 0,
+    "titre": "Three Fugitives",
+    "idAlloCine": 28352
+  },
+  {
+    "id": 350,
+    "publication": 2011,
+    "film": "Fright Night",
+    "recettes": "$40,520,649",
+    "recette": 40520649,
+    "genre": 0,
+    "titre": "Fright Night",
+    "idAlloCine": 130996
+  },
+  {
+    "id": 351,
+    "publication": 1988,
+    "film": "Big Business",
+    "recettes": "$40,150,487",
+    "recette": 40150487,
+    "genre": 0,
+    "titre": "Big Business",
+    "idAlloCine": 90728
+  },
+  {
+    "id": 352,
+    "publication": 1992,
+    "film": "Encino Man",
+    "recettes": "$40,057,130",
+    "recette": 40057130,
+    "genre": 0,
+    "titre": "Encino Man",
+    "idAlloCine": 55499
+  },
+  {
+    "id": 353,
+    "publication": 1995,
+    "film": "Man of the House",
+    "recettes": "$40,029,009",
+    "recette": 40029009,
+    "genre": 0,
+    "titre": "Man of the House",
+    "idAlloCine": 66281
+  },
+  {
+    "id": 354,
+    "publication": 2011,
+    "film": "Mars Needs Moms",
+    "recettes": "$39,549,758",
+    "recette": 39549758,
+    "genre": 0,
+    "titre": "Mars Needs Moms",
+    "idAlloCine": 144197
+  },
+  {
+    "id": 355,
+    "publication": 2014,
+    "film": "Million Dollar Arm",
+    "recettes": "$39,217,912",
+    "recette": 39217912,
+    "genre": 0,
+    "titre": "Million Dollar Arm",
+    "idAlloCine": 207421
+  },
+  {
+    "id": 356,
+    "publication": 1993,
+    "film": "What's Love Got to Do With It",
+    "recettes": "$39,147,078",
+    "recette": 39147078,
+    "genre": 0,
+    "titre": "What's Love Got to Do With It",
+    "idAlloCine": ""
+  },
+  {
+    "id": 357,
+    "publication": 1991,
+    "film": "The Doctor",
+    "recettes": "$37,497,480",
+    "recette": 37497480,
+    "genre": 0,
+    "titre": "The Doctor",
+    "idAlloCine": 109053
+  },
+  {
+    "id": 358,
+    "publication": 1999,
+    "film": "My Favorite Martian",
+    "recettes": "$36,850,101",
+    "recette": 36850101,
+    "genre": 0,
+    "titre": "My Favorite Martian",
+    "idAlloCine": 30941
+  },
+  {
+    "id": 359,
+    "publication": 2012,
+    "film": "Chimpanzee",
+    "recettes": "$36,834,823",
+    "recette": 36834823,
+    "genre": 0,
+    "titre": "Chimpanzee",
+    "idAlloCine": 135781
+  },
+  {
+    "id": 360,
+    "publication": 1993,
+    "film": "Alive",
+    "recettes": "$36,299,670",
+    "recette": 36299670,
+    "genre": 0,
+    "titre": "Alive",
+    "idAlloCine": 38491
+  },
+  {
+    "id": 361,
+    "publication": 2005,
+    "film": "Casanova",
+    "recettes": "$36,204,403",
+    "recette": 36204403,
+    "genre": 0,
+    "titre": "Casanova",
+    "idAlloCine": ""
+  },
+  {
+    "id": 362,
+    "publication": 1977,
+    "film": "Pete’s Dragon",
+    "recettes": "$36,000,000",
+    "recette": 36000000,
+    "genre": 0,
+    "titre": "Pete’s Dragon",
+    "idAlloCine": ""
+  },
+  {
+    "id": 363,
+    "publication": 2009,
+    "film": "Toy Story 3D Double Feature",
+    "recettes": "$35,868,069",
+    "recette": 35868069,
+    "genre": 0,
+    "titre": "Toy Story 3D Double Feature",
+    "idAlloCine": ""
+  },
+  {
+    "id": 364,
+    "publication": 1979,
+    "film": "The Black Hole",
+    "recettes": "$35,841,901",
+    "recette": 35841901,
+    "genre": 0,
+    "titre": "The Black Hole",
+    "idAlloCine": 59771
+  },
+  {
+    "id": 365,
+    "publication": 1995,
+    "film": "A Goofy Movie",
+    "recettes": "$35,336,439",
+    "recette": 35336439,
+    "genre": 0,
+    "titre": "A Goofy Movie",
+    "idAlloCine": 15041
+  },
+  {
+    "id": 366,
+    "publication": 2004,
+    "film": "The Life Aquatic with Steve Zissou",
+    "recettes": "$34,806,726",
+    "recette": 34806726,
+    "genre": 0,
+    "titre": "The Life Aquatic with Steve Zissou",
+    "idAlloCine": 53109
+  },
+  {
+    "id": 367,
+    "publication": 1991,
+    "film": "White Fang",
+    "recettes": "$34,729,091",
+    "recette": 34729091,
+    "genre": 0,
+    "titre": "White Fang",
+    "idAlloCine": ""
+  },
+  {
+    "id": 368,
+    "publication": 1995,
+    "film": "Nixon",
+    "recettes": "$34,668,249",
+    "recette": 34668249,
+    "genre": 0,
+    "titre": "Nixon",
+    "idAlloCine": 30220
+  },
+  {
+    "id": 369,
+    "publication": 1996,
+    "film": "Muppet Treasure Island",
+    "recettes": "$34,327,391",
+    "recette": 34327391,
+    "genre": 0,
+    "titre": "Muppet Treasure Island",
+    "idAlloCine": 68399
+  },
+  {
+    "id": 370,
+    "publication": 1999,
+    "film": "Instinct",
+    "recettes": "$34,105,207",
+    "recette": 34105207,
+    "genre": 0,
+    "titre": "Instinct",
+    "idAlloCine": 20199
+  },
+  {
+    "id": 371,
+    "publication": 1987,
+    "film": "Adventures in Babysitting",
+    "recettes": "$33,790,923",
+    "recette": 33790923,
+    "genre": 0,
+    "titre": "Adventures in Babysitting",
+    "idAlloCine": 38814
+  },
+  {
+    "id": 372,
+    "publication": 2004,
+    "film": "Confessions of a Teenage Drama Queen",
+    "recettes": "$33,118,854",
+    "recette": 33118854,
+    "genre": 0,
+    "titre": "Confessions of a Teenage Drama Queen",
+    "idAlloCine": ""
+  },
+  {
+    "id": 373,
+    "publication": 2010,
+    "film": "You Again",
+    "recettes": "$32,838,945",
+    "recette": 32838945,
+    "genre": 0,
+    "titre": "You Again",
+    "idAlloCine": 145709
+  },
+  {
+    "id": 374,
+    "publication": 1993,
+    "film": "The Joy Luck Club",
+    "recettes": "$32,790,064",
+    "recette": 32790064,
+    "genre": 0,
+    "titre": "The Joy Luck Club",
+    "idAlloCine": ""
+  },
+  {
+    "id": 375,
+    "publication": 1996,
+    "film": "Homeward Bound II: Lost in San Francisco",
+    "recettes": "$32,709,423",
+    "recette": 32709423,
+    "genre": 0,
+    "titre": "Homeward Bound II: Lost in San Francisco",
+    "idAlloCine": 29763
+  },
+  {
+    "id": 376,
+    "publication": 1973,
+    "film": "Robin Hood",
+    "recettes": "$32,056,467",
+    "recette": 32056467,
+    "genre": 0,
+    "titre": "Robin Hood",
+    "idAlloCine": ""
+  },
+  {
+    "id": 377,
+    "publication": 1997,
+    "film": "Metro",
+    "recettes": "$32,017,895",
+    "recette": 32017895,
+    "genre": 0,
+    "titre": "Metro",
+    "idAlloCine": ""
+  },
+  {
+    "id": 378,
+    "publication": 1975,
+    "film": "The Apple Dumpling Gang",
+    "recettes": "$31,916,500",
+    "recette": 31916500,
+    "genre": 0,
+    "titre": "The Apple Dumpling Gang",
+    "idAlloCine": 207792
+  },
+  {
+    "id": 379,
+    "publication": 1992,
+    "film": "The Muppet Christmas Carol",
+    "recettes": "$31,724,550",
+    "recette": 31724550,
+    "genre": 0,
+    "titre": "The Muppet Christmas Carol",
+    "idAlloCine": 8997
+  },
+  {
+    "id": 380,
+    "publication": 1987,
+    "film": "Can’t Buy Me Love",
+    "recettes": "$31,623,833",
+    "recette": 31623833,
+    "genre": 0,
+    "titre": "Can’t Buy Me Love",
+    "idAlloCine": ""
+  },
+  {
+    "id": 381,
+    "publication": 1996,
+    "film": "Eddie",
+    "recettes": "$31,369,401",
+    "recette": 31369401,
+    "genre": 0,
+    "titre": "Eddie",
+    "idAlloCine": 98064
+  },
+  {
+    "id": 382,
+    "publication": 1997,
+    "film": "Grosse Pointe Blank",
+    "recettes": "$31,070,412",
+    "recette": 31070412,
+    "genre": 0,
+    "titre": "Grosse Pointe Blank",
+    "idAlloCine": 41760
+  },
+  {
+    "id": 383,
+    "publication": 1995,
+    "film": "Powder",
+    "recettes": "$30,833,914",
+    "recette": 30833914,
+    "genre": 0,
+    "titre": "Powder",
+    "idAlloCine": 42400
+  },
+  {
+    "id": 384,
+    "publication": 1994,
+    "film": "Blank Check",
+    "recettes": "$30,573,770",
+    "recette": 30573770,
+    "genre": 0,
+    "titre": "Blank Check",
+    "idAlloCine": 116238
+  },
+  {
+    "id": 385,
+    "publication": 2009,
+    "film": "Jonas Brothers: The 3D Concert Experience",
+    "recettes": "$30,428,831",
+    "recette": 30428831,
+    "genre": 0,
+    "titre": "Jonas Brothers: The 3D Concert Experience",
+    "idAlloCine": 140992
+  },
+  {
+    "id": 386,
+    "publication": 2006,
+    "film": "Stick It",
+    "recettes": "$30,399,714",
+    "recette": 30399714,
+    "genre": 0,
+    "titre": "Stick It",
+    "idAlloCine": 79548
+  },
+  {
+    "id": 387,
+    "publication": 1998,
+    "film": "Jane Austen's Mafia",
+    "recettes": "$30,143,795",
+    "recette": 30143795,
+    "genre": 0,
+    "titre": "Jane Austen's Mafia",
+    "idAlloCine": ""
+  },
+  {
+    "id": 388,
+    "publication": 2001,
+    "film": "Double Take",
+    "recettes": "$29,823,162",
+    "recette": 29823162,
+    "genre": 0,
+    "titre": "Double Take",
+    "idAlloCine": 29293
+  },
+  {
+    "id": 389,
+    "publication": 1990,
+    "film": "Green Card",
+    "recettes": "$29,804,169",
+    "recette": 29804169,
+    "genre": 0,
+    "titre": "Green Card",
+    "idAlloCine": 29560
+  },
+  {
+    "id": 390,
+    "publication": 1994,
+    "film": "A Low Down Dirty Shame",
+    "recettes": "$29,317,886",
+    "recette": 29317886,
+    "genre": 0,
+    "titre": "A Low Down Dirty Shame",
+    "idAlloCine": ""
+  },
+  {
+    "id": 391,
+    "publication": 1988,
+    "film": "Shoot to Kill",
+    "recettes": "$29,300,000",
+    "recette": 29300000,
+    "genre": 0,
+    "titre": "Shoot to Kill",
+    "idAlloCine": 38488
+  },
+  {
+    "id": 392,
+    "publication": 1997,
+    "film": "Romy and Michele's High School Reunion",
+    "recettes": "$29,235,353",
+    "recette": 29235353,
+    "genre": 0,
+    "titre": "Romy and Michele's High School Reunion",
+    "idAlloCine": 58861
+  },
+  {
+    "id": 393,
+    "publication": 1997,
+    "film": "Air Bud",
+    "recettes": "$29,175,259",
+    "recette": 29175259,
+    "genre": 0,
+    "titre": "Air Bud",
+    "idAlloCine": 17327
+  },
+  {
+    "id": 394,
+    "publication": 1992,
+    "film": "3 Ninjas",
+    "recettes": "$29,028,000",
+    "recette": 29028000,
+    "genre": 0,
+    "titre": "3 Ninjas",
+    "idAlloCine": 7877
+  },
+  {
+    "id": 395,
+    "publication": 1997,
+    "film": "Mr. Magoo",
+    "recettes": "$28,937,192",
+    "recette": 28937192,
+    "genre": 0,
+    "titre": "Mr. Magoo",
+    "idAlloCine": 33001
+  },
+  {
+    "id": 396,
+    "publication": 1996,
+    "film": "James and the Giant Peach",
+    "recettes": "$28,921,264",
+    "recette": 28921264,
+    "genre": 0,
+    "titre": "James and the Giant Peach",
+    "idAlloCine": ""
+  },
+  {
+    "id": 397,
+    "publication": 1994,
+    "film": "In the Army Now",
+    "recettes": "$28,881,266",
+    "recette": 28881266,
+    "genre": 0,
+    "titre": "In the Army Now",
+    "idAlloCine": ""
+  },
+  {
+    "id": 398,
+    "publication": 2003,
+    "film": "Ghosts of the Abyss",
+    "recettes": "$28,742,313",
+    "recette": 28742313,
+    "genre": 0,
+    "titre": "Ghosts of the Abyss",
+    "idAlloCine": 51566
+  },
+  {
+    "id": 399,
+    "publication": 1991,
+    "film": "Deceived",
+    "recettes": "$28,738,096",
+    "recette": 28738096,
+    "genre": 0,
+    "titre": "Deceived",
+    "idAlloCine": ""
+  },
+  {
+    "id": 400,
+    "publication": 1988,
+    "film": "Ernest Saves Christmas",
+    "recettes": "$28,202,109",
+    "recette": 28202109,
+    "genre": 0,
+    "titre": "Ernest Saves Christmas",
+    "idAlloCine": ""
+  },
+  {
+    "id": 401,
+    "publication": 1954,
+    "film": "20,000 Leagues Under the Sea",
+    "recettes": "$28,200,000",
+    "recette": 28200000,
+    "genre": 0,
+    "titre": "20,000 Leagues Under the Sea",
+    "idAlloCine": ""
+  },
+  {
+    "id": 402,
+    "publication": 1977,
+    "film": "Herbie Goes to Monte Carlo",
+    "recettes": "$28,000,000",
+    "recette": 28000000,
+    "genre": 0,
+    "titre": "Herbie Goes to Monte Carlo",
+    "idAlloCine": 55431
+  },
+  {
+    "id": 403,
+    "publication": 1999,
+    "film": "The Other Sister",
+    "recettes": "$27,807,627",
+    "recette": 27807627,
+    "genre": 0,
+    "titre": "The Other Sister",
+    "idAlloCine": 26830
+  },
+  {
+    "id": 404,
+    "publication": 1983,
+    "film": "Never Cry Wolf",
+    "recettes": "$27,668,764",
+    "recette": 27668764,
+    "genre": 0,
+    "titre": "Never Cry Wolf",
+    "idAlloCine": ""
+  },
+  {
+    "id": 405,
+    "publication": 2006,
+    "film": "Goal! The Dream Begins",
+    "recettes": "$27,610,873",
+    "recette": 27610873,
+    "genre": 0,
+    "titre": "Goal! The Dream Begins",
+    "idAlloCine": 56435
+  },
+  {
+    "id": 406,
+    "publication": 2006,
+    "film": "Stay Alive",
+    "recettes": "$27,565,514",
+    "recette": 27565514,
+    "genre": 0,
+    "titre": "Stay Alive",
+    "idAlloCine": 60878
+  },
+  {
+    "id": 407,
+    "publication": 1996,
+    "film": "Spy Hard",
+    "recettes": "$26,936,265",
+    "recette": 26936265,
+    "genre": 0,
+    "titre": "Spy Hard",
+    "idAlloCine": 15165
+  },
+  {
+    "id": 408,
+    "publication": 1982,
+    "film": "Tron",
+    "recettes": "$26,919,100",
+    "recette": 26919100,
+    "genre": 0,
+    "titre": "Tron",
+    "idAlloCine": 3996
+  },
+  {
+    "id": 409,
+    "publication": 1997,
+    "film": "An American Werewolf in Paris",
+    "recettes": "$26,570,463",
+    "recette": 26570463,
+    "genre": 0,
+    "titre": "An American Werewolf in Paris",
+    "idAlloCine": 17081
+  },
+  {
+    "id": 410,
+    "publication": 1996,
+    "film": "First Kid",
+    "recettes": "$26,465,920",
+    "recette": 26465920,
+    "genre": 0,
+    "titre": "First Kid",
+    "idAlloCine": 100628
+  },
+  {
+    "id": 411,
+    "publication": 1995,
+    "film": "Houseguest",
+    "recettes": "$26,325,256",
+    "recette": 26325256,
+    "genre": 0,
+    "titre": "Houseguest",
+    "idAlloCine": ""
+  },
+  {
+    "id": 412,
+    "publication": 1993,
+    "film": "Son in Law",
+    "recettes": "$25,989,889",
+    "recette": 25989889,
+    "genre": 0,
+    "titre": "Son in Law",
+    "idAlloCine": 38979
+  },
+  {
+    "id": 413,
+    "publication": 1977,
+    "film": "Freaky Friday",
+    "recettes": "$25,942,000",
+    "recette": 25942000,
+    "genre": 0,
+    "titre": "Freaky Friday",
+    "idAlloCine": 54683
+  },
+  {
+    "id": 414,
+    "publication": 2005,
+    "film": "Ice Princess",
+    "recettes": "$25,732,334",
+    "recette": 25732334,
+    "genre": 0,
+    "titre": "Ice Princess",
+    "idAlloCine": 59847
+  },
+  {
+    "id": 415,
+    "publication": 2016,
+    "film": "A Beautiful Planet",
+    "recettes": "$25,512,593",
+    "recette": 25512593,
+    "genre": 0,
+    "titre": "A Beautiful Planet",
+    "idAlloCine": ""
+  },
+  {
+    "id": 416,
+    "publication": 1987,
+    "film": "Tin Men",
+    "recettes": "$25,411,386",
+    "recette": 25411386,
+    "genre": 0,
+    "titre": "Tin Men",
+    "idAlloCine": 41140
+  },
+  {
+    "id": 417,
+    "publication": 1961,
+    "film": "The Absent Minded Professor",
+    "recettes": "$25,381,407",
+    "recette": 25381407,
+    "genre": 0,
+    "titre": "The Absent Minded Professor",
+    "idAlloCine": ""
+  },
+  {
+    "id": 418,
+    "publication": 2002,
+    "film": "25th Hour",
+    "recettes": "$25,344,490",
+    "recette": 25344490,
+    "genre": 0,
+    "titre": "25th Hour",
+    "idAlloCine": 42731
+  },
+  {
+    "id": 419,
+    "publication": 2001,
+    "film": "Corky Romano",
+    "recettes": "$25,116,103",
+    "recette": 25116103,
+    "genre": 0,
+    "titre": "Corky Romano",
+    "idAlloCine": 28828
+  },
+  {
+    "id": 420,
+    "publication": 2016,
+    "film": "Born in China",
+    "recettes": "$25,037,743",
+    "recette": 25037743,
+    "genre": 0,
+    "titre": "Born in China",
+    "idAlloCine": 246978
+  },
+  {
+    "id": 421,
+    "publication": 1990,
+    "film": "Ernest Goes to Jail",
+    "recettes": "$25,029,569",
+    "recette": 25029569,
+    "genre": 0,
+    "titre": "Ernest Goes to Jail",
+    "idAlloCine": ""
+  },
+  {
+    "id": 422,
+    "publication": 1994,
+    "film": "Quiz Show",
+    "recettes": "$24,787,282",
+    "recette": 24787282,
+    "genre": 0,
+    "titre": "Quiz Show",
+    "idAlloCine": 7323
+  },
+  {
+    "id": 423,
+    "publication": 1995,
+    "film": "Operation Dumbo Drop",
+    "recettes": "$24,670,346",
+    "recette": 24670346,
+    "genre": 0,
+    "titre": "Operation Dumbo Drop",
+    "idAlloCine": 31685
+  },
+  {
+    "id": 424,
+    "publication": 1994,
+    "film": "Renaissance Man",
+    "recettes": "$24,172,899",
+    "recette": 24172899,
+    "genre": 0,
+    "titre": "Renaissance Man",
+    "idAlloCine": 46705
+  },
+  {
+    "id": 425,
+    "publication": 1995,
+    "film": "Dead Presidents",
+    "recettes": "$24,120,194",
+    "recette": 24120194,
+    "genre": 0,
+    "titre": "Dead Presidents",
+    "idAlloCine": 41501
+  },
+  {
+    "id": 426,
+    "publication": 1993,
+    "film": "The Adventures of Huck Finn",
+    "recettes": "$24,103,594",
+    "recette": 24103594,
+    "genre": 0,
+    "titre": "The Adventures of Huck Finn",
+    "idAlloCine": 10302
+  },
+  {
+    "id": 427,
+    "publication": 2004,
+    "film": "The Alamo",
+    "recettes": "$23,911,362",
+    "recette": 23911362,
+    "genre": 0,
+    "titre": "The Alamo",
+    "idAlloCine": 46712
+  },
+  {
+    "id": 428,
+    "publication": 1995,
+    "film": "Tom and Huck",
+    "recettes": "$23,837,227",
+    "recette": 23837227,
+    "genre": 0,
+    "titre": "Tom and Huck",
+    "idAlloCine": 34821
+  },
+  {
+    "id": 429,
+    "publication": 1986,
+    "film": "The Great Mouse Detective",
+    "recettes": "$23,605,534",
+    "recette": 23605534,
+    "genre": 0,
+    "titre": "The Great Mouse Detective",
+    "idAlloCine": 32004
+  },
+  {
+    "id": 430,
+    "publication": 1991,
+    "film": "Oscar",
+    "recettes": "$23,562,716",
+    "recette": 23562716,
+    "genre": 0,
+    "titre": "Oscar",
+    "idAlloCine": 36155
+  },
+  {
+    "id": 431,
+    "publication": 2007,
+    "film": "The Invisible",
+    "recettes": "$23,540,266",
+    "recette": 23540266,
+    "genre": 0,
+    "titre": "The Invisible",
+    "idAlloCine": 120233
+  },
+  {
+    "id": 432,
+    "publication": 1987,
+    "film": "Ernest Goes to Camp",
+    "recettes": "$23,509,382",
+    "recette": 23509382,
+    "genre": 0,
+    "titre": "Ernest Goes to Camp",
+    "idAlloCine": ""
+  },
+  {
+    "id": 433,
+    "publication": 1993,
+    "film": "The Program",
+    "recettes": "$23,042,200",
+    "recette": 23042200,
+    "genre": 0,
+    "titre": "The Program",
+    "idAlloCine": ""
+  },
+  {
+    "id": 434,
+    "publication": 2011,
+    "film": "African Cats",
+    "recettes": "$22,946,607",
+    "recette": 22946607,
+    "genre": 0,
+    "titre": "African Cats",
+    "idAlloCine": 135779
+  },
+  {
+    "id": 435,
+    "publication": 1996,
+    "film": "D3: The Mighty Ducks",
+    "recettes": "$22,936,273",
+    "recette": 22936273,
+    "genre": 0,
+    "titre": "D3: The Mighty Ducks",
+    "idAlloCine": 34736
+  },
+  {
+    "id": 436,
+    "publication": 1998,
+    "film": "Beloved",
+    "recettes": "$22,852,487",
+    "recette": 22852487,
+    "genre": 0,
+    "titre": "Beloved",
+    "idAlloCine": ""
+  },
+  {
+    "id": 437,
+    "publication": 1993,
+    "film": "Guilty as Sin",
+    "recettes": "$22,622,537",
+    "recette": 22622537,
+    "genre": 0,
+    "titre": "Guilty as Sin",
+    "idAlloCine": 8292
+  },
+  {
+    "id": 438,
+    "publication": 1992,
+    "film": "Captain Ron",
+    "recettes": "$22,518,097",
+    "recette": 22518097,
+    "genre": 0,
+    "titre": "Captain Ron",
+    "idAlloCine": 58876
+  },
+  {
+    "id": 439,
+    "publication": 1998,
+    "film": "He Got Game",
+    "recettes": "$22,411,948",
+    "recette": 22411948,
+    "genre": 0,
+    "titre": "He Got Game",
+    "idAlloCine": 24850
+  },
+  {
+    "id": 440,
+    "publication": 2016,
+    "film": "The Light Between Oceans",
+    "recettes": "$22,281,732",
+    "recette": 22281732,
+    "genre": 0,
+    "titre": "The Light Between Oceans",
+    "idAlloCine": ""
+  },
+  {
+    "id": 441,
+    "publication": 1963,
+    "film": "The Sword in the Stone",
+    "recettes": "$22,182,353",
+    "recette": 22182353,
+    "genre": 0,
+    "titre": "The Sword in the Stone",
+    "idAlloCine": 45518
+  },
+  {
+    "id": 442,
+    "publication": 2004,
+    "film": "Mr. 3000",
+    "recettes": "$21,827,296",
+    "recette": 21827296,
+    "genre": 0,
+    "titre": "Mr. 3000",
+    "idAlloCine": 52128
+  },
+  {
+    "id": 443,
+    "publication": 1992,
+    "film": "Consenting Adults",
+    "recettes": "$21,591,728",
+    "recette": 21591728,
+    "genre": 0,
+    "titre": "Consenting Adults",
+    "idAlloCine": 53028
+  },
+  {
+    "id": 444,
+    "publication": 1968,
+    "film": "Blackbeard's Ghost",
+    "recettes": "$21,540,050",
+    "recette": 21540050,
+    "genre": 0,
+    "titre": "Blackbeard's Ghost",
+    "idAlloCine": 48934
+  },
+  {
+    "id": 445,
+    "publication": 1986,
+    "film": "Tough Guys",
+    "recettes": "$21,458,229",
+    "recette": 21458229,
+    "genre": 0,
+    "titre": "Tough Guys",
+    "idAlloCine": ""
+  },
+  {
+    "id": 446,
+    "publication": 2003,
+    "film": "Cold Creek Manor",
+    "recettes": "$21,384,035",
+    "recette": 21384035,
+    "genre": 0,
+    "titre": "Cold Creek Manor",
+    "idAlloCine": 44921
+  },
+  {
+    "id": 447,
+    "publication": 1985,
+    "film": "The Black Cauldron",
+    "recettes": "$21,288,692",
+    "recette": 21288692,
+    "genre": 0,
+    "titre": "The Black Cauldron",
+    "idAlloCine": ""
+  },
+  {
+    "id": 448,
+    "publication": 1992,
+    "film": "Straight Talk",
+    "recettes": "$21,202,099",
+    "recette": 21202099,
+    "genre": 0,
+    "titre": "Straight Talk",
+    "idAlloCine": 134341
+  },
+  {
+    "id": 449,
+    "publication": 1993,
+    "film": "Super Mario Bros.",
+    "recettes": "$20,844,907",
+    "recette": 20844907,
+    "genre": 0,
+    "titre": "Super Mario Bros.",
+    "idAlloCine": ""
+  },
+  {
+    "id": 450,
+    "publication": 1994,
+    "film": "The Air Up There",
+    "recettes": "$20,782,439",
+    "recette": 20782439,
+    "genre": 0,
+    "titre": "The Air Up There",
+    "idAlloCine": 87632
+  },
+  {
+    "id": 451,
+    "publication": 1994,
+    "film": "Iron Will",
+    "recettes": "$20,623,071",
+    "recette": 20623071,
+    "genre": 0,
+    "titre": "Iron Will",
+    "idAlloCine": 106635
+  },
+  {
+    "id": 452,
+    "publication": 1987,
+    "film": "Hello Again",
+    "recettes": "$20,419,446",
+    "recette": 20419446,
+    "genre": 0,
+    "titre": "Hello Again",
+    "idAlloCine": ""
+  },
+  {
+    "id": 453,
+    "publication": 1993,
+    "film": "Another Stakeout",
+    "recettes": "$20,107,504",
+    "recette": 20107504,
+    "genre": 0,
+    "titre": "Another Stakeout",
+    "idAlloCine": 47172
+  },
+  {
+    "id": 454,
+    "publication": 2020,
+    "film": "Hamilton",
+    "recettes": "$20,097,800",
+    "recette": 20097800,
+    "genre": 0,
+    "titre": "Hamilton",
+    "idAlloCine": ""
+  },
+  {
+    "id": 455,
+    "publication": 1990,
+    "film": "Stella",
+    "recettes": "$20,062,347",
+    "recette": 20062347,
+    "genre": 0,
+    "titre": "Stella",
+    "idAlloCine": ""
+  },
+  {
+    "id": 456,
+    "publication": 1990,
+    "film": "Taking Care of Business",
+    "recettes": "$20,005,435",
+    "recette": 20005435,
+    "genre": 0,
+    "titre": "Taking Care of Business",
+    "idAlloCine": 109610
+  },
+  {
+    "id": 457,
+    "publication": 2001,
+    "film": "crazy/beautiful",
+    "recettes": "$19,929,123",
+    "recette": 19929123,
+    "genre": 0,
+    "titre": "crazy/beautiful",
+    "idAlloCine": ""
+  },
+  {
+    "id": 458,
+    "publication": 1994,
+    "film": "Color of Night",
+    "recettes": "$19,750,470",
+    "recette": 19750470,
+    "genre": 0,
+    "titre": "Color of Night",
+    "idAlloCine": 34544
+  },
+  {
+    "id": 459,
+    "publication": 1997,
+    "film": "Gone Fishin'",
+    "recettes": "$19,745,922",
+    "recette": 19745922,
+    "genre": 0,
+    "titre": "Gone Fishin'",
+    "idAlloCine": 29328
+  },
+  {
+    "id": 460,
+    "publication": 1990,
+    "film": "Betsy's Wedding",
+    "recettes": "$19,740,070",
+    "recette": 19740070,
+    "genre": 0,
+    "titre": "Betsy's Wedding",
+    "idAlloCine": 46702
+  },
+  {
+    "id": 461,
+    "publication": 1999,
+    "film": "Doug's 1st Movie",
+    "recettes": "$19,421,271",
+    "recette": 19421271,
+    "genre": 0,
+    "titre": "Doug's 1st Movie",
+    "idAlloCine": 20267
+  },
+  {
+    "id": 462,
+    "publication": 1989,
+    "film": "An Innocent Man",
+    "recettes": "$19,397,847",
+    "recette": 19397847,
+    "genre": 0,
+    "titre": "An Innocent Man",
+    "idAlloCine": ""
+  },
+  {
+    "id": 463,
+    "publication": 2002,
+    "film": "Tuck Everlasting",
+    "recettes": "$19,344,615",
+    "recette": 19344615,
+    "genre": 0,
+    "titre": "Tuck Everlasting",
+    "idAlloCine": ""
+  },
+  {
+    "id": 464,
+    "publication": 1999,
+    "film": "Summer of Sam",
+    "recettes": "$19,288,130",
+    "recette": 19288130,
+    "genre": 0,
+    "titre": "Summer of Sam",
+    "idAlloCine": 3941
+  },
+  {
+    "id": 465,
+    "publication": 1998,
+    "film": "Rushmore",
+    "recettes": "$19,080,435",
+    "recette": 19080435,
+    "genre": 0,
+    "titre": "Rushmore",
+    "idAlloCine": 21344
+  },
+  {
+    "id": 466,
+    "publication": 1989,
+    "film": "Blaze",
+    "recettes": "$19,049,727",
+    "recette": 19049727,
+    "genre": 0,
+    "titre": "Blaze",
+    "idAlloCine": ""
+  },
+  {
+    "id": 467,
+    "publication": 1996,
+    "film": "Kazaam",
+    "recettes": "$18,880,508",
+    "recette": 18880508,
+    "genre": 0,
+    "titre": "Kazaam",
+    "idAlloCine": 109541
+  },
+  {
+    "id": 468,
+    "publication": 1991,
+    "film": "Paradise",
+    "recettes": "$18,634,643",
+    "recette": 18634643,
+    "genre": 0,
+    "titre": "Paradise",
+    "idAlloCine": ""
+  },
+  {
+    "id": 469,
+    "publication": 1970,
+    "film": "The Boatniks",
+    "recettes": "$18,607,492",
+    "recette": 18607492,
+    "genre": 0,
+    "titre": "The Boatniks",
+    "idAlloCine": ""
+  },
+  {
+    "id": 470,
+    "publication": 1986,
+    "film": "Flight of the Navigator",
+    "recettes": "$18,564,613",
+    "recette": 18564613,
+    "genre": 0,
+    "titre": "Flight of the Navigator",
+    "idAlloCine": 100865
+  },
+  {
+    "id": 471,
+    "publication": 1998,
+    "film": "Simon Birch",
+    "recettes": "$18,310,591",
+    "recette": 18310591,
+    "genre": 0,
+    "titre": "Simon Birch",
+    "idAlloCine": 33024
+  },
+  {
+    "id": 472,
+    "publication": 1997,
+    "film": "That Darn Cat",
+    "recettes": "$18,301,828",
+    "recette": 18301828,
+    "genre": 0,
+    "titre": "That Darn Cat",
+    "idAlloCine": 30625
+  },
+  {
+    "id": 473,
+    "publication": 2014,
+    "film": "Bears",
+    "recettes": "$18,151,746",
+    "recette": 18151746,
+    "genre": 0,
+    "titre": "Bears",
+    "idAlloCine": 210257
+  },
+  {
+    "id": 474,
+    "publication": 1990,
+    "film": "DuckTales: The Movie - Treasure of the Lost Lamp",
+    "recettes": "$18,075,331",
+    "recette": 18075331,
+    "genre": 0,
+    "titre": "DuckTales: The Movie - Treasure of the Lost Lamp",
+    "idAlloCine": ""
+  },
+  {
+    "id": 475,
+    "publication": 1971,
+    "film": "Bedknobs and Broomsticks",
+    "recettes": "$17,871,174",
+    "recette": 17871174,
+    "genre": 0,
+    "titre": "Bedknobs and Broomsticks",
+    "idAlloCine": 90140
+  },
+  {
+    "id": 476,
+    "publication": 1993,
+    "film": "Born Yesterday",
+    "recettes": "$17,760,754",
+    "recette": 17760754,
+    "genre": 0,
+    "titre": "Born Yesterday",
+    "idAlloCine": 4360
+  },
+  {
+    "id": 477,
+    "publication": 1995,
+    "film": "The Big Green",
+    "recettes": "$17,736,619",
+    "recette": 17736619,
+    "genre": 0,
+    "titre": "The Big Green",
+    "idAlloCine": 61496
+  },
+  {
+    "id": 478,
+    "publication": 1995,
+    "film": "Heavy Weights",
+    "recettes": "$17,671,310",
+    "recette": 17671310,
+    "genre": 0,
+    "titre": "Heavy Weights",
+    "idAlloCine": ""
+  },
+  {
+    "id": 479,
+    "publication": 2008,
+    "film": "Swing Vote",
+    "recettes": "$17,589,867",
+    "recette": 17589867,
+    "genre": 0,
+    "titre": "Swing Vote",
+    "idAlloCine": 128681
+  },
+  {
+    "id": 480,
+    "publication": 2001,
+    "film": "Max Keeble's Big Move",
+    "recettes": "$17,292,381",
+    "recette": 17292381,
+    "genre": 0,
+    "titre": "Max Keeble's Big Move",
+    "idAlloCine": 38152
+  },
+  {
+    "id": 481,
+    "publication": 2006,
+    "film": "Annapolis",
+    "recettes": "$17,224,992",
+    "recette": 17224992,
+    "genre": 0,
+    "titre": "Annapolis",
+    "idAlloCine": 88619
+  },
+  {
+    "id": 482,
+    "publication": 2015,
+    "film": "Monkey Kingdom",
+    "recettes": "$17,159,530",
+    "recette": 17159530,
+    "genre": 0,
+    "titre": "Monkey Kingdom",
+    "idAlloCine": 228295
+  },
+  {
+    "id": 483,
+    "publication": 2002,
+    "film": "The Country Bears",
+    "recettes": "$16,988,996",
+    "recette": 16988996,
+    "genre": 0,
+    "titre": "The Country Bears",
+    "idAlloCine": 29135
+  },
+  {
+    "id": 484,
+    "publication": 1994,
+    "film": "Terminal Velocity",
+    "recettes": "$16,478,900",
+    "recette": 16478900,
+    "genre": 0,
+    "titre": "Terminal Velocity",
+    "idAlloCine": ""
+  },
+  {
+    "id": 485,
+    "publication": 2001,
+    "film": "Just Visiting",
+    "recettes": "$16,172,200",
+    "recette": 16172200,
+    "genre": 0,
+    "titre": "Just Visiting",
+    "idAlloCine": 32547
+  },
+  {
+    "id": 486,
+    "publication": 1981,
+    "film": "The Devil and Max Devlin",
+    "recettes": "$16,000,000",
+    "recette": 16000000,
+    "genre": 0,
+    "titre": "The Devil and Max Devlin",
+    "idAlloCine": 42088
+  },
+  {
+    "id": 487,
+    "publication": 1991,
+    "film": "Billy Bathgate",
+    "recettes": "$15,565,363",
+    "recette": 15565363,
+    "genre": 0,
+    "titre": "Billy Bathgate",
+    "idAlloCine": ""
+  },
+  {
+    "id": 488,
+    "publication": 2005,
+    "film": "The Greatest Game Ever Played",
+    "recettes": "$15,468,266",
+    "recette": 15468266,
+    "genre": 0,
+    "titre": "The Greatest Game Ever Played",
+    "idAlloCine": 55131
+  },
+  {
+    "id": 489,
+    "publication": 1997,
+    "film": "Rocket Man",
+    "recettes": "$15,448,043",
+    "recette": 15448043,
+    "genre": 0,
+    "titre": "Rocket Man",
+    "idAlloCine": ""
+  },
+  {
+    "id": 490,
+    "publication": 1995,
+    "film": "Mad Love",
+    "recettes": "$15,446,532",
+    "recette": 15446532,
+    "genre": 0,
+    "titre": "Mad Love",
+    "idAlloCine": ""
+  },
+  {
+    "id": 491,
+    "publication": 1990,
+    "film": "Mr. Destiny",
+    "recettes": "$15,379,253",
+    "recette": 15379253,
+    "genre": 0,
+    "titre": "Mr. Destiny",
+    "idAlloCine": 31662
+  },
+  {
+    "id": 492,
+    "publication": 2007,
+    "film": "Primeval",
+    "recettes": "$15,337,855",
+    "recette": 15337855,
+    "genre": 0,
+    "titre": "Primeval",
+    "idAlloCine": 110505
+  },
+  {
+    "id": 493,
+    "publication": 1987,
+    "film": "Benji the Hunted",
+    "recettes": "$15,212,539",
+    "recette": 15212539,
+    "genre": 0,
+    "titre": "Benji the Hunted",
+    "idAlloCine": 116148
+  },
+  {
+    "id": 494,
+    "publication": 1991,
+    "film": "Haakon Haakonsen",
+    "recettes": "$15,024,232",
+    "recette": 15024232,
+    "genre": 0,
+    "titre": "Haakon Haakonsen",
+    "idAlloCine": ""
+  },
+  {
+    "id": 495,
+    "publication": 1990,
+    "film": "Spaced Invaders",
+    "recettes": "$15,000,000",
+    "recette": 15000000,
+    "genre": 0,
+    "titre": "Spaced Invaders",
+    "idAlloCine": ""
+  },
+  {
+    "id": 496,
+    "publication": 2001,
+    "film": "Out Cold",
+    "recettes": "$14,786,394",
+    "recette": 14786394,
+    "genre": 0,
+    "titre": "Out Cold",
+    "idAlloCine": 35148
+  },
+  {
+    "id": 497,
+    "publication": 1997,
+    "film": "The Sixth Man",
+    "recettes": "$14,765,099",
+    "recette": 14765099,
+    "genre": 0,
+    "titre": "The Sixth Man",
+    "idAlloCine": ""
+  },
+  {
+    "id": 498,
+    "publication": 1990,
+    "film": "Fire Birds",
+    "recettes": "$14,760,451",
+    "recette": 14760451,
+    "genre": 0,
+    "titre": "Fire Birds",
+    "idAlloCine": 47013
+  },
+  {
+    "id": 499,
+    "publication": 1993,
+    "film": "Indian Summer",
+    "recettes": "$14,717,851",
+    "recette": 14717851,
+    "genre": 0,
+    "titre": "Indian Summer",
+    "idAlloCine": ""
+  },
+  {
+    "id": 500,
+    "publication": 1985,
+    "film": "Baby: Secret of the Lost Legend",
+    "recettes": "$14,276,095",
+    "recette": 14276095,
+    "genre": 0,
+    "titre": "Baby: Secret of the Lost Legend",
+    "idAlloCine": 176077
+  },
+  {
+    "id": 501,
+    "publication": 1991,
+    "film": "Ernest Scared Stupid",
+    "recettes": "$14,143,280",
+    "recette": 14143280,
+    "genre": 0,
+    "titre": "Ernest Scared Stupid",
+    "idAlloCine": ""
+  },
+  {
+    "id": 502,
+    "publication": 1995,
+    "film": "A Kid in King Arthur's Court",
+    "recettes": "$13,747,279",
+    "recette": 13747279,
+    "genre": 0,
+    "titre": "A Kid in King Arthur's Court",
+    "idAlloCine": 62315
+  },
+  {
+    "id": 503,
+    "publication": 2015,
+    "film": "Strange Magic",
+    "recettes": "$13,741,343",
+    "recette": 13741343,
+    "genre": 0,
+    "titre": "Strange Magic",
+    "idAlloCine": 233063
+  },
+  {
+    "id": 504,
+    "publication": 1988,
+    "film": "Return to Snowy River",
+    "recettes": "$13,687,027",
+    "recette": 13687027,
+    "genre": 0,
+    "titre": "Return to Snowy River",
+    "idAlloCine": ""
+  },
+  {
+    "id": 505,
+    "publication": 1985,
+    "film": "One Magic Christmas",
+    "recettes": "$13,229,514",
+    "recette": 13229514,
+    "genre": 0,
+    "titre": "One Magic Christmas",
+    "idAlloCine": 42398
+  },
+  {
+    "id": 506,
+    "publication": 2000,
+    "film": "The Crew",
+    "recettes": "$13,019,253",
+    "recette": 13019253,
+    "genre": 0,
+    "titre": "The Crew",
+    "idAlloCine": 26834
+  },
+  {
+    "id": 507,
+    "publication": 1993,
+    "film": "A Far Off Place",
+    "recettes": "$12,890,752",
+    "recette": 12890752,
+    "genre": 0,
+    "titre": "A Far Off Place",
+    "idAlloCine": 99664
+  },
+  {
+    "id": 508,
+    "publication": 1996,
+    "film": "Mr. Wrong",
+    "recettes": "$12,805,071",
+    "recette": 12805071,
+    "genre": 0,
+    "titre": "Mr. Wrong",
+    "idAlloCine": 58866
+  },
+  {
+    "id": 509,
+    "publication": 1996,
+    "film": "The Associate",
+    "recettes": "$12,772,657",
+    "recette": 12772657,
+    "genre": 0,
+    "titre": "The Associate",
+    "idAlloCine": ""
+  },
+  {
+    "id": 510,
+    "publication": 2005,
+    "film": "Aliens of the Deep",
+    "recettes": "$12,765,684",
+    "recette": 12765684,
+    "genre": 0,
+    "titre": "Aliens of the Deep",
+    "idAlloCine": 59080
+  },
+  {
+    "id": 511,
+    "publication": 1988,
+    "film": "D.O.A.",
+    "recettes": "$12,706,478",
+    "recette": 12706478,
+    "genre": 0,
+    "titre": "D.O.A.",
+    "idAlloCine": 32029
+  },
+  {
+    "id": 512,
+    "publication": 2012,
+    "film": "People Like Us",
+    "recettes": "$12,617,472",
+    "recette": 12617472,
+    "genre": 0,
+    "titre": "People Like Us",
+    "idAlloCine": ""
+  },
+  {
+    "id": 513,
+    "publication": 2002,
+    "film": "Sorority Boys",
+    "recettes": "$12,516,222",
+    "recette": 12516222,
+    "genre": 0,
+    "titre": "Sorority Boys",
+    "idAlloCine": 44209
+  },
+  {
+    "id": 514,
+    "publication": 1991,
+    "film": "The Marrying Man",
+    "recettes": "$12,454,768",
+    "recette": 12454768,
+    "genre": 0,
+    "titre": "The Marrying Man",
+    "idAlloCine": 33376
+  },
+  {
+    "id": 515,
+    "publication": 1993,
+    "film": "Life With Mikey",
+    "recettes": "$12,349,549",
+    "recette": 12349549,
+    "genre": 0,
+    "titre": "Life With Mikey",
+    "idAlloCine": ""
+  },
+  {
+    "id": 516,
+    "publication": 1994,
+    "film": "The Ref",
+    "recettes": "$12,325,885",
+    "recette": 12325885,
+    "genre": 0,
+    "titre": "The Ref",
+    "idAlloCine": 41749
+  },
+  {
+    "id": 517,
+    "publication": 1992,
+    "film": "A Stranger Among Us",
+    "recettes": "$12,282,994",
+    "recette": 12282994,
+    "genre": 0,
+    "titre": "A Stranger Among Us",
+    "idAlloCine": 33927
+  },
+  {
+    "id": 518,
+    "publication": 2022,
+    "film": "Turning Red",
+    "recettes": "$12,271,142",
+    "recette": 12271142,
+    "genre": 0,
+    "titre": "Turning Red",
+    "idAlloCine": 263058
+  },
+  {
+    "id": 519,
+    "publication": 1998,
+    "film": "I'll Be Home For Christmas",
+    "recettes": "$12,214,338",
+    "recette": 12214338,
+    "genre": 0,
+    "titre": "I'll Be Home For Christmas",
+    "idAlloCine": ""
+  },
+  {
+    "id": 520,
+    "publication": 1995,
+    "film": "Roommates",
+    "recettes": "$12,076,989",
+    "recette": 12076989,
+    "genre": 0,
+    "titre": "Roommates",
+    "idAlloCine": ""
+  },
+  {
+    "id": 521,
+    "publication": 1998,
+    "film": "Holy Man",
+    "recettes": "$12,069,719",
+    "recette": 12069719,
+    "genre": 0,
+    "titre": "Holy Man",
+    "idAlloCine": 20324
+  },
+  {
+    "id": 522,
+    "publication": 2005,
+    "film": "Shopgirl",
+    "recettes": "$11,758,418",
+    "recette": 11758418,
+    "genre": 0,
+    "titre": "Shopgirl",
+    "idAlloCine": ""
+  },
+  {
+    "id": 523,
+    "publication": 1994,
+    "film": "3 Ninjas Kick Back",
+    "recettes": "$11,744,960",
+    "recette": 11744960,
+    "genre": 0,
+    "titre": "3 Ninjas Kick Back",
+    "idAlloCine": 182654
+  },
+  {
+    "id": 524,
+    "publication": 1989,
+    "film": "Gross Anatomy",
+    "recettes": "$11,346,186",
+    "recette": 11346186,
+    "genre": 0,
+    "titre": "Gross Anatomy",
+    "idAlloCine": 59980
+  },
+  {
+    "id": 525,
+    "publication": 1991,
+    "film": "One Good Cop",
+    "recettes": "$11,276,846",
+    "recette": 11276846,
+    "genre": 0,
+    "titre": "One Good Cop",
+    "idAlloCine": 57930
+  },
+  {
+    "id": 526,
+    "publication": 2006,
+    "film": "Roving Mars",
+    "recettes": "$11,248,978",
+    "recette": 11248978,
+    "genre": 0,
+    "titre": "Roving Mars",
+    "idAlloCine": 66599
+  },
+  {
+    "id": 527,
+    "publication": 1998,
+    "film": "Deep Rising",
+    "recettes": "$11,203,026",
+    "recette": 11203026,
+    "genre": 0,
+    "titre": "Deep Rising",
+    "idAlloCine": 17944
+  },
+  {
+    "id": 528,
+    "publication": 1980,
+    "film": "The Last Flight of Noah’s Ark",
+    "recettes": "$11,000,000",
+    "recette": 11000000,
+    "genre": 0,
+    "titre": "The Last Flight of Noah’s Ark",
+    "idAlloCine": ""
+  },
+  {
+    "id": 529,
+    "publication": 1989,
+    "film": "New York Stories",
+    "recettes": "$10,763,469",
+    "recette": 10763469,
+    "genre": 0,
+    "titre": "New York Stories",
+    "idAlloCine": 28347
+  },
+  {
+    "id": 530,
+    "publication": 2011,
+    "film": "Prom",
+    "recettes": "$10,763,183",
+    "recette": 10763183,
+    "genre": 0,
+    "titre": "Prom",
+    "idAlloCine": 185051
+  },
+  {
+    "id": 531,
+    "publication": 1985,
+    "film": "Return to Oz",
+    "recettes": "$10,618,813",
+    "recette": 10618813,
+    "genre": 0,
+    "titre": "Return to Oz",
+    "idAlloCine": 74816
+  },
+  {
+    "id": 532,
+    "publication": 1994,
+    "film": "Camp Nowhere",
+    "recettes": "$10,442,641",
+    "recette": 10442641,
+    "genre": 0,
+    "titre": "Camp Nowhere",
+    "idAlloCine": 47122
+  },
+  {
+    "id": 533,
+    "publication": 1995,
+    "film": "The Scarlet Letter",
+    "recettes": "$10,359,006",
+    "recette": 10359006,
+    "genre": 0,
+    "titre": "The Scarlet Letter",
+    "idAlloCine": ""
+  },
+  {
+    "id": 534,
+    "publication": 1996,
+    "film": "White Squall",
+    "recettes": "$10,229,300",
+    "recette": 10229300,
+    "genre": 0,
+    "titre": "White Squall",
+    "idAlloCine": 15167
+  },
+  {
+    "id": 535,
+    "publication": 1961,
+    "film": "Babes in Toyland",
+    "recettes": "$10,218,316",
+    "recette": 10218316,
+    "genre": 0,
+    "titre": "Babes in Toyland",
+    "idAlloCine": 55447
+  },
+  {
+    "id": 536,
+    "publication": 2016,
+    "film": "Queen of Katwe",
+    "recettes": "$10,055,481",
+    "recette": 10055481,
+    "genre": 0,
+    "titre": "Queen of Katwe",
+    "idAlloCine": 234564
+  },
+  {
+    "id": 537,
+    "publication": 2008,
+    "film": "Miracle at St. Anna",
+    "recettes": "$9,676,497",
+    "recette": 9676497,
+    "genre": 0,
+    "titre": "Miracle at St. Anna",
+    "idAlloCine": 129331
+  },
+  {
+    "id": 538,
+    "publication": 2003,
+    "film": "Young Black Stallion",
+    "recettes": "$9,638,389",
+    "recette": 9638389,
+    "genre": 0,
+    "titre": "Young Black Stallion",
+    "idAlloCine": 55884
+  },
+  {
+    "id": 539,
+    "publication": 1991,
+    "film": "Scenes from a Mall",
+    "recettes": "$9,563,393",
+    "recette": 9563393,
+    "genre": 0,
+    "titre": "Scenes from a Mall",
+    "idAlloCine": 55524
+  },
+  {
+    "id": 540,
+    "publication": 1994,
+    "film": "Red Rock West",
+    "recettes": "$9,502,551",
+    "recette": 9502551,
+    "genre": 0,
+    "titre": "Red Rock West",
+    "idAlloCine": 8028
+  },
+  {
+    "id": 541,
+    "publication": 1997,
+    "film": "A Thousand Acres",
+    "recettes": "$9,497,079",
+    "recette": 9497079,
+    "genre": 0,
+    "titre": "A Thousand Acres",
+    "idAlloCine": ""
+  },
+  {
+    "id": 542,
+    "publication": 1985,
+    "film": "The Journey of Natty Gann",
+    "recettes": "$9,468,512",
+    "recette": 9468512,
+    "genre": 0,
+    "titre": "The Journey of Natty Gann",
+    "idAlloCine": 59091
+  },
+  {
+    "id": 543,
+    "publication": 1959,
+    "film": "Sleeping Beauty",
+    "recettes": "$9,464,718",
+    "recette": 9464718,
+    "genre": 0,
+    "titre": "Sleeping Beauty",
+    "idAlloCine": 2590
+  },
+  {
+    "id": 544,
+    "publication": 2003,
+    "film": "Veronica Guerin",
+    "recettes": "$9,438,074",
+    "recette": 9438074,
+    "genre": 0,
+    "titre": "Veronica Guerin",
+    "idAlloCine": 28777
+  },
+  {
+    "id": 545,
+    "publication": 1994,
+    "film": "Angie",
+    "recettes": "$9,252,349",
+    "recette": 9252349,
+    "genre": 0,
+    "titre": "Angie",
+    "idAlloCine": 38496
+  },
+  {
+    "id": 546,
+    "publication": 1996,
+    "film": "Celtic Pride",
+    "recettes": "$9,240,378",
+    "recette": 9240378,
+    "genre": 0,
+    "titre": "Celtic Pride",
+    "idAlloCine": 93249
+  },
+  {
+    "id": 547,
+    "publication": 1962,
+    "film": "Bon Voyage!",
+    "recettes": "$9,230,769",
+    "recette": 9230769,
+    "genre": 0,
+    "titre": "Bon Voyage!",
+    "idAlloCine": ""
+  },
+  {
+    "id": 548,
+    "publication": 1999,
+    "film": "Mystery, Alaska",
+    "recettes": "$8,891,623",
+    "recette": 8891623,
+    "genre": 0,
+    "titre": "Mystery, Alaska",
+    "idAlloCine": 28177
+  },
+  {
+    "id": 549,
+    "publication": 1994,
+    "film": "The Inkwell",
+    "recettes": "$8,864,699",
+    "recette": 8864699,
+    "genre": 0,
+    "titre": "The Inkwell",
+    "idAlloCine": 54557
+  },
+  {
+    "id": 550,
+    "publication": 1994,
+    "film": "White Fang 2: Myth of the White Wolf",
+    "recettes": "$8,752,399",
+    "recette": 8752399,
+    "genre": 0,
+    "titre": "White Fang 2: Myth of the White Wolf",
+    "idAlloCine": 10704
+  },
+  {
+    "id": 551,
+    "publication": 1996,
+    "film": "Before and After",
+    "recettes": "$8,642,118",
+    "recette": 8642118,
+    "genre": 0,
+    "titre": "Before and After",
+    "idAlloCine": 8786
+  },
+  {
+    "id": 552,
+    "publication": 1994,
+    "film": "The Puppet Masters",
+    "recettes": "$8,579,626",
+    "recette": 8579626,
+    "genre": 0,
+    "titre": "The Puppet Masters",
+    "idAlloCine": ""
+  },
+  {
+    "id": 553,
+    "publication": 1996,
+    "film": "The Rich Man’s Wife",
+    "recettes": "$8,538,318",
+    "recette": 8538318,
+    "genre": 0,
+    "titre": "The Rich Man’s Wife",
+    "idAlloCine": ""
+  },
+  {
+    "id": 554,
+    "publication": 2002,
+    "film": "Big Trouble",
+    "recettes": "$8,488,871",
+    "recette": 8488871,
+    "genre": 0,
+    "titre": "Big Trouble",
+    "idAlloCine": ""
+  },
+  {
+    "id": 555,
+    "publication": 1999,
+    "film": "Play it to the Bone",
+    "recettes": "$8,427,204",
+    "recette": 8427204,
+    "genre": 0,
+    "titre": "Play it to the Bone",
+    "idAlloCine": ""
+  },
+  {
+    "id": 556,
+    "publication": 1984,
+    "film": "Country",
+    "recettes": "$8,400,000",
+    "recette": 8400000,
+    "genre": 0,
+    "titre": "Country",
+    "idAlloCine": 108562
+  },
+  {
+    "id": 557,
+    "publication": 1995,
+    "film": "Tall Tale",
+    "recettes": "$8,247,627",
+    "recette": 8247627,
+    "genre": 0,
+    "titre": "Tall Tale",
+    "idAlloCine": 31099
+  },
+  {
+    "id": 558,
+    "publication": 1995,
+    "film": "Unstrung Heroes",
+    "recettes": "$7,929,000",
+    "recette": 7929000,
+    "genre": 0,
+    "titre": "Unstrung Heroes",
+    "idAlloCine": 13845
+  },
+  {
+    "id": 559,
+    "publication": 1989,
+    "film": "Cheetah",
+    "recettes": "$7,882,250",
+    "recette": 7882250,
+    "genre": 0,
+    "titre": "Cheetah",
+    "idAlloCine": ""
+  },
+  {
+    "id": 560,
+    "publication": 1993,
+    "film": "Aspen Extreme",
+    "recettes": "$7,843,388",
+    "recette": 7843388,
+    "genre": 0,
+    "titre": "Aspen Extreme",
+    "idAlloCine": 47174
+  },
+  {
+    "id": 561,
+    "publication": 2019,
+    "film": "Penguins",
+    "recettes": "$7,699,452",
+    "recette": 7699452,
+    "genre": 0,
+    "titre": "Penguins",
+    "idAlloCine": ""
+  },
+  {
+    "id": 562,
+    "publication": 1998,
+    "film": "Krippendorf's Tribe",
+    "recettes": "$7,571,115",
+    "recette": 7571115,
+    "genre": 0,
+    "titre": "Krippendorf's Tribe",
+    "idAlloCine": 33017
+  },
+  {
+    "id": 563,
+    "publication": 1995,
+    "film": "The Jerky Boys",
+    "recettes": "$7,555,256",
+    "recette": 7555256,
+    "genre": 0,
+    "titre": "The Jerky Boys",
+    "idAlloCine": 137847
+  },
+  {
+    "id": 564,
+    "publication": 1992,
+    "film": "Sarafina!",
+    "recettes": "$7,306,242",
+    "recette": 7306242,
+    "genre": 0,
+    "titre": "Sarafina!",
+    "idAlloCine": 7152
+  },
+  {
+    "id": 565,
+    "publication": 1991,
+    "film": "Wild Hearts Can’t Be Broken",
+    "recettes": "$7,300,000",
+    "recette": 7300000,
+    "genre": 0,
+    "titre": "Wild Hearts Can’t Be Broken",
+    "idAlloCine": ""
+  },
+  {
+    "id": 566,
+    "publication": 1989,
+    "film": "Disorganized Crime",
+    "recettes": "$7,210,149",
+    "recette": 7210149,
+    "genre": 0,
+    "titre": "Disorganized Crime",
+    "idAlloCine": 59000
+  },
+  {
+    "id": 567,
+    "publication": 1982,
+    "film": "Tex",
+    "recettes": "$7,199,408",
+    "recette": 7199408,
+    "genre": 0,
+    "titre": "Tex",
+    "idAlloCine": ""
+  },
+  {
+    "id": 568,
+    "publication": 2007,
+    "film": "The Hoax",
+    "recettes": "$7,164,995",
+    "recette": 7164995,
+    "genre": 0,
+    "titre": "The Hoax",
+    "idAlloCine": 60101
+  },
+  {
+    "id": 569,
+    "publication": 1992,
+    "film": "1492: Conquest of Paradise",
+    "recettes": "$7,099,531",
+    "recette": 7099531,
+    "genre": 0,
+    "titre": "1492: Conquest of Paradise",
+    "idAlloCine": 7590
+  },
+  {
+    "id": 570,
+    "publication": 2002,
+    "film": "Moonlight Mile",
+    "recettes": "$6,830,957",
+    "recette": 6830957,
+    "genre": 0,
+    "titre": "Moonlight Mile",
+    "idAlloCine": ""
+  },
+  {
+    "id": 571,
+    "publication": 2000,
+    "film": "Duets",
+    "recettes": "$6,615,452",
+    "recette": 6615452,
+    "genre": 0,
+    "titre": "Duets",
+    "idAlloCine": ""
+  },
+  {
+    "id": 572,
+    "publication": 2004,
+    "film": "Teacher's Pet: The Movie",
+    "recettes": "$6,491,969",
+    "recette": 6491969,
+    "genre": 0,
+    "titre": "Teacher's Pet: The Movie",
+    "idAlloCine": ""
+  },
+  {
+    "id": 573,
+    "publication": 1999,
+    "film": "The Straight Story",
+    "recettes": "$6,230,266",
+    "recette": 6230266,
+    "genre": 0,
+    "titre": "The Straight Story",
+    "idAlloCine": 19642
+  },
+  {
+    "id": 574,
+    "publication": 2013,
+    "film": "The Fifth Estate",
+    "recettes": "$6,154,172",
+    "recette": 6154172,
+    "genre": 0,
+    "titre": "The Fifth Estate",
+    "idAlloCine": 210472
+  },
+  {
+    "id": 575,
+    "publication": 1996,
+    "film": "Last Dance",
+    "recettes": "$5,857,534",
+    "recette": 5857534,
+    "genre": 0,
+    "titre": "Last Dance",
+    "idAlloCine": 15264
+  },
+  {
+    "id": 576,
+    "publication": 1988,
+    "film": "The Rescue",
+    "recettes": "$5,855,392",
+    "recette": 5855392,
+    "genre": 0,
+    "titre": "The Rescue",
+    "idAlloCine": ""
+  },
+  {
+    "id": 577,
+    "publication": 1994,
+    "film": "Ed Wood",
+    "recettes": "$5,828,734",
+    "recette": 5828734,
+    "genre": 0,
+    "titre": "Ed Wood",
+    "idAlloCine": 12700
+  },
+  {
+    "id": 578,
+    "publication": 1995,
+    "film": "The Tie That Binds",
+    "recettes": "$5,762,795",
+    "recette": 5762795,
+    "genre": 0,
+    "titre": "The Tie That Binds",
+    "idAlloCine": ""
+  },
+  {
+    "id": 579,
+    "publication": 1997,
+    "film": "Kundun",
+    "recettes": "$5,686,694",
+    "recette": 5686694,
+    "genre": 0,
+    "titre": "Kundun",
+    "idAlloCine": 17645
+  },
+  {
+    "id": 580,
+    "publication": 1983,
+    "film": "Something Wicked This Way Comes",
+    "recettes": "$5,656,087",
+    "recette": 5656087,
+    "genre": 0,
+    "titre": "Something Wicked This Way Comes",
+    "idAlloCine": ""
+  },
+  {
+    "id": 581,
+    "publication": 1993,
+    "film": "Swing Kids",
+    "recettes": "$5,632,086",
+    "recette": 5632086,
+    "genre": 0,
+    "titre": "Swing Kids",
+    "idAlloCine": 29652
+  },
+  {
+    "id": 582,
+    "publication": 1993,
+    "film": "The Cemetery Club",
+    "recettes": "$5,583,621",
+    "recette": 5583621,
+    "genre": 0,
+    "titre": "The Cemetery Club",
+    "idAlloCine": 30661
+  },
+  {
+    "id": 583,
+    "publication": 2007,
+    "film": "The Lookout",
+    "recettes": "$5,555,018",
+    "recette": 5555018,
+    "genre": 0,
+    "titre": "The Lookout",
+    "idAlloCine": 45087
+  },
+  {
+    "id": 584,
+    "publication": 1988,
+    "film": "Heartbreak Hotel",
+    "recettes": "$5,509,417",
+    "recette": 5509417,
+    "genre": 0,
+    "titre": "Heartbreak Hotel",
+    "idAlloCine": 38815
+  },
+  {
+    "id": 585,
+    "publication": 1995,
+    "film": "Miami Rhapsody",
+    "recettes": "$5,086,578",
+    "recette": 5086578,
+    "genre": 0,
+    "titre": "Miami Rhapsody",
+    "idAlloCine": 38980
+  },
+  {
+    "id": 586,
+    "publication": 2001,
+    "film": "Bubble Boy",
+    "recettes": "$5,002,310",
+    "recette": 5002310,
+    "genre": 0,
+    "titre": "Bubble Boy",
+    "idAlloCine": 35531
+  },
+  {
+    "id": 587,
+    "publication": 1992,
+    "film": "Innocent Blood",
+    "recettes": "$4,877,567",
+    "recette": 4877567,
+    "genre": 0,
+    "titre": "Innocent Blood",
+    "idAlloCine": ""
+  },
+  {
+    "id": 588,
+    "publication": 1986,
+    "film": "Off Beat",
+    "recettes": "$4,842,778",
+    "recette": 4842778,
+    "genre": 0,
+    "titre": "Off Beat",
+    "idAlloCine": 34016
+  },
+  {
+    "id": 589,
+    "publication": 1988,
+    "film": "The Good Mother",
+    "recettes": "$4,764,606",
+    "recette": 4764606,
+    "genre": 0,
+    "titre": "The Good Mother",
+    "idAlloCine": 33414
+  },
+  {
+    "id": 590,
+    "publication": 1999,
+    "film": "Mumford",
+    "recettes": "$4,559,569",
+    "recette": 4559569,
+    "genre": 0,
+    "titre": "Mumford",
+    "idAlloCine": 32999
+  },
+  {
+    "id": 591,
+    "publication": 1982,
+    "film": "Night Crossing",
+    "recettes": "$4,500,000",
+    "recette": 4500000,
+    "genre": 0,
+    "titre": "Night Crossing",
+    "idAlloCine": 137018
+  },
+  {
+    "id": 592,
+    "publication": 1993,
+    "film": "Bound by Honor",
+    "recettes": "$4,496,583",
+    "recette": 4496583,
+    "genre": 0,
+    "titre": "Bound by Honor",
+    "idAlloCine": 32617
+  },
+  {
+    "id": 593,
+    "publication": 1997,
+    "film": "Playing God",
+    "recettes": "$4,428,527",
+    "recette": 4428527,
+    "genre": 0,
+    "titre": "Playing God",
+    "idAlloCine": 18214
+  },
+  {
+    "id": 594,
+    "publication": 1998,
+    "film": "Meet the Deedles",
+    "recettes": "$4,356,126",
+    "recette": 4356126,
+    "genre": 0,
+    "titre": "Meet the Deedles",
+    "idAlloCine": 66992
+  },
+  {
+    "id": 595,
+    "publication": 1983,
+    "film": "Trenchcoat",
+    "recettes": "$4,304,286",
+    "recette": 4304286,
+    "genre": 0,
+    "titre": "Trenchcoat",
+    "idAlloCine": ""
+  },
+  {
+    "id": 596,
+    "publication": 2008,
+    "film": "Goal! 2: Living the Dream...",
+    "recettes": "$4,259,067",
+    "recette": 4259067,
+    "genre": 0,
+    "titre": "Goal! 2: Living the Dream...",
+    "idAlloCine": ""
+  },
+  {
+    "id": 597,
+    "publication": 2002,
+    "film": "ESPN's Ultimate X - The Movie",
+    "recettes": "$4,197,175",
+    "recette": 4197175,
+    "genre": 0,
+    "titre": "ESPN's Ultimate X - The Movie",
+    "idAlloCine": ""
+  },
+  {
+    "id": 598,
+    "publication": 1985,
+    "film": "My Science Project",
+    "recettes": "$4,100,000",
+    "recette": 4100000,
+    "genre": 0,
+    "titre": "My Science Project",
+    "idAlloCine": 175079
+  },
+  {
+    "id": 599,
+    "publication": 1992,
+    "film": "Passed Away",
+    "recettes": "$4,030,793",
+    "recette": 4030793,
+    "genre": 0,
+    "titre": "Passed Away",
+    "idAlloCine": 114883
+  },
+  {
+    "id": 600,
+    "publication": 1992,
+    "film": "The Gun in Betty Lou’s Handbag",
+    "recettes": "$3,591,460",
+    "recette": 3591460,
+    "genre": 0,
+    "titre": "The Gun in Betty Lou’s Handbag",
+    "idAlloCine": ""
+  },
+  {
+    "id": 601,
+    "publication": 1995,
+    "film": "Bad Company",
+    "recettes": "$3,523,909",
+    "recette": 3523909,
+    "genre": 0,
+    "titre": "Bad Company",
+    "idAlloCine": ""
+  },
+  {
+    "id": 602,
+    "publication": 1994,
+    "film": "Cabin Boy",
+    "recettes": "$3,469,493",
+    "recette": 3469493,
+    "genre": 0,
+    "titre": "Cabin Boy",
+    "idAlloCine": 92632
+  },
+  {
+    "id": 603,
+    "publication": 1994,
+    "film": "A Simple Twist of Fate",
+    "recettes": "$3,404,935",
+    "recette": 3404935,
+    "genre": 0,
+    "titre": "A Simple Twist of Fate",
+    "idAlloCine": 55617
+  },
+  {
+    "id": 604,
+    "publication": 1994,
+    "film": "Squanto: A Warrior's Tale",
+    "recettes": "$3,319,344",
+    "recette": 3319344,
+    "genre": 0,
+    "titre": "Squanto: A Warrior's Tale",
+    "idAlloCine": ""
+  },
+  {
+    "id": 605,
+    "publication": 1993,
+    "film": "Father Hood",
+    "recettes": "$3,268,203",
+    "recette": 3268203,
+    "genre": 0,
+    "titre": "Father Hood",
+    "idAlloCine": 111441
+  },
+  {
+    "id": 606,
+    "publication": 1993,
+    "film": "My Boyfriend's Back",
+    "recettes": "$3,218,882",
+    "recette": 3218882,
+    "genre": 0,
+    "titre": "My Boyfriend's Back",
+    "idAlloCine": 43208
+  },
+  {
+    "id": 607,
+    "publication": 1980,
+    "film": "Midnight Madness",
+    "recettes": "$2,900,000",
+    "recette": 2900000,
+    "genre": 0,
+    "titre": "Midnight Madness",
+    "idAlloCine": ""
+  },
+  {
+    "id": 608,
+    "publication": 1999,
+    "film": "Cradle Will Rock",
+    "recettes": "$2,899,970",
+    "recette": 2899970,
+    "genre": 0,
+    "titre": "Cradle Will Rock",
+    "idAlloCine": 23842
+  },
+  {
+    "id": 609,
+    "publication": 1992,
+    "film": "Blame it on the Bellboy",
+    "recettes": "$2,891,055",
+    "recette": 2891055,
+    "genre": 0,
+    "titre": "Blame it on the Bellboy",
+    "idAlloCine": ""
+  },
+  {
+    "id": 610,
+    "publication": 2022,
+    "film": "The Beatles Get Back: The Rooftop Concert",
+    "recettes": "$2,868,837",
+    "recette": 2868837,
+    "genre": 0,
+    "titre": "The Beatles Get Back: The Rooftop Concert",
+    "idAlloCine": ""
+  },
+  {
+    "id": 611,
+    "publication": 1992,
+    "film": "Newsies",
+    "recettes": "$2,706,352",
+    "recette": 2706352,
+    "genre": 0,
+    "titre": "Newsies",
+    "idAlloCine": 47073
+  },
+  {
+    "id": 612,
+    "publication": 1995,
+    "film": "Jefferson in Paris",
+    "recettes": "$2,461,628",
+    "recette": 2461628,
+    "genre": 0,
+    "titre": "Jefferson in Paris",
+    "idAlloCine": 12512
+  },
+  {
+    "id": 613,
+    "publication": 1992,
+    "film": "Noises Off...",
+    "recettes": "$2,280,148",
+    "recette": 2280148,
+    "genre": 0,
+    "titre": "Noises Off...",
+    "idAlloCine": ""
+  },
+  {
+    "id": 614,
+    "publication": 1997,
+    "film": "Shadow Conspiracy",
+    "recettes": "$2,154,540",
+    "recette": 2154540,
+    "genre": 0,
+    "titre": "Shadow Conspiracy",
+    "idAlloCine": 10719
+  },
+  {
+    "id": 615,
+    "publication": 2001,
+    "film": "High Heels and Low Lifes",
+    "recettes": "$2,151,098",
+    "recette": 2151098,
+    "genre": 0,
+    "titre": "High Heels and Low Lifes",
+    "idAlloCine": 37257
+  },
+  {
+    "id": 616,
+    "publication": 1997,
+    "film": "Washington Square",
+    "recettes": "$1,775,644",
+    "recette": 1775644,
+    "genre": 0,
+    "titre": "Washington Square",
+    "idAlloCine": ""
+  },
+  {
+    "id": 617,
+    "publication": 2003,
+    "film": "Hope Springs",
+    "recettes": "$1,764,927",
+    "recette": 1764927,
+    "genre": 0,
+    "titre": "Hope Springs",
+    "idAlloCine": 47235
+  },
+  {
+    "id": 618,
+    "publication": 2000,
+    "film": "Gun Shy",
+    "recettes": "$1,638,202",
+    "recette": 1638202,
+    "genre": 0,
+    "titre": "Gun Shy",
+    "idAlloCine": 28303
+  },
+  {
+    "id": 619,
+    "publication": 2024,
+    "film": "Young Woman and the Sea",
+    "recettes": "$1,536,322",
+    "recette": 1536322,
+    "genre": 0,
+    "titre": "Young Woman and the Sea",
+    "idAlloCine": 242418
+  },
+  {
+    "id": 620,
+    "publication": 2009,
+    "film": "X Games 3D: The Movie",
+    "recettes": "$1,391,434",
+    "recette": 1391434,
+    "genre": 0,
+    "titre": "X Games 3D: The Movie",
+    "idAlloCine": ""
+  },
+  {
+    "id": 621,
+    "publication": 1983,
+    "film": "Running Brave",
+    "recettes": "$1,204,595",
+    "recette": 1204595,
+    "genre": 0,
+    "titre": "Running Brave",
+    "idAlloCine": 47902
+  },
+  {
+    "id": 622,
+    "publication": 1990,
+    "film": "Where the Heart Is",
+    "recettes": "$1,106,475",
+    "recette": 1106475,
+    "genre": 0,
+    "titre": "Where the Heart Is",
+    "idAlloCine": ""
+  },
+  {
+    "id": 623,
+    "publication": 1996,
+    "film": "Two Much",
+    "recettes": "$1,078,555",
+    "recette": 1078555,
+    "genre": 0,
+    "titre": "Two Much",
+    "idAlloCine": 14791
+  },
+  {
+    "id": 624,
+    "publication": 1993,
+    "film": "Money for Nothing",
+    "recettes": "$1,044,824",
+    "recette": 1044824,
+    "genre": 0,
+    "titre": "Money for Nothing",
+    "idAlloCine": ""
+  },
+  {
+    "id": 625,
+    "publication": 1996,
+    "film": "Un indien dans la ville",
+    "recettes": "$1,029,731",
+    "recette": 1029731,
+    "genre": 0,
+    "titre": "Un indien dans la ville",
+    "idAlloCine": 11027
+  },
+  {
+    "id": 626,
+    "publication": 1998,
+    "film": "Firelight",
+    "recettes": "$784,419",
+    "recette": 784419,
+    "genre": 0,
+    "titre": "Firelight",
+    "idAlloCine": ""
+  },
+  {
+    "id": 627,
+    "publication": 1994,
+    "film": "Holy Matrimony",
+    "recettes": "$713,234",
+    "recette": 713234,
+    "genre": 0,
+    "titre": "Holy Matrimony",
+    "idAlloCine": 22374
+  },
+  {
+    "id": 628,
+    "publication": 1997,
+    "film": "Prefontaine",
+    "recettes": "$590,817",
+    "recette": 590817,
+    "genre": 0,
+    "titre": "Prefontaine",
+    "idAlloCine": 44877
+  },
+  {
+    "id": 629,
+    "publication": 1995,
+    "film": "Funny Bones",
+    "recettes": "$529,135",
+    "recette": 529135,
+    "genre": 0,
+    "titre": "Funny Bones",
+    "idAlloCine": 12731
+  },
+  {
+    "id": 630,
+    "publication": 1996,
+    "film": "Boys",
+    "recettes": "$516,349",
+    "recette": 516349,
+    "genre": 0,
+    "titre": "Boys",
+    "idAlloCine": 5777
+  },
+  {
+    "id": 631,
+    "publication": 1995,
+    "film": "A Pyromaniac’s Love Story",
+    "recettes": "$468,240",
+    "recette": 468240,
+    "genre": 0,
+    "titre": "A Pyromaniac’s Love Story",
+    "idAlloCine": ""
+  },
+  {
+    "id": 632,
+    "publication": 2004,
+    "film": "The Last Shot",
+    "recettes": "$463,730",
+    "recette": 463730,
+    "genre": 0,
+    "titre": "The Last Shot",
+    "idAlloCine": 48131
+  },
+  {
+    "id": 633,
+    "publication": 2004,
+    "film": "America's Heart and Soul",
+    "recettes": "$314,000",
+    "recette": 314000,
+    "genre": 0,
+    "titre": "America's Heart and Soul",
+    "idAlloCine": ""
+  },
+  {
+    "id": 634,
+    "publication": 1995,
+    "film": "Feast of July",
+    "recettes": "$293,274",
+    "recette": 293274,
+    "genre": 0,
+    "titre": "Feast of July",
+    "idAlloCine": 99835
+  },
+  {
+    "id": 635,
+    "publication": 2008,
+    "film": "Morning Light",
+    "recettes": "$275,093",
+    "recette": 275093,
+    "genre": 0,
+    "titre": "Morning Light",
+    "idAlloCine": 139566
+  },
+  {
+    "id": 636,
+    "publication": 1999,
+    "film": "Endurance",
+    "recettes": "$229,128",
+    "recette": 229128,
+    "genre": 0,
+    "titre": "Endurance",
+    "idAlloCine": 25650
+  },
+  {
+    "id": 637,
+    "publication": 2017,
+    "film": "Disney’s Newsies: The Broadway Musical",
+    "recettes": "$192,651",
+    "recette": 192651,
+    "genre": 0,
+    "titre": "Disney’s Newsies: The Broadway Musical",
+    "idAlloCine": ""
+  },
+  {
+    "id": 638,
+    "publication": 1999,
+    "film": "Breakfast of Champions",
+    "recettes": "$178,287",
+    "recette": 178287,
+    "genre": 0,
+    "titre": "Breakfast of Champions",
+    "idAlloCine": ""
+  },
+  {
+    "id": 639,
+    "publication": 2024,
+    "film": "Blink",
+    "recettes": "$103,423",
+    "recette": 103423,
+    "genre": 0,
+    "titre": "Blink",
+    "idAlloCine": ""
+  },
+  {
+    "id": 640,
+    "publication": 2010,
+    "film": "Waking Sleeping Beauty",
+    "recettes": "$80,741",
+    "recette": 80741,
+    "genre": 0,
+    "titre": "Waking Sleeping Beauty",
+    "idAlloCine": 177094
+  },
+  {
+    "id": 641,
+    "publication": 1994,
+    "film": "It's Pat",
+    "recettes": "$60,822",
+    "recette": 60822,
+    "genre": 0,
+    "titre": "It's Pat",
+    "idAlloCine": 185417
+  },
+  {
+    "id": 642,
+    "publication": 1998,
+    "film": "An Alan Smithee Film: Burn Hollywood Burn",
+    "recettes": "$45,779",
+    "recette": 45779,
+    "genre": 0,
+    "titre": "An Alan Smithee Film: Burn Hollywood Burn",
+    "idAlloCine": 18216
+  },
+  {
+    "id": 643,
+    "publication": 1996,
+    "film": "The War at Home",
+    "recettes": "$34,368",
+    "recette": 34368,
+    "genre": 0,
+    "titre": "The War at Home",
+    "idAlloCine": 84570
+  },
+  {
+    "id": 644,
+    "publication": 2009,
+    "film": "Walt and El Grupo",
+    "recettes": "$20,521",
+    "recette": 20521,
+    "genre": 0,
+    "titre": "Walt and El Grupo",
+    "idAlloCine": ""
+  },
+  {
+    "id": 645,
+    "publication": 2025,
+    "film": "The Man in My Basement",
+    "recettes": "$2,940",
+    "recette": 2940,
+    "genre": 0,
+    "titre": "The Man in My Basement",
+    "idAlloCine": ""
+  },
+  {
+    "id": 646,
+    "publication": 2011,
+    "film": "Zokkomon",
+    "recettes": "$2,815",
+    "recette": 2815,
+    "genre": 0,
+    "titre": "Zokkomon",
+    "idAlloCine": 181585
+  },
+  {
+    "id": 647,
+    "publication": 2024,
+    "film": "Elton John: Never Too Late",
+    "recettes": "$1,351",
+    "recette": 1351,
+    "genre": 0,
+    "titre": "Elton John: Never Too Late",
+    "idAlloCine": ""
+  },
+  {
+    "id": 648,
+    "publication": 2024,
+    "film": "Music by John Williams",
+    "recettes": "$359",
+    "recette": 359,
+    "genre": 0,
+    "titre": "Music by John Williams",
+    "idAlloCine": ""
+  },
+  {
+    "id": "",
+    "publication": "",
+    "film": "",
+    "recettes": "",
+    "recette": "",
+    "genre": "",
+    "titre": "",
+    "idAlloCine": ""
+  },
+  {
+    "id": "",
+    "publication": "",
+    "film": "",
+    "recettes": 0,
+    "recette": 118074444140,
+    "genre": "",
+    "titre": "",
+    "idAlloCine": ""
+  }
+]
