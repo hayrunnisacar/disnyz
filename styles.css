@@ -517,8 +517,8 @@ h2{
     border-radius: 15px;
     top: 50%;
     transform: translateY(-50%);
-    width: 280px;
-    height: 150px;
+    width: 300px;
+    height: 190px;
 }
 
 .bouton-gauche .popup-fc{
@@ -535,6 +535,13 @@ h2{
 
 .popup-invisible {
     display: none;
+}
+
+.images-fc{
+    width: 120px;
+    height: auto;
+    float: left;
+    margin: 3px 5px;
 }
 
 /* CSS DU COMPTEUR */

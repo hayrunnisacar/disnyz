@@ -239,9 +239,10 @@ fetch('data.json').then(function(response) {
 
     //Je construis mon popup
     let templatePopup =
+            "<img src='{{image}}' alt='Affiche du film {{film}}' class='images-fc'/>" +
             "<p>{{film}}</p>" +
             "<p>Année : {{publication}}</p>" +
-            "<p>Lien AlloCiné: {{idAlloCine}}</p>";
+            '<a href="https://www.allocine.fr/film/fichefilm_gen_cfilm={{idAlloCine}}.html" alt="Lien vers Allociné du film">AlloCiné</a>' +
     
     //Je fais le popup pour chaque bouton
     boutons.forEach(function(bouton, nombre){
@@ -258,6 +259,8 @@ fetch('data.json').then(function(response) {
             })
             //Je remplis templatePopup
             var contenuRempli = templatePopup
+                .replace("{{image}}",filmData.image)
+                .replace("{{film}}", filmData.film)
                 .replace("{{film}}", filmData.film)
                 .replace("{{publication}}", filmData.publication)
                 .replace("{{idAlloCine}}", filmData.idAlloCine);
