@@ -489,13 +489,13 @@ h2{
     position: relative;
     /* Je donne la même largeur à la section que le svg pour centrer */
     width: 456px;
+    height: 3300px;
     margin: auto;
 }
 
-.pieds {
-    width: 30px;
-    height: 20px;
-    background-color: rgb(196, 186, 79);
+.carrosse {
+    width: 200px;
+    height: auto;
 }
 
 .bouton-frise {

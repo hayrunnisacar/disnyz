@@ -157,8 +157,8 @@ Highcharts.chart('container', {
 
 // --------GRAPHIQUE 2 - FRISE CHRONOLOGIQUE--------
 //Je me suis aidé du site officiel de gsap pour tous les plugins utilisés
-//J'enregistre le plugin MotionPathPlugin
-gsap.registerPlugin(MotionPathPlugin);
+//J'enregistre les plugin MotionPathPlugin et ScrollTrigger
+gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
 
 // Je place un par un tout les boutons popup
 // gsap.set("#fcBtn1", { 
@@ -191,20 +191,35 @@ boutons.forEach(function(bouton, nombre){
     });
 });
 
-//Sur l'élément ayant l'id "pied", je fais une animation
-gsap.to("#pieds", {
-   //#pieds va suivre pathFrise et va s'incliner en focntion de la courbe
-   motionPath: {
-       path: "#pathFrise",
-       autoRotate: true,
-       //J'aligne #pieds sur le path
-       align: "#pathFrise",
-       alignOrigin: [0.5, 0.5],
-   },
-   //L'animation dure 5secondes
-   duration: 20,
-   //Animation plus douce
-   ease: "power1.inOut",
+//Sur l'élément ayant l'id "carrosse", je fais une animation
+gsap.to("#carrosse", {
+   //#carrosse va suivre pathFrise
+   //Au moment du scroll
+    scrollTrigger: {
+        trigger: "#pathFrise",
+        //Quand le haut de #pathFrise atteint la moitié de la fenêtre alors, la carrosse commence à bouger
+        start: "top center",
+        //La carrosse cesse de fonctionner quand le bas de #pathfrise atteint la moitié de la feneêtre
+        end: "bottom center",
+        //La carrosse est plus doux au départ et à l'arrivée
+        scrub: 0.5,
+        //Pour moi, afin de voir les points de départ et d'arrivée
+        // markers: true,
+    },
+
+    //Suivi
+    motionPath: {
+        //La carrosse suit la frise #pathFrise
+        path: "#pathFrise",
+        //J'aligne #carrosse sur le path
+        align: "#pathFrise",
+        //Je dis que c'est le centre de l'image qui doit suivre pathFrise
+        alignOrigin: [0.5, 0.5],
+        //Carrosse en haut de la courbe de 50px
+        offsetY : -50,
+    },
+    //L'animation suit un mouvement linéaire
+    ease: "none",
 });
 
 //Je fais les popup pour chaque bouton
