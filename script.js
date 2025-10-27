@@ -1,5 +1,5 @@
 // --------Animation page d'accueil--------
-//Je sélectionnne ici les élements de mon HTML afin de les manipuler en javascript pour l'animation
+//Je sélectionnne ici les eléments de mon HTML afin de les manipuler en javascript pour l'animation
 const chateau = document.querySelector(".chateau");
 const intro = document.getElementById("intro");
 const main = document.querySelector("main");
@@ -36,7 +36,6 @@ document.addEventListener('mousemove', function(e){
 
 
 // --------GRAPHIQUE 1 - MICKEY--------
-
 
 
 // --------GRAPHIQUE 2 - FRISE CHRONOLOGIQUE--------
@@ -126,7 +125,7 @@ fetch('data.json').then(function(response) {
             "<img src='{{image}}' alt='Affiche du film {{film}}' class='images-fc'/>" +
             "<p>{{film}}</p>" +
             "<p>Année : {{publication}}</p>" +
-            '<a href="https://www.allocine.fr/film/fichefilm_gen_cfilm={{idAlloCine}}.html" alt="Lien vers Allociné du film">AlloCiné</a>' +
+            '<a href="https://www.allocine.fr/film/fichefilm_gen_cfilm={{idAlloCine}}.html" alt="Lien vers Allociné du film">AlloCiné</a>';
     
     //Je fais le popup pour chaque bouton
     boutons.forEach(function(bouton, nombre){
@@ -167,5 +166,50 @@ fetch('data.json').then(function(response) {
     });
 
     }); 
-    });
+});
 
+ // ----- ANIMATION DU COMPTEUR -----
+// J'utilise la bibliothèque GSAP et le pluggin ScrollTrigger.
+
+// On attend que le DOM soit complètement chargé 
+document.addEventListener("DOMContentLoaded", function() {
+    // Je sélectionne l'élement de mon HTML qui contient mon compteur donc "counter".
+    const counter = document.querySelector(".counter");
+
+    // Je charge mon fichier data.json pour pouvoir aller récupérer les données qui m'intéressent dans le fichier pour pouvoir ensuite les manipuler en javascript.
+    fetch('data.json').then(function(response) {
+        response.json().then(function(data) {
+            // console.log(data);
+
+            // Comme dans mon compteur je veux afficher la somme de tous les Worldwide Boxoffice, je dois faire un calcul qui additionne toutes les données de cette colonnes.
+            // Je crée une variable totalRecette dans lequel : reduce parcourt tout le tableau data. s est une valeur initiale et f correspond à l'élément qu'on va parcourir dans le tableau. Je pars de 0 et avec f.recette, je parcours "recette" et j'additionne toutes les valeurs "recette".
+            const totalRecette = data.reduce((s, f) => s + f.recette, 0);
+
+            // je crée un objet d'une valeur de 0 pour que mon compteur parte de 0 et pour que GSAP puisse réussir à manipuler ma valeur.
+            const obj = { valeur: 0 };
+
+            // À partir de là, je choisis les réglages de mon animation.
+            // Je dis à GSAP de manipuler l'objet donc la ligne de code juste au dessus.
+            gsap.to(obj, {
+                // Valeur finale : somme de la colonne recette.
+                valeur: totalRecette,
+                // Propriété GSAP pour la durée de mon animation
+                duration: 4,
+                // Type d'animation
+                ease: "power1.in",
+                // à chaque petit changement de la valeur pendant l'animation j'affiche dans le compteur
+                onUpdate: function() {
+                    // J'arrondis le résultat final avec la fonction Math.floor pour que pendant l'animation, le compteur affiche pas les nombres à virgule.
+                    counter.textContent = Math.floor(obj.valeur);
+                },
+                // J'ajoute la fonction ScrollTrigger pour que l'animation ne commence que quand on arrive au niveau du compteur.
+                scrollTrigger: {  
+                    trigger: counter,     
+                    start: 'top center',  
+                    // Je joue une seule fois l'animation  
+                    toggleActions: 'restart pause resume pause',
+                }
+            });
+        });
+    });
+});
