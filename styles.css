@@ -272,8 +272,6 @@ main {
     margin: 0px; */
     margin-top: 12px;
     margin-bottom: 0;
-
-    /* overflow: hidden; */
     border-radius:26px;
     width:904px;
     height: 60px;
@@ -338,6 +336,7 @@ main {
     margin-right: auto;
     border: solid #bb92c7 5px;
     box-shadow: 0px 25px 20px rgba(0, 0, 0, 0.25);
+    top: -50px;
 }
 
 .chateau-lanterne{
@@ -544,7 +543,7 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative; 
-    z-index: -2;
+    z-index: -3;
 }
 
 .walt {
@@ -556,13 +555,13 @@ h2{
 
 .flocon {
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 47%;
 }
 
 .compteur p{
     position: absolute;
-    top: 68%;
+    top: 63%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white; 
@@ -570,6 +569,17 @@ h2{
     text-align: center;
 }
 
+.counter {
+    position: absolute;
+    left: 50%;      
+    top: 40%;           
+    transform: translateX(-50%);
+    font-size: 7rem;
+    font-weight: bold;
+    color: #fff; 
+    text-align: center;
+    margin-top: 20px;
+}
 
 /* FOOTER*/
 footer {
