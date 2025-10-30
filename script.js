@@ -12,7 +12,7 @@ setTimeout(() => {
     intro.style.opacity = 0;
     //intro.style.pointerEvents = "none"; nous permet de scroller,il permet d'arrier au contenu derrière l'intro donc le main. 
     intro.style.pointerEvents = "none";
-        intro.style.display = "none"; // 👈 ajoute cette ligne
+        intro.style.display = "none";
         
     main.style.opacity = 1;
 }, 5000); 
@@ -115,13 +115,29 @@ drawArc(352, 439, 56, 0, 31.175, "arc28");
 drawArc(352, 439, 44, 0, 29.529, "arc29");
 drawArc(352, 439, 32, 0, 29.425, "arc30");
 
-// Animation pour faire apparaitre les arcs progressivement ---------
-const allArcs = document.querySelectorAll(".container-mickey path");
-allArcs.forEach((arc, i) => {
-  setTimeout(() => {
-    arc.classList.add("arc-visible");
-  }, i * 150); // délai de 150 ms entre chaque arc
+// // Animation pour faire apparaitre les arcs progressivement au moment où on arrive au niveau des graphiques---------
+gsap.registerPlugin(ScrollTrigger);
+
+ScrollTrigger.create({
+  trigger: ".container-mickey",
+  start: "top 80%",
+  onEnter: () => {
+    const allArcs = document.querySelectorAll(".container-mickey path");
+    allArcs.forEach((arc, i) => {
+      setTimeout(() => {
+        // Fais apparaître l'arc
+        arc.classList.add("arc-visible");
+
+        // Fais apparaître le texte associé
+        if (arc._label) {
+          arc._label.classList.add("text-visible");
+        }
+      }, i * 150);
+    });
+  },
+  once: true
 });
+
 
 // INFOBULLE/ POPUP AU SURVOLE DE L'ARC ----------------
 
@@ -219,10 +235,9 @@ label.setAttribute("text-anchor", "end");
 // Ajoute le texte dans le même SVG que l’arc ---
 arc.ownerSVGElement.appendChild(label);
 
-// Effet sur le texte
-setTimeout(() => {
-  label.classList.add("text-visible");
-}, i * 150); 
+// Je stocke le label dans l'arc pour y accéder ensuite dans le Sroll Trigger qui fait s'activer l'animation des arcs et du texte au moment où j'arrive au niveau des graphiques mickey.
+arc._label = label;
+
 // ----------------
 
 // INFOBULLE/ POPUP AU SURVOLE DE L'ARC SUITE ----------------
@@ -242,8 +257,6 @@ setTimeout(() => {
       const svgRect = arc.ownerSVGElement.getBoundingClientRect();
 const popupX = window.scrollX + svgRect.left + endPoint.x + 10;
 const popupY = window.scrollY + svgRect.top + endPoint.y - 40;
-
-
 
       // On a donc la position horizontale et verticale du popup
 
