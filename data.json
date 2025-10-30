@@ -7,7 +7,8 @@
     "recette": 2717503922,
     "genre": 0,
     "titre": "Avengers: Endgame",
-    "idAlloCine": 232669
+    "idAlloCine": 232669,
+    "image": "image/Avengers_Endgame.webp"
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "recette": 2056046835,
     "genre": 0,
     "titre": "Star Wars Ep. VII: The Force Awakens",
-    "idAlloCine": ""
+    "idAlloCine": "",
+    "image": "image/Star_Wars_EpVII_The_Force_Awakens.webp"
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "recette": 2048158241,
     "genre": 0,
     "titre": "Avengers: Infinity War",
-    "idAlloCine": 218265
+    "idAlloCine": 218265,
+    "image": "image/Avengers_Infinity_War.webp"
   },
   {
     "id": 4,
@@ -47,7 +50,8 @@
     "recette": 1661454403,
     "genre": 0,
     "titre": "The Lion King",
-    "idAlloCine": 10862
+    "idAlloCine": 10862,
+    "image":"image/The_Lion_King.jpg"
   },
   {
     "id": 6,
@@ -57,7 +61,8 @@
     "recette": 1515100211,
     "genre": 0,
     "titre": "The Avengers",
-    "idAlloCine": 130440
+    "idAlloCine": 130440,
+    "image":"image/The_Avengers.webp"
   },
   {
     "id": 7,
@@ -77,7 +82,8 @@
     "recette": 1395316979,
     "genre": 0,
     "titre": "Avengers: Age of Ultron",
-    "idAlloCine": 198488
+    "idAlloCine": 198488,
+    "image":"image/Avenger_Age_of_Ultron.jpeg"
   },
   {
     "id": 9,
@@ -87,7 +93,8 @@
     "recette": 1338071348,
     "genre": 0,
     "titre": "Deadpool &amp; Wolverine",
-    "idAlloCine": 251633
+    "idAlloCine": 251633,
+    "image":"image/Deadpool_&_Wolverine.webp"
   },
   {
     "id": 10,
@@ -97,7 +104,8 @@
     "recette": 1334157082,
     "genre": 0,
     "titre": "Black Panther",
-    "idAlloCine": ""
+    "idAlloCine": "",
+    "image":"image/Black_Panther.jpeg"
   },
   {
     "id": 11,
@@ -107,7 +115,8 @@
     "recette": 1322581071,
     "genre": 0,
     "titre": "Star Wars Ep. VIII: The Last Jedi",
-    "idAlloCine": ""
+    "idAlloCine": "",
+    "image":"image/Star_Wars_EpVIII_The_Last_Jedi.webp"
   },
   {
     "id": 12,
@@ -128,7 +137,8 @@
     "recette": 1259761686,
     "genre": 0,
     "titre": "Beauty and the Beast",
-    "idAlloCine": ""
+    "idAlloCine": "",
+    "image":"image/Beauty_and_the_Beast.jpeg"
   },
   {
     "id": 14,
@@ -148,7 +158,8 @@
     "recette": 1214630956,
     "genre": 0,
     "titre": "Iron Man 3",
-    "idAlloCine": 139589
+    "idAlloCine": 139589,
+    "image":"image/Iron_Man_3.jpeg"
   },
   {
     "id": 16,
@@ -158,7 +169,8 @@
     "recette": 1151899586,
     "genre": 0,
     "titre": "Captain America: Civil War",
-    "idAlloCine": 215143
+    "idAlloCine": 215143,
+    "image":"image/Captain_America_Civil_War.jpeg"
   },
   {
     "id": 17,
@@ -168,7 +180,8 @@
     "recette": 1129576094,
     "genre": 0,
     "titre": "Captain Marvel",
-    "idAlloCine": 141110
+    "idAlloCine": 141110,
+    "image":"image/Captain_Marvel.jpeg"
   },
   {
     "id": 18,
@@ -188,7 +201,8 @@
     "recette": 1069951814,
     "genre": 0,
     "titre": "Star Wars: The Rise of Skywalker",
-    "idAlloCine": 215094
+    "idAlloCine": 215094,
+    "image":"image/Star_Wars_The_Rise_of_Skywalke.jpeg"
   },
   {
     "id": 20,
@@ -208,7 +222,8 @@
     "recette": 1066179725,
     "genre": 0,
     "titre": "Pirates of the Caribbean: Dead Man’s Chest",
-    "idAlloCine": ""
+    "idAlloCine": "",
+    "image":"image/Pirates_of_the_Caribbean_Dead_Man’s_Chest.webp"
   },
   {
     "id": 22,
