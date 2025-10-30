@@ -13,11 +13,11 @@
   {
     "id": 2,
     "publication": 2015,
-    "film": "Star Wars Ep. VII: The Force Awakens",
+    "film": "Star Wars 7: The Force Awakens",
     "recettes": "$2,056,046,835",
     "recette": 2056046835,
     "genre": 0,
-    "titre": "Star Wars Ep. VII: The Force Awakens",
+    "titre": "Star Wars 7: The Force Awakens",
     "idAlloCine": "",
     "image": "image/Star_Wars_EpVII_The_Force_Awakens.webp"
   },
@@ -40,7 +40,8 @@
     "recette": 1698831782,
     "genre": 0,
     "titre": "Inside Out 2",
-    "idAlloCine": 307991
+    "idAlloCine": 307991,
+    "image":"image/inside_out_2.webp"
   },
   {
     "id": 5,
@@ -72,7 +73,8 @@
     "recette": 1451653316,
     "genre": 0,
     "titre": "Frozen II",
-    "idAlloCine": 233713
+    "idAlloCine": 233713,
+    "image":"image/frozen_2.webp"
   },
   {
     "id": 8,
@@ -110,11 +112,11 @@
   {
     "id": 11,
     "publication": 2017,
-    "film": "Star Wars Ep. VIII: The Last Jedi",
+    "film": "Star Wars 8: The Last Jedi",
     "recettes": "$1,322,581,071",
     "recette": 1322581071,
     "genre": 0,
-    "titre": "Star Wars Ep. VIII: The Last Jedi",
+    "titre": "Star Wars 8: The Last Jedi",
     "idAlloCine": "",
     "image":"image/Star_Wars_EpVIII_The_Last_Jedi.webp"
   },
@@ -148,7 +150,8 @@
     "recette": 1242805359,
     "genre": 0,
     "titre": "Incredibles 2",
-    "idAlloCine": 198937
+    "idAlloCine": 198937,
+    "image":"image/Incredibles_2.webp"
   },
   {
     "id": 15,
@@ -191,7 +194,8 @@
     "recette": 1071177215,
     "genre": 0,
     "titre": "Toy Story 4",
-    "idAlloCine": 218956
+    "idAlloCine": 218956,
+    "image":"image/Toy_story_4.webp"
   },
   {
     "id": 19,
@@ -212,16 +216,17 @@
     "recette": 1068879522,
     "genre": 0,
     "titre": "Toy Story 3",
-    "idAlloCine": 126123
+    "idAlloCine": 126123,
+    "image":"image/Toy_story_3.webp"
   },
   {
     "id": 21,
     "publication": 2006,
-    "film": "Pirates of the Caribbean: Dead Man’s Chest",
+    "film": "Pirates of the Caribbean 2",
     "recettes": "$1,066,179,725",
     "recette": 1066179725,
     "genre": 0,
-    "titre": "Pirates of the Caribbean: Dead Man’s Chest",
+    "titre": "Pirates of the Caribbean 2",
     "idAlloCine": "",
     "image":"image/Pirates_of_the_Caribbean_Dead_Man’s_Chest.webp"
   },
@@ -233,7 +238,8 @@
     "recette": 1059135998,
     "genre": 0,
     "titre": "Moana 2",
-    "idAlloCine": 312511
+    "idAlloCine": 312511,
+    "image":"image/Moana_2.webp"
   },
   {
     "id": 23,
@@ -293,7 +299,8 @@
     "recette": 1025006125,
     "genre": 0,
     "titre": "Finding Dory",
-    "idAlloCine": 210222
+    "idAlloCine": 210222,
+    "image":"image/Finding_dory.webp"
   },
   {
     "id": 29,
@@ -303,7 +310,8 @@
     "recette": 1018518000,
     "genre": 0,
     "titre": "Zootopia",
-    "idAlloCine": 223207
+    "idAlloCine": 223207,
+    "image":"image/Zootapia.webp"
   },
   {
     "id": 30,
@@ -354,7 +362,8 @@
     "recette": 936094852,
     "genre": 0,
     "titre": "Finding Nemo",
-    "idAlloCine": 29057
+    "idAlloCine": 29057,
+    "image":"image/Finding_nemo.webp"
   },
   {
     "id": 35,
@@ -394,7 +403,8 @@
     "recette": 848469454,
     "genre": 0,
     "titre": "Inside Out",
-    "idAlloCine": 196960
+    "idAlloCine": 196960,
+    "image":"image/Inside_out.webp"
   },
   {
     "id": 39,
@@ -414,7 +424,8 @@
     "recette": 796397165,
     "genre": 0,
     "titre": "Coco",
-    "idAlloCine": ""
+    "idAlloCine": "",
+    "image":"image/Coco.webp"
   },
   {
     "id": 41,
@@ -464,7 +475,8 @@
     "recette": 743455810,
     "genre": 0,
     "titre": "Monsters University",
-    "idAlloCine": 109572
+    "idAlloCine": 109572,
+    "image":"image/Monsters_university.webp"
   },
   {
     "id": 46,
@@ -474,7 +486,8 @@
     "recette": 731463377,
     "genre": 0,
     "titre": "Up",
-    "idAlloCine": 130368
+    "idAlloCine": 130368,
+    "image":"image/up.webp"
   },
   {
     "id": 47,

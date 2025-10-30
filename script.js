@@ -98,6 +98,23 @@ drawArc(352, 439, 44, 0, 29.529, "arc14");
 drawArc(352, 439, 32, 0, 29.425, "arc15");
 // Espacement de 12 entre chaque cercle
 
+// Graphique 2
+drawArc(352, 439, 200, 0, 75, "arc16");
+drawArc(352, 439, 188, 0, 56.745, "arc17");
+drawArc(352, 439, 176, 0, 56.527, "arc18");
+drawArc(352, 439, 164, 0, 45.854, "arc19");
+drawArc(352, 439, 152, 0, 41.815, "arc20");
+drawArc(352, 439, 140, 0, 38.509, "arc21");
+drawArc(352, 439, 128, 0, 36.929, "arc22");
+drawArc(352, 439, 116, 0, 36.821, "arc23");
+drawArc(352, 439, 104, 0, 36.502, "arc24");
+drawArc(352, 439, 92, 0, 34.768, "arc25");
+drawArc(352, 439, 80, 0, 33.522, "arc26");
+drawArc(352, 439, 68, 0, 31.791, "arc27");
+drawArc(352, 439, 56, 0, 31.175, "arc28");
+drawArc(352, 439, 44, 0, 29.529, "arc29");
+drawArc(352, 439, 32, 0, 29.425, "arc30");
+
 // Animation pour faire apparaitre les arcs progressivement ---------
 const allArcs = document.querySelectorAll(".container-mickey path");
 allArcs.forEach((arc, i) => {
@@ -122,7 +139,9 @@ fetch('data.json').then(function(response) {
     // console.log(data);
     //Je met dans un tableau les films qui m'intéressent
     const filmsMickey = [
-        1, 2, 3, 5, 6, 8, 9, 10, 11, 13, 15, 16, 17, 19, 21
+        1, 2, 3, 5, 6, 8, 9, 10, 11, 13, 15, 16, 17, 19, 21,   
+        // Graphique mickey 2
+        4, 7, 12, 14, 18, 20, 22, 28, 29, 30, 34, 38, 40, 45, 46
     ];
 
 // Je fais une correspondance rayon / fin d’angle pour placer le popup vers la fin de l'arc.
@@ -141,7 +160,23 @@ fetch('data.json').then(function(response) {
     {id: "arc12",  r: 68,  end: 31.791},
     {id: "arc13",  r: 56,  end: 31.175},
     {id: "arc14",  r: 44,  end: 29.529},
-    {id: "arc15", r: 32,  end: 29.425}
+    {id: "arc15", r: 32,  end: 29.425},
+// Graphique mickey 2 :
+    {id: "arc16", r: 200, end: 75},
+    {id: "arc17", r: 188, end: 56.745},
+    {id: "arc18", r: 176, end: 56.527},
+    {id: "arc19", r: 164, end: 45.854},
+    {id: "arc20", r: 152, end: 41.815},
+    {id: "arc21",  r: 140, end: 38.509},
+    {id: "arc22",  r: 128, end: 36.929},
+    {id: "arc23",  r: 116, end: 36.821},
+    {id: "arc24",  r: 104, end: 36.502},
+    {id: "arc25",  r: 92,  end: 34.768},
+    {id: "arc26",  r: 80,  end: 33.522},
+    {id: "arc27",  r: 68,  end: 31.791},
+    {id: "arc28",  r: 56,  end: 31.175},
+    {id: "arc29",  r: 44,  end: 29.529},
+    {id: "arc30", r: 32,  end: 29.425}
   ];
 
   // Je cible également le centre des arcs que j'ai défini en appelant la fonction drawArc plus haut.
@@ -175,7 +210,7 @@ label.classList.add("text-film");
 label.textContent = filmData.film;
 label.setAttribute("x", startPoint.x - 8);
 label.setAttribute("y", startPoint.y);
-label.setAttribute("font-size", "10");
+label.setAttribute("font-size", "11");
 label.setAttribute("fill", "white");
 label.setAttribute("dominant-baseline", "middle");
 // label.setAttribute("font-familly", "roboto");
