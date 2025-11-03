@@ -100,20 +100,20 @@ drawArc(352, 439, 32, 0, 29.425, "arc15");
 
 // Graphique 2
 drawArc(352, 439, 200, 0, 75, "arc16");
-drawArc(352, 439, 188, 0, 56.745, "arc17");
-drawArc(352, 439, 176, 0, 56.527, "arc18");
-drawArc(352, 439, 164, 0, 45.854, "arc19");
-drawArc(352, 439, 152, 0, 41.815, "arc20");
-drawArc(352, 439, 140, 0, 38.509, "arc21");
-drawArc(352, 439, 128, 0, 36.929, "arc22");
-drawArc(352, 439, 116, 0, 36.821, "arc23");
-drawArc(352, 439, 104, 0, 36.502, "arc24");
-drawArc(352, 439, 92, 0, 34.768, "arc25");
-drawArc(352, 439, 80, 0, 33.522, "arc26");
-drawArc(352, 439, 68, 0, 31.791, "arc27");
-drawArc(352, 439, 56, 0, 31.175, "arc28");
-drawArc(352, 439, 44, 0, 29.529, "arc29");
-drawArc(352, 439, 32, 0, 29.425, "arc30");
+drawArc(352, 439, 188, 0, 64.088, "arc17");
+drawArc(352, 439, 176, 0, 56.057, "arc18");
+drawArc(352, 439, 164, 0, 54.867, "arc19");
+drawArc(352, 439, 152, 0, 47.290, "arc20");
+drawArc(352, 439, 140, 0, 47.189, "arc21");
+drawArc(352, 439, 128, 0, 46.758, "arc22");
+drawArc(352, 439, 116, 0, 45.252, "arc23");
+drawArc(352, 439, 104, 0, 44.966, "arc24");
+drawArc(352, 439, 92, 0, 43.635, "arc25");
+drawArc(352, 439, 80, 0, 41.327, "arc26");
+drawArc(352, 439, 68, 0, 37.458, "arc27");
+drawArc(352, 439, 56, 0, 35.159, "arc28");
+drawArc(352, 439, 44, 0, 32.822, "arc29");
+drawArc(352, 439, 32, 0, 32.293, "arc30");
 
 // // Animation pour faire apparaitre les arcs progressivement au moment où on arrive au niveau des graphiques---------
 gsap.registerPlugin(ScrollTrigger);
@@ -179,20 +179,20 @@ fetch('data.json').then(function(response) {
     {id: "arc15", r: 32,  end: 29.425},
 // Graphique mickey 2 :
     {id: "arc16", r: 200, end: 75},
-    {id: "arc17", r: 188, end: 56.745},
-    {id: "arc18", r: 176, end: 56.527},
-    {id: "arc19", r: 164, end: 45.854},
-    {id: "arc20", r: 152, end: 41.815},
-    {id: "arc21",  r: 140, end: 38.509},
-    {id: "arc22",  r: 128, end: 36.929},
-    {id: "arc23",  r: 116, end: 36.821},
-    {id: "arc24",  r: 104, end: 36.502},
-    {id: "arc25",  r: 92,  end: 34.768},
-    {id: "arc26",  r: 80,  end: 33.522},
-    {id: "arc27",  r: 68,  end: 31.791},
-    {id: "arc28",  r: 56,  end: 31.175},
-    {id: "arc29",  r: 44,  end: 29.529},
-    {id: "arc30", r: 32,  end: 29.425}
+    {id: "arc17", r: 188, end: 64.088},
+    {id: "arc18", r: 176, end: 56.057},
+    {id: "arc19", r: 164, end: 54.867},
+    {id: "arc20", r: 152, end: 47.290},
+    {id: "arc21",  r: 140, end: 47.189},
+    {id: "arc22",  r: 140, end: 46.758},
+    {id: "arc23",  r: 128, end: 45.252},
+    {id: "arc24",  r: 116, end: 44.966},
+    {id: "arc25",  r: 104, end: 43.635},
+    {id: "arc26",  r: 92,  end: 41.327},
+    {id: "arc27",  r: 80,  end: 37.458},
+    {id: "arc28",  r: 68,  end: 35.159},
+    {id: "arc29",  r: 56,  end: 32.822},
+    {id: "arc30", r: 32,  end: 32.293}
   ];
 
   // Je cible également le centre des arcs que j'ai défini en appelant la fonction drawArc plus haut.
