@@ -12,6 +12,8 @@ setTimeout(() => {
     intro.style.opacity = 0;
     //intro.style.pointerEvents = "none"; nous permet de scroller,il permet d'arrier au contenu derrière l'intro donc le main. 
     intro.style.pointerEvents = "none";
+        intro.style.display = "none";
+        
     main.style.opacity = 1;
 }, 5000); 
 
@@ -35,7 +37,263 @@ document.addEventListener('mousemove', function(e){
 });
 
 
+
 // --------GRAPHIQUE 1 - MICKEY--------
+
+  // https://stackoverflow.com/questions/5736398/how-to-calculate-the-svg-path-for-an-arc-of-a-circle
+
+
+  document.addEventListener("DOMContentLoaded", function() {
+
+function polarToCartesian(centerX, centerY, radius, angleInDegrees) {
+  var angleInRadians = (angleInDegrees-90) * Math.PI / 180.0;
+  return {
+    x: centerX + (radius * Math.cos(angleInRadians)),
+    y: centerY + (radius * Math.sin(angleInRadians))
+  };
+}
+
+function describeArc(x, y, radius, startAngle, endAngle){
+    var start = polarToCartesian(x, y, radius, endAngle);
+    var end = polarToCartesian(x, y, radius, startAngle);
+    var largeArcFlag = endAngle - startAngle <= 180 ? "0" : "1";
+    var d = [
+        "M", start.x, start.y, 
+        "A", radius, radius, 0, largeArcFlag, 0, end.x, end.y
+    ].join(" ");
+    return d;       
+}
+
+// Ces 2 lignes sont maintenant remplacé par l'appel de la nouvelle fonction drawArc :
+// document.querySelector("path").setAttribute('d', describeArc(100, 100, 100, 0, 150))
+// document.querySelector("#green").setAttribute('d', describeArc(100, 100, 78, 0, 350))
+
+// % x 3,6 = angle en °
+// n x (n+l) > produit en croix avec le rayon
+
+function drawArc(x, y, radius, startPercent, endPercent, id){
+    // Créer le path avec id toto
+    // selectionner svg document.querySelector et créer une balise path dedans avec id toto (avec un attribut d vide)
+    // Repositionner le path avec les bonnes coordonnées 
+
+    // Je modifie la fonction pour qu'elle s'applique à tous les path qui ont un id en remplaçant ("#toto") par ("#" + id)
+    document.querySelector("#" + id).setAttribute('d', describeArc(x, y, radius, startPercent*3.6, endPercent*3.6))       
+}
+
+// J'appelle la fonction drawArc avec les id de chaque path vide. Je modifie simplement le rayon et le pourcentage de tour du cercle :)
+drawArc(352, 439, 200, 0, 75, "arc1");
+drawArc(352, 439, 188, 0, 56.745, "arc2");
+drawArc(352, 439, 176, 0, 56.527, "arc3");
+drawArc(352, 439, 164, 0, 45.854, "arc4");
+drawArc(352, 439, 152, 0, 41.815, "arc5");
+drawArc(352, 439, 140, 0, 38.509, "arc6");
+drawArc(352, 439, 128, 0, 36.929, "arc7");
+drawArc(352, 439, 116, 0, 36.821, "arc8");
+drawArc(352, 439, 104, 0, 36.502, "arc9");
+drawArc(352, 439, 92, 0, 34.768, "arc10");
+drawArc(352, 439, 80, 0, 33.522, "arc11");
+drawArc(352, 439, 68, 0, 31.791, "arc12");
+drawArc(352, 439, 56, 0, 31.175, "arc13");
+drawArc(352, 439, 44, 0, 29.529, "arc14");
+drawArc(352, 439, 32, 0, 29.425, "arc15");
+// Espacement de 12 entre chaque cercle
+
+// Graphique 2
+drawArc(352, 439, 200, 0, 75, "arc16");
+drawArc(352, 439, 188, 0, 64.088, "arc17");
+drawArc(352, 439, 176, 0, 56.057, "arc18");
+drawArc(352, 439, 164, 0, 54.867, "arc19");
+drawArc(352, 439, 152, 0, 47.290, "arc20");
+drawArc(352, 439, 140, 0, 47.189, "arc21");
+drawArc(352, 439, 128, 0, 46.758, "arc22");
+drawArc(352, 439, 116, 0, 45.252, "arc23");
+drawArc(352, 439, 104, 0, 44.966, "arc24");
+drawArc(352, 439, 92, 0, 43.635, "arc25");
+drawArc(352, 439, 80, 0, 41.327, "arc26");
+drawArc(352, 439, 68, 0, 37.458, "arc27");
+drawArc(352, 439, 56, 0, 35.159, "arc28");
+drawArc(352, 439, 44, 0, 32.822, "arc29");
+drawArc(352, 439, 32, 0, 32.293, "arc30");
+
+
+// // Animation pour faire apparaitre les arcs progressivement au moment où on arrive au niveau des graphiques---------
+gsap.registerPlugin(ScrollTrigger);
+
+ScrollTrigger.create({
+  trigger: ".container-mickey",
+  start: "top 80%",
+  onEnter: () => {
+    const allArcs = document.querySelectorAll(".container-mickey path");
+    allArcs.forEach((arc, i) => {
+      setTimeout(() => {
+        // Fais apparaître l'arc
+        arc.classList.add("arc-visible");
+
+        // Fais apparaître le texte associé
+        if (arc._label) {
+          arc._label.classList.add("text-visible");
+        }
+      }, i * 150);
+    });
+  },
+  once: true
+});
+
+
+// INFOBULLE/ POPUP AU SURVOLE DE L'ARC ----------------
+
+//Je crée une variable popupMickey1 qui sélectionne la div (indépendante du SVG) avec la classe .popup-mickey1
+//Je crée une variable paths qui sélectionne les arcs de cercle path du graphique
+const popupMickey1 = document.querySelector(".popup-mickey1");
+if (!popupMickey1) {
+  console.error("Erreur : popup-mickey1 introuvable dans le DOM");
+}
+const paths = document.querySelectorAll(".container-mickey path");
+
+//Je récupère les données du fichier json
+fetch('data.json').then(function(response) {
+    response.json().then(function(data){
+    // console.log(data);
+    //Je met dans un tableau les films qui m'intéressent
+    const filmsMickey = [
+        1, 2, 3, 5, 6, 8, 9, 10, 11, 13, 15, 16, 17, 19, 21,   
+        // Graphique mickey 2
+        4, 7, 12, 14, 18, 20, 22, 28, 29, 30, 34, 38, 40, 45, 46
+    ];
+
+// Je fais une correspondance rayon / fin d’angle pour placer le popup vers la fin de l'arc.
+  const arcsInfo = [
+    {id: "arc1", r: 200, end: 75},
+    {id: "arc2", r: 188, end: 56.745},
+    {id: "arc3", r: 176, end: 56.527},
+    {id: "arc4", r: 164, end: 45.854},
+    {id: "arc5", r: 152, end: 41.815},
+    {id: "arc6",  r: 140, end: 38.509},
+    {id: "arc7",  r: 128, end: 36.929},
+    {id: "arc8",  r: 116, end: 36.821},
+    {id: "arc9",  r: 104, end: 36.502},
+    {id: "arc10",  r: 92,  end: 34.768},
+    {id: "arc11",  r: 80,  end: 33.522},
+    {id: "arc12",  r: 68,  end: 31.791},
+    {id: "arc13",  r: 56,  end: 31.175},
+    {id: "arc14",  r: 44,  end: 29.529},
+    {id: "arc15", r: 32,  end: 29.425},
+// Graphique mickey 2 :
+    {id: "arc16", r: 200, end: 75},
+    {id: "arc17", r: 188, end: 64.088},
+    {id: "arc18", r: 176, end: 56.057},
+    {id: "arc19", r: 164, end: 54.867},
+    {id: "arc20", r: 152, end: 47.290},
+    {id: "arc21",  r: 140, end: 47.189},
+    {id: "arc22",  r: 128, end: 46.758},
+    {id: "arc23",  r: 116, end: 45.252},
+    {id: "arc24",  r: 104, end: 44.966},
+    {id: "arc25",  r: 92, end: 43.635},
+    {id: "arc26",  r: 80,  end: 41.327},
+    {id: "arc27",  r: 68,  end: 37.458},
+    {id: "arc28",  r: 56,  end: 35.159},
+    {id: "arc29",  r: 44,  end: 32.822},
+    {id: "arc30", r: 32,  end: 32.293}
+  ];
+
+  // Je cible également le centre des arcs que j'ai défini en appelant la fonction drawArc plus haut.
+  const centerX = 352, centerY = 439;
+  paths.forEach((arc, i) => {
+    // Je vérifie s’il y a bien un film associé
+    if (!filmsMickey[i]) return;
+
+    // Je récupère les infos du film correspondant.Je cherche dans ce tableau l’objet film dont l’ID correspond à filmsMickey[i]
+    const filmData = data.find(f => f.id == filmsMickey[i]);
+    if (!filmData) return;
+
+    // Je récupère les infos de l’arc pour trouver le bout : arcsInfo contient pour chaque arc: son rayon r et la fin de l’angle end
+    const info = arcsInfo[i];
+    if (!info) return;
+// -----------------------
+
+// AFFICHER LE NOM DES FILMS À CÔTE DES ARCS ----------------
+
+// Calcule la position du début de l’arc ---
+const startAngle = (info.start || 0) * 3.6;  // en degrés
+const labelRadius = info.r;
+const startPoint = polarToCartesian(centerX, centerY, labelRadius, startAngle);
+
+// Crée un élément <text> SVG pour le nom du film ---
+const svgNS = "http://www.w3.org/2000/svg";
+const label = document.createElementNS(svgNS, "text");
+label.classList.add("text-film");
+
+// Définit le contenu et les coordonnées du texte ---
+label.textContent = filmData.film;
+label.setAttribute("x", startPoint.x - 8);
+label.setAttribute("y", startPoint.y);
+label.setAttribute("font-size", "11");
+label.setAttribute("fill", "white");
+label.setAttribute("dominant-baseline", "middle");
+// label.setAttribute("font-familly", "roboto");
+label.setAttribute("text-anchor", "end");
+
+// Ajoute le texte dans le même SVG que l’arc ---
+arc.ownerSVGElement.appendChild(label);
+
+// Je stocke le label dans l'arc pour y accéder ensuite dans le Sroll Trigger qui fait s'activer l'animation des arcs et du texte au moment où j'arrive au niveau des graphiques mickey.
+arc._label = label;
+
+// ----------------
+
+// INFOBULLE/ POPUP AU SURVOLE DE L'ARC SUITE ----------------
+
+// Quand la souris entre sur l’arc, j'écoute l’événement mouseenter, qui se déclenche quand la souris survole le path.
+// console.log(popupMickey1);
+    arc.addEventListener("mouseenter", () => {
+      arc.classList.add("arc-hover");
+      // Je calcule la position du bout de l’arc
+      // En appliquant le même principe que pour la fonction drawArc, on a info.end * 3.6 qui convertit le pourcentage de cercle en degrés
+      //Et polarToCartesian transforme les coordonnées polaires (rayon + angle) en coordonnées cartésiennes (x, y).
+      const endAngle = info.end * 3.6; 
+      const endPoint = polarToCartesian(centerX, centerY, info.r, endAngle);
+
+      // Place le popup près du bout de l’arc
+      //  arc.ownerSVGElement récupère le <svg> parent du path / getBoundingClientRect() donne la position du SVG dans la page
+      const svgRect = arc.ownerSVGElement.getBoundingClientRect();
+const popupX = window.scrollX + svgRect.left + endPoint.x + 10;
+const popupY = window.scrollY + svgRect.top + endPoint.y - 40;
+
+      // On a donc la position horizontale et verticale du popup
+
+      // Avec le innerHTML j'affiche les info que je veux dans le popup
+      popupMickey1.innerHTML = `
+       <div class="popup-content">
+         <img src="${filmData.image}" alt="${filmData.film}">
+         <div class="popup-text">
+            <p><strong>${filmData.film}</strong></p>
+            <p>Année : ${filmData.publication}</p>
+            <p>Recettes : ${filmData.recettes}</p>
+         </div>
+       </div>
+       `;
+      popupMickey1.style.left = popupX + "px";
+      popupMickey1.style.top = popupY + "px";
+      popupMickey1.classList.add("popup-mickey-visible");
+      console.log(popupMickey1)
+    });
+
+
+    // Quand la souris n'est plus sur l'arc, la popup redeviens invisible.
+    arc.addEventListener("mouseleave", () => {
+      popupMickey1.classList.remove("popup-mickey-visible");
+      arc.classList.remove("arc-hover");
+    });
+  });
+});
+
+})
+});
+// -------------------
+
+
+
+
 
 
 // --------GRAPHIQUE 2 - FRISE CHRONOLOGIQUE--------

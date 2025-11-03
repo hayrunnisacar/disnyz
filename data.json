@@ -7,17 +7,19 @@
     "recette": 2717503922,
     "genre": 0,
     "titre": "Avengers: Endgame",
-    "idAlloCine": 232669
+    "idAlloCine": 232669,
+    "image": "image/Avengers_Endgame.webp"
   },
   {
     "id": 2,
     "publication": 2015,
-    "film": "Star Wars Ep. VII: The Force Awakens",
+    "film": "Star Wars 7: The Force Awakens",
     "recettes": "$2,056,046,835",
     "recette": 2056046835,
     "genre": 0,
-    "titre": "Star Wars Ep. VII: The Force Awakens",
-    "idAlloCine": ""
+    "titre": "Star Wars 7: The Force Awakens",
+    "idAlloCine": "",
+    "image": "image/Star_Wars_EpVII_The_Force_Awakens.webp"
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "recette": 2048158241,
     "genre": 0,
     "titre": "Avengers: Infinity War",
-    "idAlloCine": 218265
+    "idAlloCine": 218265,
+    "image": "image/Avengers_Infinity_War.webp"
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "recette": 1698831782,
     "genre": 0,
     "titre": "Inside Out 2",
-    "idAlloCine": 307991
+    "idAlloCine": 307991,
+    "image":"image/inside_out_2.webp"
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "recette": 1661454403,
     "genre": 0,
     "titre": "The Lion King",
-    "idAlloCine": 10862
+    "idAlloCine": 10862,
+    "image":"image/The_Lion_King.jpg"
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "recette": 1515100211,
     "genre": 0,
     "titre": "The Avengers",
-    "idAlloCine": 130440
+    "idAlloCine": 130440,
+    "image":"image/The_Avengers.webp"
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "recette": 1451653316,
     "genre": 0,
     "titre": "Frozen II",
-    "idAlloCine": 233713
+    "idAlloCine": 233713,
+    "image":"image/frozen_2.webp"
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "recette": 1395316979,
     "genre": 0,
     "titre": "Avengers: Age of Ultron",
-    "idAlloCine": 198488
+    "idAlloCine": 198488,
+    "image":"image/Avenger_Age_of_Ultron.jpeg"
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "recette": 1338071348,
     "genre": 0,
     "titre": "Deadpool &amp; Wolverine",
-    "idAlloCine": 251633
+    "idAlloCine": 251633,
+    "image":"image/Deadpool_&_Wolverine.webp"
   },
   {
     "id": 10,
@@ -97,17 +106,19 @@
     "recette": 1334157082,
     "genre": 0,
     "titre": "Black Panther",
-    "idAlloCine": ""
+    "idAlloCine": "",
+    "image":"image/Black_Panther.jpeg"
   },
   {
     "id": 11,
     "publication": 2017,
-    "film": "Star Wars Ep. VIII: The Last Jedi",
+    "film": "Star Wars 8: The Last Jedi",
     "recettes": "$1,322,581,071",
     "recette": 1322581071,
     "genre": 0,
-    "titre": "Star Wars Ep. VIII: The Last Jedi",
-    "idAlloCine": ""
+    "titre": "Star Wars 8: The Last Jedi",
+    "idAlloCine": "",
+    "image":"image/Star_Wars_EpVIII_The_Last_Jedi.webp"
   },
   {
     "id": 12,
@@ -128,7 +139,8 @@
     "recette": 1259761686,
     "genre": 0,
     "titre": "Beauty and the Beast",
-    "idAlloCine": ""
+    "idAlloCine": "",
+    "image":"image/Beauty_and_the_Beast.jpeg"
   },
   {
     "id": 14,
@@ -138,7 +150,8 @@
     "recette": 1242805359,
     "genre": 0,
     "titre": "Incredibles 2",
-    "idAlloCine": 198937
+    "idAlloCine": 198937,
+    "image":"image/Incredibles_2.webp"
   },
   {
     "id": 15,
@@ -148,7 +161,8 @@
     "recette": 1214630956,
     "genre": 0,
     "titre": "Iron Man 3",
-    "idAlloCine": 139589
+    "idAlloCine": 139589,
+    "image":"image/Iron_Man_3.jpeg"
   },
   {
     "id": 16,
@@ -158,7 +172,8 @@
     "recette": 1151899586,
     "genre": 0,
     "titre": "Captain America: Civil War",
-    "idAlloCine": 215143
+    "idAlloCine": 215143,
+    "image":"image/Captain_America_Civil_War.jpeg"
   },
   {
     "id": 17,
@@ -168,7 +183,8 @@
     "recette": 1129576094,
     "genre": 0,
     "titre": "Captain Marvel",
-    "idAlloCine": 141110
+    "idAlloCine": 141110,
+    "image":"image/Captain_Marvel.jpeg"
   },
   {
     "id": 18,
@@ -178,7 +194,8 @@
     "recette": 1071177215,
     "genre": 0,
     "titre": "Toy Story 4",
-    "idAlloCine": 218956
+    "idAlloCine": 218956,
+    "image":"image/Toy_story_4.webp"
   },
   {
     "id": 19,
@@ -188,7 +205,8 @@
     "recette": 1069951814,
     "genre": 0,
     "titre": "Star Wars: The Rise of Skywalker",
-    "idAlloCine": 215094
+    "idAlloCine": 215094,
+    "image":"image/Star_Wars_The_Rise_of_Skywalke.jpeg"
   },
   {
     "id": 20,
@@ -198,17 +216,19 @@
     "recette": 1068879522,
     "genre": 0,
     "titre": "Toy Story 3",
-    "idAlloCine": 126123
+    "idAlloCine": 126123,
+    "image":"image/Toy_story_3.webp"
   },
   {
     "id": 21,
     "publication": 2006,
-    "film": "Pirates of the Caribbean: Dead Man’s Chest",
+    "film": "Pirates of the Caribbean 2",
     "recettes": "$1,066,179,725",
     "recette": 1066179725,
     "genre": 0,
-    "titre": "Pirates of the Caribbean: Dead Man’s Chest",
-    "idAlloCine": ""
+    "titre": "Pirates of the Caribbean 2",
+    "idAlloCine": "",
+    "image":"image/Pirates_of_the_Caribbean_Dead_Man’s_Chest.webp"
   },
   {
     "id": 22,
@@ -218,7 +238,8 @@
     "recette": 1059135998,
     "genre": 0,
     "titre": "Moana 2",
-    "idAlloCine": 312511
+    "idAlloCine": 312511,
+    "image":"image/Moana_2.webp"
   },
   {
     "id": 23,
@@ -278,7 +299,8 @@
     "recette": 1025006125,
     "genre": 0,
     "titre": "Finding Dory",
-    "idAlloCine": 210222
+    "idAlloCine": 210222,
+    "image":"image/Finding_dory.webp"
   },
   {
     "id": 29,
@@ -288,7 +310,8 @@
     "recette": 1018518000,
     "genre": 0,
     "titre": "Zootopia",
-    "idAlloCine": 223207
+    "idAlloCine": 223207,
+    "image":"image/Zootapia.webp"
   },
   {
     "id": 30,
@@ -339,7 +362,8 @@
     "recette": 936094852,
     "genre": 0,
     "titre": "Finding Nemo",
-    "idAlloCine": 29057
+    "idAlloCine": 29057,
+    "image":"image/Finding_nemo.webp"
   },
   {
     "id": 35,
@@ -379,7 +403,8 @@
     "recette": 848469454,
     "genre": 0,
     "titre": "Inside Out",
-    "idAlloCine": 196960
+    "idAlloCine": 196960,
+    "image":"image/Inside_out.webp"
   },
   {
     "id": 39,
@@ -399,7 +424,8 @@
     "recette": 796397165,
     "genre": 0,
     "titre": "Coco",
-    "idAlloCine": ""
+    "idAlloCine": "",
+    "image":"image/Coco.webp"
   },
   {
     "id": 41,
@@ -449,7 +475,8 @@
     "recette": 743455810,
     "genre": 0,
     "titre": "Monsters University",
-    "idAlloCine": 109572
+    "idAlloCine": 109572,
+    "image":"image/Monsters_university.webp"
   },
   {
     "id": 46,
@@ -459,7 +486,8 @@
     "recette": 731463377,
     "genre": 0,
     "titre": "Up",
-    "idAlloCine": 130368
+    "idAlloCine": 130368,
+    "image":"image/up.webp"
   },
   {
     "id": 47,
