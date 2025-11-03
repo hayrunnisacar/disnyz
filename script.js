@@ -115,6 +115,7 @@ drawArc(352, 439, 56, 0, 35.159, "arc28");
 drawArc(352, 439, 44, 0, 32.822, "arc29");
 drawArc(352, 439, 32, 0, 32.293, "arc30");
 
+
 // // Animation pour faire apparaitre les arcs progressivement au moment où on arrive au niveau des graphiques---------
 gsap.registerPlugin(ScrollTrigger);
 
@@ -184,14 +185,14 @@ fetch('data.json').then(function(response) {
     {id: "arc19", r: 164, end: 54.867},
     {id: "arc20", r: 152, end: 47.290},
     {id: "arc21",  r: 140, end: 47.189},
-    {id: "arc22",  r: 140, end: 46.758},
-    {id: "arc23",  r: 128, end: 45.252},
-    {id: "arc24",  r: 116, end: 44.966},
-    {id: "arc25",  r: 104, end: 43.635},
-    {id: "arc26",  r: 92,  end: 41.327},
-    {id: "arc27",  r: 80,  end: 37.458},
-    {id: "arc28",  r: 68,  end: 35.159},
-    {id: "arc29",  r: 56,  end: 32.822},
+    {id: "arc22",  r: 128, end: 46.758},
+    {id: "arc23",  r: 116, end: 45.252},
+    {id: "arc24",  r: 104, end: 44.966},
+    {id: "arc25",  r: 92, end: 43.635},
+    {id: "arc26",  r: 80,  end: 41.327},
+    {id: "arc27",  r: 68,  end: 37.458},
+    {id: "arc28",  r: 56,  end: 35.159},
+    {id: "arc29",  r: 44,  end: 32.822},
     {id: "arc30", r: 32,  end: 32.293}
   ];
 
