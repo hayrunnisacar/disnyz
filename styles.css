@@ -566,7 +566,8 @@ h2{
      overflow: visible;
   display: block;
   z-index: 1;
-      min-height: 3300px; /* laisse le conteneur pousser le scroll */
+      /* /* min-height: 3300px; */
+       /* laisse le conteneur pousser le scroll */
 
 }
 
