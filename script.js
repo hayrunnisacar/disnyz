@@ -207,7 +207,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     trigger: counter,     
                     start: 'top center',  
                     // Je joue une seule fois l'animation  
-                    toggleActions: 'restart pause resume pause',
+                    toggleActions: 'play none none none',
                 }
             });
         });
