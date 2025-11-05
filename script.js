@@ -375,15 +375,17 @@ fetch('data.json').then(function(response) {
 
     //Je met dans un tableau les films qui m'intéressent
     const filmsFrise = [
-        162, 255, 257, 122, 224, 543, 201, 141, 81, 71, 30, 114, 59, 12, 50
+        162, 255, 257, 122, 543, 201, 141, 81, 71, 30, 114, 224, 59, 12, 50
     ];
 
     //Je construis mon popup
     let templatePopup =
             "<img src='{{image}}' alt='Affiche du film {{film}}' class='images-fc'/>" +
-            "<p>{{film}}</p>" +
+            "<div class='contenu-popup-fc'>" +
+            "<p class='titre-film-fc'>{{film}}</p>" +
             "<p>Année : {{publication}}</p>" +
-            '<a href="https://www.allocine.fr/film/fichefilm_gen_cfilm={{idAlloCine}}.html" alt="Lien vers Allociné du film">AlloCiné</a>';
+            '<a href="https://www.allocine.fr/film/fichefilm_gen_cfilm={{idAlloCine}}.html" alt="Lien vers Allociné du film">AlloCiné</a>'
+            "</div>";
     
     //Je fais le popup pour chaque bouton
     boutons.forEach(function(bouton, nombre){

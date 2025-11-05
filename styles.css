@@ -560,7 +560,7 @@ h2{
     /* position: relative; */
     /* Je donne la même largeur à la section que le svg pour centrer */
     width: 456px;
-    height: 3250px;
+    height: 3300px;
     margin: auto;
     /* z-index: 5; */
      /* overflow: visible;
@@ -646,6 +646,9 @@ h2{
     transform: translateY(-50%);
     width: 300px;
     height: 190px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .bouton-gauche .popup-fc{
@@ -657,7 +660,7 @@ h2{
 }
 
 .popup-visible {
-    display: block;
+    display: flex;
 }
 
 .popup-invisible {
@@ -667,9 +670,25 @@ h2{
 .images-fc{
     width: 120px;
     height: auto;
-    float: left;
-    margin: 3px 5px;
+    /* margin: 3px 5px; */
 }
+
+.contenu-popup-fc{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+}
+
+.titre-film-fc{
+    margin: 0;
+    font-weight: 700;
+}
+
+.contenu-popup-fc a{
+    color: #710cff;
+}
+
 
 /* CSS DU COMPTEUR */
 .compteur {
