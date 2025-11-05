@@ -577,11 +577,24 @@ h2{
 }
 
 .bouton-frise {
+    border: none;
+    background-color: transparent;
     width: 25px;
     height: 25px;
-    background: linear-gradient(#FF8800, #FFE400);
-    border-radius: 50%;
+    /* background: linear-gradient(#FF8800, #FFE400);
+    border-radius: 50%; */
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fleur-bouton{
+    transition: transform 1s ease-in-out;
+}
+
+.fleur-bouton:hover{
+    transform: rotate(180deg);
 }
 
 .popup-fc {
