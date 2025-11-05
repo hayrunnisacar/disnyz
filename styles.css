@@ -39,10 +39,10 @@ body {
     /* height: 100vh; */
 }
 
-html, body {
+/* html, body {
   height: auto;
   overflow-x: hidden;
-}
+} */
 
 /* Gradient CSS */
 /*code curseur gradient => https://codepen.io/Iseyaaaaa/pen/qBMNEGN*/
@@ -353,7 +353,7 @@ main {
 }
 
 .chateau-lanterne{
-    width: 480.20px;
+    width: 485.20px;
     height: 710.57px;
     transform: translateX(10px); 
 }
