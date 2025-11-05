@@ -557,18 +557,34 @@ h2{
 /* --------GRAPHIQUE 2 - FRISE CHRONOLOGIQUE--------*/
 .frise-chrono{
     /* Je le met en relative pour placer correctement le popup qui est en absolute */
-    position: relative;
+    /* position: relative; */
     /* Je donne la même largeur à la section que le svg pour centrer */
     width: 456px;
-    /* height: 3300px; */
+    height: 3250px;
     margin: auto;
     /* z-index: 5; */
-     overflow: visible;
+     /* overflow: visible;
   display: block;
-  z-index: 1;
+  z-index: 1; */
       /* /* min-height: 3300px; */
        /* laisse le conteneur pousser le scroll */
+}
 
+.explication-frise{
+    position: relative;
+    background-color: rgb(229, 216, 231);
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 15px 15px 0 rgba(62, 3, 69, 0.25);
+    margin-bottom: 130px;
+}
+
+.fee{
+    position: absolute;
+    transform: translateY(-50%);
+    right: -50px;
+    top: -10px;
 }
 
 .carrosse {
@@ -591,12 +607,34 @@ h2{
     align-items: center;
 }
 
-.fleur-bouton{
-    transition: transform 1s ease-in-out;
+@keyframes tape-oeil{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.40);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
-.fleur-bouton:hover{
-    transform: rotate(180deg);
+.fleur-bouton{
+    /* transition: transform 0.8s ease-in-out; */
+    animation-name: tape-oeil;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+/* .fleur-bouton:hover{
+    transform: rotate(180deg) scale(1.40);
+    animation-play-state: paused;
+} */
+
+@media (prefers-reduced-motion: reduce) {
+  .fleur-bouton {
+    animation: none;
+  }
 }
 
 .popup-fc {
