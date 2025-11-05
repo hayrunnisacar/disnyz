@@ -574,6 +574,8 @@ h2{
 .carrosse {
     width: 200px;
     height: auto;
+    /* le carrosse ne détecte rien, les boutons sont détectatbles même au hover ainsi*/
+    pointer-events: none;
 }
 
 .bouton-frise {
