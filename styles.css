@@ -566,21 +566,37 @@ h2{
      overflow: visible;
   display: block;
   z-index: 1;
-      min-height: 3300px; /* laisse le conteneur pousser le scroll */
+      /* /* min-height: 3300px; */
+       /* laisse le conteneur pousser le scroll */
 
 }
 
 .carrosse {
     width: 200px;
     height: auto;
+    /* le carrosse ne détecte rien, les boutons sont détectatbles même au hover ainsi*/
+    pointer-events: none;
 }
 
 .bouton-frise {
+    border: none;
+    background-color: transparent;
     width: 25px;
     height: 25px;
-    background: linear-gradient(#FF8800, #FFE400);
-    border-radius: 50%;
+    /* background: linear-gradient(#FF8800, #FFE400);
+    border-radius: 50%; */
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fleur-bouton{
+    transition: transform 1s ease-in-out;
+}
+
+.fleur-bouton:hover{
+    transform: rotate(180deg);
 }
 
 .popup-fc {
