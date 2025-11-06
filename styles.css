@@ -557,18 +557,34 @@ h2{
 /* --------GRAPHIQUE 2 - FRISE CHRONOLOGIQUE--------*/
 .frise-chrono{
     /* Je le met en relative pour placer correctement le popup qui est en absolute */
-    position: relative;
+    /* position: relative; */
     /* Je donne la même largeur à la section que le svg pour centrer */
     width: 456px;
-    /* height: 3300px; */
+    height: 3300px;
     margin: auto;
     /* z-index: 5; */
-     overflow: visible;
+     /* overflow: visible;
   display: block;
-  z-index: 1;
+  z-index: 1; */
       /* /* min-height: 3300px; */
        /* laisse le conteneur pousser le scroll */
+}
 
+.explication-frise{
+    position: relative;
+    background-color: rgb(229, 216, 231);
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 15px 15px 0 rgba(62, 3, 69, 0.25);
+    margin-bottom: 130px;
+}
+
+.fee{
+    position: absolute;
+    transform: translateY(-50%);
+    right: -50px;
+    top: -10px;
 }
 
 .carrosse {
@@ -591,23 +607,50 @@ h2{
     align-items: center;
 }
 
-.fleur-bouton{
-    transition: transform 1s ease-in-out;
+@keyframes tape-oeil{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.40);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
-.fleur-bouton:hover{
-    transform: rotate(180deg);
+.fleur-bouton{
+    /* transition: transform 0.8s ease-in-out; */
+    animation-name: tape-oeil;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+/* .fleur-bouton:hover{
+    transform: rotate(180deg) scale(1.40);
+    animation-play-state: paused;
+} */
+
+@media (prefers-reduced-motion: reduce) {
+  .fleur-bouton {
+    animation: none;
+  }
 }
 
 .popup-fc {
     position: absolute;
-    background-color: rgba(241, 236, 236);
+    background: linear-gradient(#662279 0%, #BC98C6 100%, transparent);
+    box-shadow: 0 15px 15px 0 rgba(62, 3, 69, 0.25);
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 25px;
+    border: solid #F6D6FF 6px;
     top: 50%;
     transform: translateY(-50%);
-    width: 300px;
-    height: 190px;
+    width: 350px;
+    height: 240px;
+    /* display: flex;
+    align-items: center; */
+    gap: 10px;
 }
 
 .bouton-gauche .popup-fc{
@@ -619,7 +662,7 @@ h2{
 }
 
 .popup-visible {
-    display: block;
+    display: flex;
 }
 
 .popup-invisible {
@@ -629,9 +672,27 @@ h2{
 .images-fc{
     width: 120px;
     height: auto;
-    float: left;
-    margin: 3px 5px;
+    border-radius: 8px;
 }
+
+.contenu-popup-fc{
+    margin: auto 0;
+    text-align: left;
+    gap: 5px;
+    font-size: 1.1em;
+    color: #D7CFF3;
+}
+
+.titre-film-fc{
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.contenu-popup-fc a{
+    color: #541067;
+}
+
 
 /* CSS DU COMPTEUR */
 .compteur {
