@@ -472,7 +472,7 @@ h2{
     padding: 5px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     width: 220px;
-    font-size: 14px;
+    /* font-size: 14px; */
     opacity: 0;
     transition: opacity 0.2s;
     pointer-events: none;

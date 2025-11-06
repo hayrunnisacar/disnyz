@@ -35,10 +35,10 @@
 <nav class="navigation">
   <ul>
     <!-- Le logo à mettre -->
-    <li><a href="#accueil" class="hover-underline">Accueil</a></li>
-    <li><a href="#mickey" class="hover-underline">Recettes des films</a></li>
-    <li><a href="#friseChrono" class="hover-underline">Chronologie</a></li>
-    <li><a href="#compteur-anim" class="hover-underline">Recette totale</a></li>
+    <li><a href="#accueil" class="hover-underline">Home</a></li>
+    <li><a href="#mickey" class="hover-underline">Film revenues</a></li>
+    <li><a href="#friseChrono" class="hover-underline">Timeline</a></li>
+    <li><a href="#compteur-anim" class="hover-underline">Total revenue</a></li>
   </ul>
 </nav><br><br><br><br>
 
@@ -54,9 +54,9 @@
 
 <div class="accueil-container" id="accueil">
   <div class="txt-accueil">
-    <h1>BIENVENUE SUR DISNYZ !</h1>
+    <h1>WELCOME TO DISNYZ !</h1>
     <p class="presentation">
-      Disnyz est un site conçu par trois étudiantes en BUT MMI, Lucie Nivinou, Hayrunnisa Acar et Madhvi Hettiarachchige. Passionnées par l’univers de Disney, nous avons voulu créer un site dans lequel nous pouvons recenser les meilleurs box-office des films Disney dans le monde entier. À travers ces données, vous pourrez découvrir les classiques de Disney et surtout, découvrir quels sont les films qui ont connu un véritable succès. Interagissez avec nos graphiques, notre frise et découvrez le box-office total grâce à notre compteur ! 
+      Passionate about the Disney universe, we wanted to create a site where we could compile the top box-office results of Disney films from around the world. Through this data, you will be able to discover Disney classics and, above all, find out which films have achieved real success. Interact with our charts, our timeline, and discover the total box office thanks to our counter! 
     </p>
   </div>
  
@@ -79,11 +79,12 @@
 
 
 <!-- GRAPHIQUE 1 - MICKEY -->
-
+<section>
 <div class="container-mickey" id="mickey">
+  <!-- <h2 x="352" y="40">Les plus grandes recettes des films Disney</h2> -->
 <svg width="700" height="700" viewBox="0 0 700 700" >
 
-<text x="352" y="40" text-anchor="middle" font-size="24" fill="black">Les plus grandes recettes des films Disney</text>
+<text x="352" y="40" text-anchor="middle" font-size="24" fill="black">The highest-grossing Disney films</text>
   <image href="image/mickey.svg" class="mickey" x="30" y="50"/>
 
 <path id="arc1" d="" fill="none" stroke="rgba(44, 1, 129, 1)" stroke-width="8"/>
@@ -106,9 +107,10 @@
 </svg>
 
 <!-- GRAPHIQUE 1 BIS -->
+  <!-- <h2 x="352" y="40">Les plus grandes recettes des films d'animation Disney</h2> -->
 <svg width="700" height="700" viewBox="0 0 700 700" class="droite">
 
-  <text x="352" y="40" text-anchor="middle" font-size="24" fill="black"> Les plus grandes recettes des films d'animation Disney</text>
+  <text x="352" y="40" text-anchor="middle" font-size="24" fill="black">The highest-grossing Disney animated films</text>
   <image href="image/mickey.svg" class="mickey" x="30" y="50"/>
 
   <path id="arc16" d="" fill="none" stroke="rgba(101, 1, 129, 1)" stroke-width="8"/>
@@ -135,7 +137,7 @@
 </div> -->
 
 <div class="popup-mickey1"></div>
-
+</section>
  <!-- FIN GRAPHIQUE 1 -->
 
 
@@ -145,10 +147,10 @@
 
 <!-- GRAPHIQUE 2 - FRISE CHRONOLOGIQUE -->
   <section class="frise-chrono" id="friseChrono">
-    <h2>Il était une fois …</h2>
+    <h2>Once upon a time…</h2>
     <div class="explication-frise">
       <!-- <img src="image/flocon.svg" alt=""> -->
-      <p>Chaque fleur cache un film : survolez-les pour le découvrir !</p>
+      <p>Each flower hides a film: hover over them to discover it!</p>
       <img src="image/fee.svg" alt="" class="fee">
       <!-- <img src="image/flocon.svg" alt=""> -->
     </div>
@@ -216,15 +218,15 @@
       <img src="image/Walt.svg" alt="Silhouette de Walt et mickey" class="walt">
       <img src="image/flocon.svg" alt="Flocon de neige" class="flocon">
 
-      <p>Les recettes totales des films Disney à travers le monde en $.</p>
+      <p>The total worldwide revenues of Disney films in USD.</p>
       <div class="counter">0</div>
     </section>
 </main>
 
 <footer>
-<a href="mentions_legales.html">Mentions légales</a>
+<a href="mentions_legales.html">Legal notice</a>
 <a href="sources.html">Sources</a>
-  <p>Disnyz - NIVINOU Lucie, HETTIARACHCHIGE Madhvi, ACAR Hayrunnisa - Tous droits réservés</p>
+  <p>Disnyz - NIVINOU Lucie, HETTIARACHCHIGE Madhvi, ACAR Hayrunnisa - All rights reserved</p>
 </footer>
 
 
