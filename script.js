@@ -460,7 +460,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 // à chaque petit changement de la valeur pendant l'animation j'affiche dans le compteur
                 onUpdate: function() {
                     // J'arrondis le résultat final avec la fonction Math.floor pour que pendant l'animation, le compteur affiche pas les nombres à virgule.
-                    counter.textContent = Math.floor(obj.valeur);
+                    counter.textContent = Math.floor(obj.valeur).toLocaleString('fr-FR');
                 },
                 // J'ajoute la fonction ScrollTrigger pour que l'animation ne commence que quand on arrive au niveau du compteur.
                 scrollTrigger: {  
