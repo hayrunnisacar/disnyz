@@ -383,8 +383,8 @@ fetch('data.json').then(function(response) {
             "<img src='{{image}}' alt='Affiche du film {{film}}' class='images-fc'/>" +
             "<div class='contenu-popup-fc'>" +
             "<p class='titre-film-fc'>{{film}}</p>" +
-            "<p>Année : {{publication}}</p>" +
-            '<a href="https://www.allocine.fr/film/fichefilm_gen_cfilm={{idAlloCine}}.html" alt="Lien vers Allociné du film">AlloCiné</a>'
+            "<p class='annee-film-fc'>Année : {{publication}}</p>" +
+            '<a href="https://www.allocine.fr/film/fichefilm_gen_cfilm={{idAlloCine}}.html" alt="Lien vers Allociné du film" class="lien-film-fc">AlloCiné</a>'
             "</div>";
     
     //Je fais le popup pour chaque bouton

@@ -639,15 +639,17 @@ h2{
 
 .popup-fc {
     position: absolute;
-    background-color: rgba(241, 236, 236);
+    background: linear-gradient(#662279 0%, #BC98C6 100%, transparent);
+    box-shadow: 0 15px 15px 0 rgba(62, 3, 69, 0.25);
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 25px;
+    border: solid #F6D6FF 6px;
     top: 50%;
     transform: translateY(-50%);
-    width: 300px;
-    height: 190px;
-    display: flex;
-    align-items: center;
+    width: 350px;
+    height: 240px;
+    /* display: flex;
+    align-items: center; */
     gap: 10px;
 }
 
@@ -670,23 +672,25 @@ h2{
 .images-fc{
     width: 120px;
     height: auto;
-    /* margin: 3px 5px; */
+    border-radius: 8px;
 }
 
 .contenu-popup-fc{
-    display: flex;
-    flex-direction: column;
+    margin: auto 0;
     text-align: left;
     gap: 5px;
+    font-size: 1.1em;
+    color: #D7CFF3;
 }
 
 .titre-film-fc{
     margin: 0;
     font-weight: 700;
+    font-size: 1.2em;
 }
 
 .contenu-popup-fc a{
-    color: #710cff;
+    color: #541067;
 }
 
 
