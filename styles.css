@@ -354,7 +354,7 @@ main {
 
 .chateau-lanterne{
     width: 485.20px;
-    height: 710.57px;
+    height: 685.57px;
     transform: translateX(10px); 
 }
 
@@ -367,7 +367,7 @@ main {
 h1{
     font-family: "cofo-raffine", sans-serif;
     font-weight: 900;
-    color: #251155;
+    color: #250548;
     font-size: 3.2em;
     margin: 0;
 }
@@ -384,7 +384,7 @@ h2{
 
 .presentation{
     font-size: 1.1em;
-    color: #251155;
+    color: #250548;
     margin: 0;
 }
 
@@ -397,6 +397,30 @@ h2{
     z-index: 2; 
 }
 
+@media screen and (max-width: 1024px) {
+    .accueil-container {
+        width: 90%;            
+        border-radius: 25px;
+        top: 0;                  
+        padding: 20px;
+    }
+
+    .chateau-lanterne {
+        width: 485.20px;
+        height: 685.57px;
+        transform: translateX(0);
+    }
+
+    .txt-accueil {
+        margin: 20px;
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .peter-pan {
+        display: none;
+    }
+}
 
 /* --------CSS Images Roi Lion--------*/
 .img-container {
@@ -698,12 +722,12 @@ h2{
 .compteur {
     width: 100%;
     height: 100vh;
-    background-image: url("image/fond-compteur.jpg");
+    /* background-image: url("image/fond-compteur.jpg");
     background-position: bottom center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     position: relative; 
-    z-index: -2;
+    z-index: 0;
 }
 
 .walt {
