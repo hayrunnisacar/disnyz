@@ -1,3 +1,6 @@
+// On attend que le DOM soit complètement chargé pour afficher la page
+document.addEventListener("DOMContentLoaded", function() {
+
 // --------Animation page d'accueil--------
 //Je sélectionnne ici les eléments de mon HTML afin de les manipuler en javascript pour l'animation
 const chateau = document.querySelector(".chateau");
@@ -43,7 +46,7 @@ document.addEventListener('mousemove', function(e){
   // https://stackoverflow.com/questions/5736398/how-to-calculate-the-svg-path-for-an-arc-of-a-circle
 
 
-  document.addEventListener("DOMContentLoaded", function() {
+//   document.addEventListener("DOMContentLoaded", function() {
 
 function polarToCartesian(centerX, centerY, radius, angleInDegrees) {
   var angleInRadians = (angleInDegrees-90) * Math.PI / 180.0;
@@ -287,8 +290,8 @@ const popupY = window.scrollY + svgRect.top + endPoint.y - 40;
   });
 });
 
-})
 });
+// });
 // -------------------
 
 
@@ -431,8 +434,6 @@ fetch('data.json').then(function(response) {
  // ----- ANIMATION DU COMPTEUR -----
 // J'utilise la bibliothèque GSAP et le pluggin ScrollTrigger.
 
-// On attend que le DOM soit complètement chargé 
-document.addEventListener("DOMContentLoaded", function() {
     // Je sélectionne l'élement de mon HTML qui contient mon compteur donc "counter".
     const counter = document.querySelector(".counter");
 
