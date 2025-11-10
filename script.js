@@ -270,8 +270,8 @@ const popupY = window.scrollY + svgRect.top + endPoint.y - 40;
          <img src="${filmData.image}" alt="${filmData.film}">
          <div class="popup-text">
             <p><strong>${filmData.film}</strong></p>
-            <p>Année : ${filmData.publication}</p>
-            <p>Recettes : ${filmData.recettes}</p>
+            <p>Year : ${filmData.publication}</p>
+            <p>Revenue : ${filmData.recettes}</p>
          </div>
        </div>
        `;
@@ -386,7 +386,7 @@ fetch('data.json').then(function(response) {
             "<img src='{{image}}' alt='Affiche du film {{film}}' class='images-fc'/>" +
             "<div class='contenu-popup-fc'>" +
             "<p class='titre-film-fc'>{{film}}</p>" +
-            "<p class='annee-film-fc'>Année : {{publication}}</p>" +
+            "<p class='annee-film-fc'>Year : {{publication}}</p>" +
             '<a href="https://www.allocine.fr/film/fichefilm_gen_cfilm={{idAlloCine}}.html" alt="Lien vers Allociné du film" class="lien-film-fc">AlloCiné</a>'
             "</div>";
     
