@@ -596,13 +596,26 @@ h2{
 
 .explication-frise{
     position: relative;
-    background-color: rgb(229, 216, 231);
+    background-color: rgb(207, 204, 209);
     padding: 5px;
     text-align: center;
     border-radius: 15px;
     box-shadow: 0 15px 15px 0 rgba(62, 3, 69, 0.25);
     margin-bottom: 130px;
 }
+
+/* https://css-tricks.com/almanac/properties/a/animation-timeline/ je me suis aidé de ces exemples */
+/* .explication-frise p{
+    background: linear-gradient(90deg, #1a1a1a, #1a1a1a) 0/ 0px no-repeat #cecece;
+    animation: reveal .1s;
+    animation-timeline: scroll(root);
+}
+
+@keyframes reveal {
+  to {
+    background-size: 100%;
+  }
+} */
 
 .fee{
     position: absolute;
@@ -672,11 +685,10 @@ h2{
     transform: translateY(-50%);
     width: 350px;
     height: 240px;
-    /* display: flex;
-    align-items: center; */
     gap: 10px;
 }
-
+/* rgb(209, 204, 204) */
+/* rgb(42, 2, 126) */
 .bouton-gauche .popup-fc{
     right: 30px;
 }
@@ -694,8 +706,8 @@ h2{
 }
 
 .images-fc{
-    width: 120px;
-    height: auto;
+    /* width: 120px;
+    height: auto; */
     border-radius: 8px;
 }
 
