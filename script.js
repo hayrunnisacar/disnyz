@@ -1,7 +1,7 @@
 // On attend que le DOM soit complètement chargé pour afficher la page
 document.addEventListener("DOMContentLoaded", function() {
 
-// --------Animation page d'accueil--------
+// ----------------Animation page d'accueil----------------
 //Je sélectionnne ici les eléments de mon HTML afin de les manipuler en javascript pour l'animation
 const chateau = document.querySelector(".chateau");
 const intro = document.getElementById("intro");
@@ -28,7 +28,7 @@ window.addEventListener("scroll", () => {
 });
 
 
-// --------Curseur Gradient--------
+// ----------------Curseur Gradient----------------
 // code curseur gradient => https://codepen.io/Iseyaaaaa/pen/qBMNEGN
 // Je récupère .blob, le gradient. 
 var cursor = document.querySelector('.blob');
@@ -41,12 +41,9 @@ document.addEventListener('mousemove', function(e){
 
 
 
-// --------GRAPHIQUE 1 - MICKEY--------
-
-  // https://stackoverflow.com/questions/5736398/how-to-calculate-the-svg-path-for-an-arc-of-a-circle
-
-
-//   document.addEventListener("DOMContentLoaded", function() {
+// ----------------GRAPHIQUE 1 - MICKEY----------------
+// https://stackoverflow.com/questions/5736398/how-to-calculate-the-svg-path-for-an-arc-of-a-circle
+//document.addEventListener("DOMContentLoaded", function() {
 
 function polarToCartesian(centerX, centerY, radius, angleInDegrees) {
   var angleInRadians = (angleInDegrees-90) * Math.PI / 180.0;
@@ -292,27 +289,12 @@ const popupY = window.scrollY + svgRect.top + endPoint.y - 40;
 
 });
 // });
-// -------------------
 
 
-
-
-
-
-// --------GRAPHIQUE 2 - FRISE CHRONOLOGIQUE--------
+// ----------------GRAPHIQUE 2 - FRISE CHRONOLOGIQUE----------------
 //Je me suis aidé du site officiel de gsap pour tous les plugins utilisés
 //J'enregistre les plugin MotionPathPlugin et ScrollTrigger
 gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
-
-// Je place un par un tout les boutons popup
-// gsap.set("#fcBtn1", { 
-//     motionPath: {
-//         path: "#pathFrise",
-//         align: "#pathFrise",
-//         alignOrigin: [0.5, 0.5],
-//         end: 0.048
-//     }
-// });
 
 //J'insère les postions des boutons popup pour optimiser mon code dans un tableau
 const positionBouton = [
@@ -369,7 +351,6 @@ gsap.to("#carrosse", {
 //Je fais les popup pour chaque bouton---
 //J'insère le popup dans la variable popupFc
 const popupFc = document.querySelector(".popup-fc");
-
 
 //Je récupère les données du fichier json
 fetch('data.json').then(function(response) {
@@ -431,9 +412,9 @@ fetch('data.json').then(function(response) {
     }); 
 });
 
- // ----- ANIMATION DU COMPTEUR -----
-// J'utilise la bibliothèque GSAP et le pluggin ScrollTrigger.
 
+ // ---------------- ANIMATION DU COMPTEUR ----------------
+// J'utilise la bibliothèque GSAP et le pluggin ScrollTrigger.
     // Je sélectionne l'élement de mon HTML qui contient mon compteur donc "counter".
     const counter = document.querySelector(".counter");
 
