@@ -341,7 +341,7 @@ main {
 .chateau-lanterne{
     width: 485.20px;
     height: 685.57px;
-    transform: translateX(10px); 
+    transform: translateX(10px) translateY(10px);; 
 }
 
 .txt-accueil{
@@ -393,7 +393,7 @@ h2{
 
     .chateau-lanterne {
         width: 485.20px;
-        height: 685.57px;
+        height: 800.57px;
         transform: translateX(0);
     }
 
