@@ -489,7 +489,8 @@ h2{
     overflow: visible;
     
     flex-wrap: wrap;
-    margin-bottom: 100px; /* espace avant la frise */
+    /* espace avant la frise */
+    /* margin-bottom: 100px;  */
 }
 
 .container-mickey svg {
@@ -582,28 +583,45 @@ h2{
 }
 
 /* --------Texte explicatif-------- */
+.container-texte-explicatif{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.container-texte-explicatif hr{
+    flex-grow: 1;
+    border: solid 1px #702A84;
+}
+
 .texte-explicatif{
     /* color: #3b1ea1; */
     /* color: #3b18bb; */
-    /* background-color: #CFC5EF; */
-    background: linear-gradient(0.25turn, #d3c3fa , #D7CFF3 , #d3c3fa);
+    background-color: #CFC5EF;
+    /* background-color: rgb(207, 204, 209); */
+    /* background: linear-gradient(0.25turn, #d3c3fa , #D7CFF3 , #d3c3fa); */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 60px;
-    margin: 100px 0px;
+    padding: 20px;
+    /* margin: 100px 0px; */
+    max-width: 900px;
+    margin: 100px auto;
+    border-radius: 20px;
+    box-shadow: 0 15px 15px 0 rgba(62, 3, 69, 0.25);
+}
+
+.texte-explicatif{
+    height: 150px;
+    height: auto;
 }
 
 .texte-explicatif p{
     max-width: 780px;
     padding: 0 20px;
     line-height: 1.8;
-}
-
-.texte-explicatif hr {
-    flex-grow: 1;
-    border: 0.5px solid #251155;
 }
 
 
