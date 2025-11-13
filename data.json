@@ -52,7 +52,7 @@
     "genre": 0,
     "titre": "The Lion King",
     "idAlloCine": 10862,
-    "image":"image/affiche/The_Lion_King.jpg"
+    "image":"image/affiche/The_Lion_King.webp"
   },
   {
     "id": 6,
@@ -85,7 +85,7 @@
     "genre": 0,
     "titre": "Avengers: Age of Ultron",
     "idAlloCine": 198488,
-    "image":"image/affiche/Avenger_Age_of_Ultron.jpg"
+    "image":"image/affiche/Avenger_Age_of_Ultron.webp"
   },
   {
     "id": 9,
@@ -107,7 +107,7 @@
     "genre": 0,
     "titre": "Black Panther",
     "idAlloCine": "",
-    "image":"image/affiche/Black_Panther.jpg"
+    "image":"image/affiche/Black_Panther.webp"
   },
   {
     "id": 11,
@@ -140,7 +140,7 @@
     "genre": 0,
     "titre": "Beauty and the Beast",
     "idAlloCine": "",
-    "image":"image/affiche/Beauty_and_the_Beast.jpg"
+    "image":"image/affiche/Beauty_and_the_Beast.webp"
   },
   {
     "id": 14,
@@ -162,7 +162,7 @@
     "genre": 0,
     "titre": "Iron Man 3",
     "idAlloCine": 139589,
-    "image":"image/affiche/Iron_Man_3.jpg"
+    "image":"image/affiche/Iron_Man_3.webp"
   },
   {
     "id": 16,
@@ -173,7 +173,7 @@
     "genre": 0,
     "titre": "Captain America: Civil War",
     "idAlloCine": 215143,
-    "image":"image/affiche/Captain_America_Civil_War.jpg"
+    "image":"image/affiche/Captain_America_Civil_War.webp"
   },
   {
     "id": 17,
@@ -184,7 +184,7 @@
     "genre": 0,
     "titre": "Captain Marvel",
     "idAlloCine": 141110,
-    "image":"image/affiche/Captain_Marvel.jpg"
+    "image":"image/affiche/Captain_Marvel.webp"
   },
   {
     "id": 18,
@@ -206,7 +206,7 @@
     "genre": 0,
     "titre": "Star Wars: The Rise of Skywalker",
     "idAlloCine": 215094,
-    "image":"image/affiche/Star_Wars_The_Rise_of_Skywalke.jpg"
+    "image":"image/affiche/Star_Wars_The_Rise_of_Skywalke.webp"
   },
   {
     "id": 20,
