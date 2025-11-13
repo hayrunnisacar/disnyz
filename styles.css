@@ -462,7 +462,11 @@ h2{
     height: 700px; 
   }
 }
-
+.titre-svg{
+    font-family: "cofo-raffine", sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
 
 /* svg {
     border: 1px solid red;
