@@ -580,6 +580,20 @@ h2{
   transform: translateX(0);
 }
 
+/* --------Texte explicatif-------- */
+.texte-explicatif{
+    color: #CFC5EF;
+    margin: auto;
+    background-color: #120334;
+}
+
+.texte-explicatif p{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+
+}
+
 /* --------GRAPHIQUE 2 - FRISE CHRONOLOGIQUE--------*/
 .frise-chrono{
     /* Je le met en relative pour placer correctement le popup qui est en absolute */
