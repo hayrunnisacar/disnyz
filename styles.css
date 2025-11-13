@@ -440,6 +440,30 @@ h2{
 
 /* GRAPHIQUE 1 MICKEY */
 
+@media screen and (max-width: 1415px) {
+  .container-mickey {
+    display: flex;
+    /* centre les graphiques */
+    justify-content: center; 
+    /* passage à la ligne si besoin */
+    flex-wrap: wrap;   
+    /* les centre horizontalement */
+    align-items: center;  
+    align-content: center;  
+    width: 100%;             
+  }
+
+  .container-mickey svg {
+    display: block;           /* enlève tout comportement inline étrange */
+    margin: 0 auto;
+    /* s’adapte à la largeur de l’écran */
+    width: 700px; 
+    /* garde les proportions */  
+    height: 700px; 
+  }
+}
+
+
 /* svg {
     border: 1px solid red;
   } */

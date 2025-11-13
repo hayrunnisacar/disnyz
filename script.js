@@ -99,21 +99,21 @@ drawArc(352, 439, 32, 0, 29.425, "arc15");
 // Espacement de 12 entre chaque cercle
 
 // Graphique 2
-drawArc(352, 439, 200, 0, 75, "arc16");
-drawArc(352, 439, 188, 0, 64.088, "arc17");
-drawArc(352, 439, 176, 0, 56.057, "arc18");
-drawArc(352, 439, 164, 0, 54.867, "arc19");
-drawArc(352, 439, 152, 0, 47.290, "arc20");
-drawArc(352, 439, 140, 0, 47.189, "arc21");
-drawArc(352, 439, 128, 0, 46.758, "arc22");
-drawArc(352, 439, 116, 0, 45.252, "arc23");
-drawArc(352, 439, 104, 0, 44.966, "arc24");
-drawArc(352, 439, 92, 0, 43.635, "arc25");
-drawArc(352, 439, 80, 0, 41.327, "arc26");
-drawArc(352, 439, 68, 0, 37.458, "arc27");
-drawArc(352, 439, 56, 0, 35.159, "arc28");
-drawArc(352, 439, 44, 0, 32.822, "arc29");
-drawArc(352, 439, 32, 0, 32.293, "arc30");
+drawArc(352, 439, 200, 0, 46.889, "arc16");
+drawArc(352, 439, 188, 0, 40.064, "arc17");
+drawArc(352, 439, 176, 0, 35.044, "arc18");
+drawArc(352, 439, 164, 0, 34.300, "arc19");
+drawArc(352, 439, 152, 0, 29.563, "arc20");
+drawArc(352, 439, 140, 0, 29.500, "arc21");
+drawArc(352, 439, 128, 0, 29.231, "arc22");
+drawArc(352, 439, 116, 0, 28.289, "arc23");
+drawArc(352, 439, 104, 0, 28.110, "arc24");
+drawArc(352, 439, 92, 0, 27.278, "arc25");
+drawArc(352, 439, 80, 0, 25.835, "arc26");
+drawArc(352, 439, 68, 0, 23.417, "arc27");
+drawArc(352, 439, 56, 0, 21.980, "arc28");
+drawArc(352, 439, 44, 0, 20.519, "arc29");
+drawArc(352, 439, 32, 0, 20.188, "arc30");
 
 
 // // Animation pour faire apparaitre les arcs progressivement au moment où on arrive au niveau des graphiques---------
