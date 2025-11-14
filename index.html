@@ -219,17 +219,29 @@
     </div>
   </section>
 
-    <!-- Compteur -->
-    <section class="compteur" id="compteurAnim">
-      <div class="compteur-fond"></div>
+  <!-- Compteur -->
+  <section class="compteur" id="compteurAnim">
+    <div class="compteur-fond"></div>
       
-      <img src="image/fond-compteur.jpg" alt="Disney background" class="compteur">
-      <img src="image/Walt.svg" alt="" class="walt">
-      <img src="image/flocon.svg" alt="" class="flocon">
+      <div class="courbe-masque">
+        <img src="image/courbe.svg" alt="Courbe" class="courbe">
+      </div>
+      <!-- <img src="image/fond-compteur.jpg" alt="Fond Disney" class="compteur"> -->
+      <img src="image/Walt.svg" alt="Silhouette de Walt et mickey" class="walt">
+      <img src="image/flocon.svg" alt="Flocon de neige" class="flocon">
 
-      <p>The total worldwide revenues of Disney films in USD.</p>
-      <div class="counter">0</div>
-    </section>
+      <!-- <p>The total worldwide revenues of Disney films in USD.</p> -->
+      <div class="counter">
+      <div class="valeur">0</div>
+      <div class="annee"></div>
+      <button class="button-courbe" id="buttonCourbe">En savoir plus</button>
+
+      <div class="popup-courbe popup-invisible" id="popupCourbe">
+        <button class="popup-fermer">x</button>
+          TEST, CA MARCHE ?
+      </div>
+    </div>
+  </section>
 </main>
 
 <footer>

@@ -768,26 +768,48 @@ h2{
 
 /* CSS DU COMPTEUR */
 .compteur {
+    position: relative;
     width: 100%;
     height: 100vh;
-    /* background-image: url("image/fond-compteur.jpg");
+    background-image: url("image/fond-compteur.jpg");
     background-position: bottom center;
     background-size: cover;
-    background-repeat: no-repeat; */
-    position: relative; 
-    z-index: 0;
+    background-repeat: no-repeat;
+    /* z-index: 0; */
+}
+
+.courbe-masque {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;      
+    height: 100%;  
+    overflow: hidden; 
+    /* z-index: 10; */
+    animation: reveler-courbe 5s ease-out forwards 5s; 
+}
+
+.courbe {
+    display: block;
+    width: 100vw; 
+    height: 100%; 
+    /* z-index: 3; */
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    opacity: 0.50;
 }
 
 .walt {
     position: absolute;
     bottom: 0;
-    right: 0;
-    width: 300px;
+    left: 0;
+    width: 380px;
 }
 
 .flocon {
     position: absolute;
-    top: 30%;
+    top: 15%;
     left: 47%;
 }
 
@@ -801,16 +823,52 @@ h2{
     text-align: center;
 }
 
+.annee{
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2.6rem;
+}
+
 .counter {
     position: absolute;
-    left: 50%;      
-    top: 40%;           
+    left: 51%;      
+    top: 37%;           
     transform: translateX(-50%);
     font-size: 7rem;
     font-weight: bold;
     color: #fff; 
     text-align: center;
     margin-top: 20px;
+}
+
+.button-courbe{
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    border: none;
+    padding: 8px;
+}
+
+.button-courbe:hover{
+    background-color: #79797a;
+}
+
+.popup-courbe {
+    position: absolute;
+    transform: translateY(-120%);
+    justify-content: center;
+    align-items: center;
+    background-color: #CFC5EF;
+    border-radius: 20px;    
+    width: 800px; 
+    padding: 20px;
+}
+
+.popup-fermer {
+    position: absolute; 
+    top: 15px;
+    left: 15px;
 }
 
 /* FOOTER*/

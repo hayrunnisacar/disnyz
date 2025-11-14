@@ -415,43 +415,120 @@ fetch('data.json').then(function(response) {
 
  // ---------------- ANIMATION DU COMPTEUR ----------------
 // J'utilise la bibliothèque GSAP et le pluggin ScrollTrigger.
-    // Je sélectionne l'élement de mon HTML qui contient mon compteur donc "counter".
-    const counter = document.querySelector(".counter");
+    // Je sélectionne les éléments de l'année et la valeur (la valeur donc du compteur)
+    let anneeLabel = document.querySelector(".counter .annee");
+    let valeurCompteur = document.querySelector(".counter .valeur");
 
-    // Je charge mon fichier data.json pour pouvoir aller récupérer les données qui m'intéressent dans le fichier pour pouvoir ensuite les manipuler en javascript.
-    fetch('data.json').then(function(response) {
-        response.json().then(function(data) {
-            // console.log(data);
+    let anneesDonnees = null;
 
-            // Comme dans mon compteur je veux afficher la somme de tous les Worldwide Boxoffice, je dois faire un calcul qui additionne toutes les données de cette colonnes.
-            // Je crée une variable totalRecette dans lequel : reduce parcourt tout le tableau data. s est une valeur initiale et f correspond à l'élément qu'on va parcourir dans le tableau. Je pars de 0 et avec f.recette, je parcours "recette" et j'additionne toutes les valeurs "recette".
-            const totalRecette = data.reduce((s, f) => s + f.recette, 0);
+    // je charge le fichier JSON DÈS le chargement du DOM pour qu'il soit prêt avant le scroll.
+    fetch('compteur.json')
+        .then(reponse => reponse.json())
+        .then(donnees => {
+            // je garde juste les lignes complétées et stocke les données
+            anneesDonnees = donnees.filter(ligne => ligne.Released !== "");
+        })
+        // .catch(erreur => {
+        //     console.error("Erreur lors du chargement du fichier JSON :", erreur);
+        // });
 
-            // je crée un objet d'une valeur de 0 pour que mon compteur parte de 0 et pour que GSAP puisse réussir à manipuler ma valeur.
-            const obj = { valeur: 0 };
+
+    // Je défini la l'animation pour qu'elle puisse s'activer avec e scroll trigger
+    function demarrerCompteur() {
+        
+        // Je vérifie si les données sont prêtes avant de commencer
+        // if (!anneesDonnees || anneesDonnees.length === 0) {
+        //     console.warn("Le compteur ne peut pas démarrer : les données ne sont pas encore prêtes.");
+        //     return; 
+        // }
+
+        //J'initialise toutes mes valeurs à 0 pour le début du compteur
+        let sommeTotale = 0;
+        let position = 0;
+        
+        // J'utilise les données déjà chargées
+        const annees = anneesDonnees; 
+
+        // Objet pour GSAP (pour animer la valeur)
+        const obj = { valeur: 0 };
+                
+        // j'initialise l'année de départ pour qu'elle soit affichée au début de mon animation
+        anneeLabel.textContent = annees[position].Released;
+
+        // je crée ma fonction setinterval pour que toutes les 100ms (0.1 seconde), on change l'année et la somme
+        let interval = setInterval(function() {
+
+         // Si on arrive à la dernière ligne, j'arrête l'intervalle
+            if (position >= annees.length) {
+                clearInterval(interval); // fonction pour arrêter setInterval
+                            
+                // une fois que la dernière ligne est passée, j'affiche la somme totale finale
+                const derniereAnnee = annees[annees.length - 1].Released;
+                anneeLabel.textContent = derniereAnnee;
+                valeurCompteur.textContent = Math.floor(sommeTotale).toLocaleString('fr-FR');
+                            
+                return; 
+            }
+
+            // je récupère l'année et la valeur de l'année actuelle (la dernière)
+            let annee = annees[position].Released;
+            let valeurAnnee = Number(annees[position]["SUM de"]);
+
+            // j'ajoute à la somme cumulée de l'année précédente
+            sommeTotale += valeurAnnee;
+
+            // Mise à jour de l'année 
+            anneeLabel.textContent = annee; 
 
             // À partir de là, je choisis les réglages de mon animation.
-            // Je dis à GSAP de manipuler l'objet donc la ligne de code juste au dessus.
+            // Je dis à GSAP de manipuler l'objet quqe j'ai déclaré plus haut.
             gsap.to(obj, {
-                // Valeur finale : somme de la colonne recette.
-                valeur: totalRecette,
-                // Propriété GSAP pour la durée de mon animation
-                duration: 4,
-                // Type d'animation
-                ease: "power1.in",
-                // à chaque petit changement de la valeur pendant l'animation j'affiche dans le compteur
+            // Valeur finale : somme de la colonne recette.
+                valeur: sommeTotale, 
+                duration: 0.1, // elle dure 100ms, comme dans l'intervalle
+                ease: "linear", 
                 onUpdate: function() {
-                    // J'arrondis le résultat final avec la fonction Math.floor pour que pendant l'animation, le compteur affiche pas les nombres à virgule.
-                    counter.textContent = Math.floor(obj.valeur).toLocaleString('fr-FR');
-                },
-                // J'ajoute la fonction ScrollTrigger pour que l'animation ne commence que quand on arrive au niveau du compteur.
-                scrollTrigger: {  
-                    trigger: counter,     
-                    start: 'top center',  
-                    // Je joue une seule fois l'animation  
-                    toggleActions: 'play none none none',
+                // J'arrondis le résultat final avec la fonction Math.floor pour que pendant l'animation, le compteur affiche pas les nombres à virgule.
+                    valeurCompteur.textContent = Math.floor(obj.valeur).toLocaleString('fr-FR');
                 }
             });
-        });
+
+            // Je passe à l'année suivante donc à la ligne d'après
+            position++;
+
+        }, 100); // Intervalle de 100ms
+    }
+
+    // J'ajoute la fonction ScrollTrigger pour que l'animation ne commence que quand on arrive pile au niveau de la page avec le ocmpteur au milieu. 
+    ScrollTrigger.create({
+        trigger: ".compteur", 
+        start: "top center",   
+        once: true,     
+        onEnter: () => { 
+            demarrerCompteur();
+            gsap.to(".courbe-masque", { 
+                width: "100%", 
+                duration: 8, 
+                ease: "power2.out" 
+            });
+        }
+    });
+
+    //Je fais la popup
+    const buttonCourbe = document.querySelector(".button-courbe"); 
+    const popupCounter = document.querySelector(".popup-courbe");
+    const closeButton = document.querySelector(".popup-fermer");
+
+    buttonCourbe.addEventListener("click", function(){
+        //J'affiche la popup
+        popupCounter.classList.add("popup-visible");
+        popupCounter.classList.remove("popup-invisible");
+    });
+
+    // On écoute le clic sur le bouton "x"
+    closeButton.addEventListener("click", function(){
+        //Je cache la popup
+        popupCounter.classList.add("popup-invisible");
+        popupCounter.classList.remove("popup-visible");
     });
 });
