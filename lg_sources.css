@@ -5,6 +5,86 @@
 }
 
 body {
+    background-color: #CFC5EF;
+    margin: 0;
+    /* display: flex; */
+    /* height: 100vh; */
+}
+
+.title2{
+    font-size: 1.7rem;
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navigation{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+  }
+
+.navigation ul{
+    list-style: none;
+    background-color: #D7CFF3;
+    margin-top: 12px;
+    margin-bottom: 0;
+    border-radius:26px;
+    width:904px;
+    height: 60px;
+    box-shadow: 0px 14px 15px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.navigation a {
+    color: #702A84;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+}
+
+
+
+/*Animation au hover faite en CSS à partir du tuto "4. Text underline" : https://prismic.io/blog/css-hover-effects */
+    
+.hover-underline::after,
+  .hover-underline::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #702A84, #917ebd);
+    left: 0; 
+    transform: scaleX(0);
+    transition: transform 0.4s ease-out;
+}
+  
+.hover-underline::after {
+  bottom: 5px;
+  transform-origin: right;
+}
+
+.hover-underline::before {
+  top: 5px;
+  transform-origin: left;
+}
+
+.hover-underline:hover::after,
+.hover-underline:hover::before {
+  transform: scaleX(1);
+}
+
+.navigation li{
+    float: left;
+}
+
+body {
     font-family: "articulat-cf", sans-serif;
     font-weight: 600;
     font-style: normal;
