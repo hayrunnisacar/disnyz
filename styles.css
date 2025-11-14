@@ -750,19 +750,19 @@ h2{
 
 @media screen and (max-width: 1190px){
     .popup-fc{
-        width: 280px;
-        height: 180px;
-        z-index: 1000;
+        width: 270px;
+        height: 185px;
+        /* z-index: 1000; */
     }
     .bouton-gauche .popup-fc{
-    left: 120px;
+    right: 20px;
     /* J'ai mis auto car ca bloquait autrement */
-    right: auto;
+    left: auto;
     }
 
     .bouton-droite .popup-fc{
-    right: 120px;
-    left: auto;
+    left: 20px;
+    right: auto;
     }
 }
 
