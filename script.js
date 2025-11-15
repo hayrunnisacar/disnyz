@@ -418,7 +418,6 @@ fetch('data.json').then(function(response) {
     // Je sélectionne les éléments de l'année et la valeur (la valeur donc du compteur)
     let anneeLabel = document.querySelector(".counter .annee");
     let valeurCompteur = document.querySelector(".counter .valeur");
-
     let anneesDonnees = null;
 
     // je charge le fichier JSON DÈS le chargement du DOM pour qu'il soit prêt avant le scroll.
@@ -435,12 +434,6 @@ fetch('data.json').then(function(response) {
 
     // Je défini la l'animation pour qu'elle puisse s'activer avec e scroll trigger
     function demarrerCompteur() {
-        
-        // Je vérifie si les données sont prêtes avant de commencer
-        // if (!anneesDonnees || anneesDonnees.length === 0) {
-        //     console.warn("Le compteur ne peut pas démarrer : les données ne sont pas encore prêtes.");
-        //     return; 
-        // }
 
         //J'initialise toutes mes valeurs à 0 pour le début du compteur
         let sommeTotale = 0;
