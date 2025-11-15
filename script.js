@@ -1,5 +1,8 @@
 // On attend que le DOM soit complètement chargé pour afficher la page
 document.addEventListener("DOMContentLoaded", function() {
+//On enregistre les plugins MotionPathPlugin et ScrollTrigger de la bibliothèque GSAP
+gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
+
 
 // ----------------Animation page d'accueil----------------
 //Je sélectionnne ici les eléments de mon HTML afin de les manipuler en javascript pour l'animation
@@ -117,8 +120,6 @@ drawArc(352, 439, 32, 0, 20.188, "arc30");
 
 
 // // Animation pour faire apparaitre les arcs progressivement au moment où on arrive au niveau des graphiques---------
-gsap.registerPlugin(ScrollTrigger);
-
 ScrollTrigger.create({
   trigger: ".container-mickey",
   start: "top 80%",
@@ -292,10 +293,6 @@ const popupY = window.scrollY + svgRect.top + endPoint.y - 40;
 
 
 // ----------------GRAPHIQUE 2 - FRISE CHRONOLOGIQUE----------------
-//Je me suis aidé du site officiel de gsap pour tous les plugins utilisés
-//J'enregistre les plugin MotionPathPlugin et ScrollTrigger
-gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
-
 //J'insère les postions des boutons popup pour optimiser mon code dans un tableau
 const positionBouton = [
     0.048, 0.112, 0.176, 0.240, 0.303, 0.367, 0.431, 0.496,
@@ -364,31 +361,37 @@ fetch('data.json').then(function(response) {
 
     //Je construis mon popup
     let templatePopup =
-            "<img src='{{image}}' alt='Affiche du film {{film}}' class='images-fc'/>" +
+            "<img src='{{image}}' alt='{{film}} movie poster' class='images-fc'/>" +
             "<div class='contenu-popup-fc'>" +
             "<p class='titre-film-fc'>{{film}}</p>" +
             "<p class='annee-film-fc'>Year : {{publication}}</p>" +
-            '<a href="https://www.allocine.fr/film/fichefilm_gen_cfilm={{idAlloCine}}.html" alt="Lien vers Allociné du film" class="lien-film-fc">AlloCiné</a>'
+            '<a href="https://www.allocine.fr/film/fichefilm_gen_cfilm={{idAlloCine}}.html" aria-label="Link to {{film}} on AlloCine " class="lien-film-fc">AlloCiné</a>'
             "</div>";
     
     //Je fais le popup pour chaque bouton
     boutons.forEach(function(bouton, nombre){
-        //Quand ma souris entre le bouton, alors
-        bouton.addEventListener("mouseenter", function(){
-            //Je crée une variable filmData pour stocker les films que je souhaitent dedans
-            let filmData;
-            //Pour chaque film de data, je vérifié si l'id correspond bien au film
-            data.forEach(function(film){
-                if (film.id == filmsFrise[nombre]){
-                    //L'id correspond, alors on met dans filmData
-                    filmData = film;
-                }
-            })
+        //Je crée une variable filmData pour stocker les films que je souhaitent dedans
+        let filmData;
+        //Pour chaque film de data, je vérifié si l'id correspond bien au film
+        data.forEach(function(film){
+            if (film.id == filmsFrise[nombre]){
+                //L'id correspond, alors on met dans filmData
+                filmData = film;
+            }
+        });
+
+        //Si j'ai un film dans data
+        if (filmData){
+            //J'ajoute le aria-label sur le bouton
+            bouton.ariaLabel = filmData.film;
+
+            //Quand ma souris entre le bouton, alors
+            bouton.addEventListener("mouseenter", function(){
+
             //Je remplis templatePopup
             var contenuRempli = templatePopup
                 .replace("{{image}}",filmData.image)
-                .replace("{{film}}", filmData.film)
-                .replace("{{film}}", filmData.film)
+                .replaceAll("{{film}}", filmData.film)
                 .replace("{{publication}}", filmData.publication)
                 .replace("{{idAlloCine}}", filmData.idAlloCine);
             //Je l'affiche en html
@@ -400,7 +403,12 @@ fetch('data.json').then(function(response) {
             popupFc.classList.add("popup-visible");
             //Je retire le popup-invisible au survol
             popupFc.classList.remove("popup-invisible");
-        });
+            });
+        } else{
+            //Si je ne trouve pas de film, je le dis dans le aria-label
+            bouton.ariaLabel = "The information is unavailable.";
+        }
+
         //Je cache le popup quand mon curseur sort de la div popup
         bouton.addEventListener("mouseleave", function(){
             //Je cache en faisant l'inverse du code précédent
@@ -408,12 +416,11 @@ fetch('data.json').then(function(response) {
             popupFc.classList.remove("popup-visible");
         });
     });
-
     }); 
 });
 
 
- // ---------------- ANIMATION DU COMPTEUR ----------------
+// ---------------- ANIMATION DU COMPTEUR ----------------
 // J'utilise la bibliothèque GSAP et le pluggin ScrollTrigger.
     // Je sélectionne les éléments de l'année et la valeur (la valeur donc du compteur)
     let anneeLabel = document.querySelector(".counter .annee");

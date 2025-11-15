@@ -5,17 +5,16 @@
 }
 
 body {
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #251155;
+    background-image: url(image/fond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: #CFC5EF;
     margin: 0;
-    /* display: flex; */
-    /* height: 100vh; */
-}
-
-.title2{
-    font-size: 1.7rem;
-    font-family: "articulat-cf", sans-serif;
-    font-weight: 700;
-    font-style: normal;
 }
 
 .navigation{
@@ -48,8 +47,6 @@ body {
     display: inline-block;
     padding: 15px;
 }
-
-
 
 /*Animation au hover faite en CSS à partir du tuto "4. Text underline" : https://prismic.io/blog/css-hover-effects */
     
@@ -84,19 +81,6 @@ body {
     float: left;
 }
 
-body {
-    font-family: "articulat-cf", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    color: #251155;
-    background-image: url(image/fond.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #CFC5EF;
-    margin: 0;
-}
-
 .titre{
     background-color: #120334;
     padding: 8px;
@@ -117,6 +101,13 @@ h2{
     font-size: 2.8rem;
     text-align: center;
     margin-bottom: 0;
+}
+
+.title2{
+    font-size: 1.3rem;
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 div:not(.titre){
