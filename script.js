@@ -18,7 +18,7 @@ setTimeout(() => {
     intro.style.opacity = 0;
     //intro.style.pointerEvents = "none"; nous permet de scroller,il permet d'arrier au contenu derrière l'intro donc le main. 
     intro.style.pointerEvents = "none";
-        intro.style.display = "none";
+    intro.style.display = "none";
         
     main.style.opacity = 1;
 }, 5000); 
@@ -421,6 +421,7 @@ fetch('data.json').then(function(response) {
 
 
 // ---------------- ANIMATION DU COMPTEUR ----------------
+//Je me suis aidée de cette page pour comprendre la réalisation du compteur : https://codepen.io/grantsmith/pen/MWmGBWP
 // J'utilise la bibliothèque GSAP et le pluggin ScrollTrigger.
     // Je sélectionne les éléments de l'année et la valeur (la valeur donc du compteur)
     let anneeLabel = document.querySelector(".counter .annee");
@@ -434,10 +435,6 @@ fetch('data.json').then(function(response) {
             // je garde juste les lignes complétées et stocke les données
             anneesDonnees = donnees.filter(ligne => ligne.Released !== "");
         })
-        // .catch(erreur => {
-        //     console.error("Erreur lors du chargement du fichier JSON :", erreur);
-        // });
-
 
     // Je défini la l'animation pour qu'elle puisse s'activer avec e scroll trigger
     function demarrerCompteur() {

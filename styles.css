@@ -5,33 +5,18 @@
 }
 
 body {
-    /* background-image: url('image/fond-compteur.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh; */
     font-family: "articulat-cf", sans-serif;
     font-weight: 600;
     font-style: normal;
-    /* font-size: 1.1em; */
-    /* color: #0d0210; */
     color: #251155;
     background-image: url(image/fond.jpg);
-    /* background-attachment: fixed; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     /* Si l'image ne charge pas, alors couleur de fond */
     background-color: #CFC5EF;
     margin: 0;
-    /* display: flex; */
-    /* height: 100vh; */
 }
-
-/* html, body {
-  height: auto;
-  overflow-x: hidden;
-} */
 
 /* Gradient CSS */
 /*code curseur gradient => https://codepen.io/Iseyaaaaa/pen/qBMNEGN*/
@@ -246,15 +231,13 @@ span:nth-child(10){
 /*Main et contenu  */
 
 main {
-    /* min-height: 200vh; */
     opacity: 0;
     transition: opacity 1s ease;
     z-index: 0;
-  
-  min-height: auto;
-  height: auto;
-  overflow: visible;
-  display: block;
+    min-height: auto;
+    height: auto;
+    overflow: visible;
+    display: block;
   
 }
 
@@ -288,10 +271,10 @@ main {
     position: relative;
     display: inline-block;
     padding: 15px;
+}
 
 /*Animation au hover faite en CSS à partir du tuto "4. Text underline" : https://prismic.io/blog/css-hover-effects */
-    
-}.hover-underline::after,
+.hover-underline::after,
   .hover-underline::before {
     content: '';
     position: absolute;
@@ -353,7 +336,6 @@ main {
 h1{
     font-family: "cofo-raffine", sans-serif;
     font-weight: 900;
-    /* color: #250548; */
     font-size: 3.2rem;
     margin: 0;
 }
@@ -361,7 +343,6 @@ h1{
 h2{
     font-family: "cofo-raffine", sans-serif;
     font-weight: 700;
-    /* color: #251155; */
     font-size: 2.5rem;
     text-align: center;
     margin-top: 30px;
@@ -370,7 +351,6 @@ h2{
 
 .presentation{
     font-size: 1.1rem;
-    /* color: #250548; */
     margin: 0;
 }
 
@@ -764,7 +744,6 @@ h2{
     background-position: bottom center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* z-index: 0; */
 }
 
 .walt {
@@ -816,7 +795,6 @@ h2{
     width: 0;      
     height: 100%;  
     overflow: hidden; 
-    /* z-index: 10; */
     animation: reveler-courbe 5s ease-out forwards 5s; 
 }
 
@@ -824,7 +802,6 @@ h2{
     display: block;
     width: 100vw; 
     height: 100%; 
-    /* z-index: 3; */
     position: absolute; 
     bottom: 0;
     left: 0;
@@ -846,7 +823,6 @@ h2{
 }
 
 .popup-courbe {
-    /* position: absolute; */
     transform: translateY(-95%);
     justify-content: center; 
     align-items: center;
